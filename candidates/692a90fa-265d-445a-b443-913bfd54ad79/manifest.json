@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "v2fly:category-ai-!cn",
+  "revision": "692a90fa-265d-445a-b443-913bfd54ad79",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/eaca5397d87fc58a94a0e3fe257d3bbc4b0b6c58/candidates/692a90fa-265d-445a-b443-913bfd54ad79/domains.json",
+      "sha256": "181b855217d871ed8f0ec40923a8606489c5ffb0fe0b14de3c47aeeb0a5a63d5",
+      "byteLength": 6316,
+      "termCount": 214,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/eaca5397d87fc58a94a0e3fe257d3bbc4b0b6c58/candidates/692a90fa-265d-445a-b443-913bfd54ad79/domains.srs",
+      "sha256": "b66a1797d2850ba2c2c632ae6f61cb40184134a3d4bcb584dc07273361c167d5",
+      "byteLength": 2164,
+      "termCount": 214,
+      "requiredCapabilities": []
+    }
+  ],
+  "projections": {
+    "route": {
+      "artifactIds": [
+        "domains.json",
+        "domains.srs"
+      ]
+    },
+    "dns-query": {
+      "artifactIds": [
+        "domains.json",
+        "domains.srs"
+      ]
+    },
+    "dns-response": {
+      "unavailable": "empty"
+    }
+  }
+}
