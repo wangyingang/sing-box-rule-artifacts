@@ -1,0 +1,5 @@
+{
+  "status": "superseded",
+  "reason": "Early acceptance Manifest artifact IDs did not bind candidate revision. Use the replacement Manifest.",
+  "replacementManifest": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/559b0667e1485b911529c6810a437545e174237e/candidates/6e76b4ef-883c-46d1-8058-ef3f803b347b/manifest.json"
+}
