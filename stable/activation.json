@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "6f4a2e6c-204f-4d20-8ca4-dc3e719253d4",
+  "id": "c63e30e0-aee6-433a-91e4-05577af9cf5c",
   "candidateId": "6e76b4ef-883c-46d1-8058-ef3f803b347b",
   "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/3f06056ee6f1c6336936d3b1e7b776215c8b2ded/candidates/6e76b4ef-883c-46d1-8058-ef3f803b347b/readback.json",
   "source": {
@@ -32,7 +32,7 @@
     "buildId": "72bbeccb72bd286594d5dac19bb924d5268d3df421950918e36555bb84062cea",
     "nativeBuildId": "77ad50641f764c7c501319f23d80279a9b3089a500f336965735ed7b31d6384d"
   },
-  "expectedHead": "ae3cf588169226618eb30271f123c29608eb754a",
+  "expectedHead": "fbbf055f00dbaf98cb0cb674269905e5981dec07",
   "subscription": {
     "schemaVersion": 1,
     "systemRuleSetId": "v2fly:domain-list-community:category-ai-!cn",
