@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-anthropic",
+  "revision": "e5d5e4b2-4865-4620-868c-2c7a41b9c05c",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "ai-anthropic@e5d5e4b2-4865-4620-868c-2c7a41b9c05c:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/63e7bde165c2b62eefa7ea40bce60dd9ab6de843/candidates/e5d5e4b2-4865-4620-868c-2c7a41b9c05c/domains.json",
+      "sha256": "c1020bf1d91791e2a886d618b5f0625972fa6077e52621f25b1a29b31ae683b7",
+      "byteLength": 618,
+      "termCount": 19,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "ai-anthropic@e5d5e4b2-4865-4620-868c-2c7a41b9c05c:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/63e7bde165c2b62eefa7ea40bce60dd9ab6de843/candidates/e5d5e4b2-4865-4620-868c-2c7a41b9c05c/domains.srs",
+      "sha256": "a8953f323d8b2337d53b39228c1ea95db4a241edb821c3d683cef672381731ec",
+      "byteLength": 272,
+      "termCount": 19,
+      "requiredCapabilities": []
+    }
+  ],
+  "projections": {
+    "route": {
+      "artifactIds": [
+        "ai-anthropic@e5d5e4b2-4865-4620-868c-2c7a41b9c05c:domains.json",
+        "ai-anthropic@e5d5e4b2-4865-4620-868c-2c7a41b9c05c:domains.srs"
+      ]
+    },
+    "dns-query": {
+      "artifactIds": [
+        "ai-anthropic@e5d5e4b2-4865-4620-868c-2c7a41b9c05c:domains.json",
+        "ai-anthropic@e5d5e4b2-4865-4620-868c-2c7a41b9c05c:domains.srs"
+      ]
+    },
+    "dns-response": {
+      "unavailable": "empty"
+    }
+  }
+}
