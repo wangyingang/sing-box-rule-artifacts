@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-google-deepmind",
+  "revision": "a33735c8-d5ea-4c6c-886f-c425367b9472",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "ai-google-deepmind@a33735c8-d5ea-4c6c-886f-c425367b9472:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5acc7fecfe297ad41defcd6e5c0c3e3b46cdda33/candidates/a33735c8-d5ea-4c6c-886f-c425367b9472/domains.json",
+      "sha256": "1f417b044c3cff900faa62bd5df7f92cb0bfca8c288c9f64689ccd17ffd83322",
+      "byteLength": 1830,
+      "termCount": 49,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "ai-google-deepmind@a33735c8-d5ea-4c6c-886f-c425367b9472:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5acc7fecfe297ad41defcd6e5c0c3e3b46cdda33/candidates/a33735c8-d5ea-4c6c-886f-c425367b9472/domains.srs",
+      "sha256": "652abe66df71563d3836fccafd551448935b7551a00fe9af572062bd7008fa45",
+      "byteLength": 594,
+      "termCount": 49,
+      "requiredCapabilities": []
+    }
+  ],
+  "projections": {
+    "route": {
+      "artifactIds": [
+        "ai-google-deepmind@a33735c8-d5ea-4c6c-886f-c425367b9472:domains.json",
+        "ai-google-deepmind@a33735c8-d5ea-4c6c-886f-c425367b9472:domains.srs"
+      ]
+    },
+    "dns-query": {
+      "artifactIds": [
+        "ai-google-deepmind@a33735c8-d5ea-4c6c-886f-c425367b9472:domains.json",
+        "ai-google-deepmind@a33735c8-d5ea-4c6c-886f-c425367b9472:domains.srs"
+      ]
+    },
+    "dns-response": {
+      "unavailable": "empty"
+    }
+  }
+}
