@@ -1,28 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "53e53e3a-b192-46a5-90a1-06502cc03fc9",
+  "id": "76e77ab1-1066-4560-80f9-2b5de964ddc5",
   "logicalId": "ai-anthropic",
-  "history": [],
-  "candidateId": "8e02c21b-fb44-48c2-b592-ce465a0b5921",
-  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/b9cc6d293601169e18caf0f9d8cf7e27ccef3ebe/candidates/8e02c21b-fb44-48c2-b592-ce465a0b5921/readback.json",
+  "history": [
+    {
+      "commit": "b1109f547e41dcefb84e9f6ae106ef8bc9bebe35",
+      "id": "53e53e3a-b192-46a5-90a1-06502cc03fc9",
+      "candidateId": "8e02c21b-fb44-48c2-b592-ce465a0b5921"
+    }
+  ],
+  "candidateId": "4ffb7ac9-8f3e-4a1b-bcc0-adaf1e17b7d6",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/b1109f547e41dcefb84e9f6ae106ef8bc9bebe35/candidates/4ffb7ac9-8f3e-4a1b-bcc0-adaf1e17b7d6/readback.json",
   "source": {
-    "repository": "v2fly/domain-list-community",
-    "releaseId": 433827795,
-    "tag": "20261104112839",
-    "commit": "3895d9a3a76de2c1598a10c5fefc38e3481117fa",
-    "yaml": {
-      "id": 709247183,
-      "name": "dlc.dat_plain.yml",
-      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261104112839/dlc.dat_plain.yml"
-    },
-    "checksum": {
-      "id": 709247191,
-      "name": "dlc.dat_plain.yml.sha256sum",
-      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261104112839/dlc.dat_plain.yml.sha256sum"
-    },
-    "inputSha256": "cd21da98a2a7fd1b65a7620ed47c70570fe4466b3e18a43aa71160ffef6c78cb",
-    "inputBytes": 3759937,
-    "checksumSha256": "e83b9f8a3677c7253daef36623c5db7df61a7bcad29b49055f72dec916023e62"
+    "kind": "synthetic",
+    "description": "Controlled synthetic origin issue-40-switch",
+    "revision": "issue-40-switch"
   },
   "validation": {
     "tool": {
@@ -31,10 +23,10 @@
       "identity": "sing-box version 1.14.4\n\nEnvironment: go1.26.10 darwin/arm64\nTags: with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_cloudflared,with_naive_outbound,with_usbip,with_openvpn,with_openconnect,badlinkname,tfogo_checklinkname0\nRevision: c005f35300ce76427dc285481ec5695f5b179cd2\nCGO: enabled",
       "sha256": "6546126c1759683fe85798da92409215d53c50e0f2b346b4f74a61babc8dbec2"
     },
-    "buildId": "657c541be5e741a9a46106f780927b85e7afd2e65619cbcb53bd20962edf6610",
-    "nativeBuildId": "a747beecd64b49edc40cc4a8a31fe879814bc9c1232ba5e998c8a21f71847306"
+    "buildId": "b82c091b46610140db4226a87ed7155754d2ed7f56c613f614ca6664e3521541",
+    "nativeBuildId": "8fde809440109adedb210d430c72a592a1de7f7120e3f28d46b288488c290ac8"
   },
-  "expectedHead": "058da8e1d3b913a96c0a83848f85f137c029d68f",
+  "expectedHead": "b1109f547e41dcefb84e9f6ae106ef8bc9bebe35",
   "subscription": {
     "schemaVersion": 2,
     "systemRuleSetId": "ai-anthropic",
@@ -72,12 +64,12 @@
   },
   "files": {
     "stable/ai-anthropic/domains.srs": {
-      "sha256": "a8953f323d8b2337d53b39228c1ea95db4a241edb821c3d683cef672381731ec",
-      "byteLength": 272
+      "sha256": "10ea798b4059d9ff0537dccc8d343dfacf9efb685c0a4c6f04da66288f2293c6",
+      "byteLength": 66
     },
     "stable/ai-anthropic/domains.json": {
-      "sha256": "c1020bf1d91791e2a886d618b5f0625972fa6077e52621f25b1a29b31ae683b7",
-      "byteLength": 618
+      "sha256": "ba4ff2f1d03fe97e916776257fe8f5767f9dc2ff8ebfbb2c7806c046982bdff8",
+      "byteLength": 115
     }
   }
 }
