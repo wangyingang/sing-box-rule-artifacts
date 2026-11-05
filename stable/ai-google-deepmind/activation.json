@@ -1,28 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "8ff35546-a538-480c-86ec-f1cb61e63e6a",
+  "id": "bc0b21e3-1a68-47ef-b96b-38f55ca5efe9",
   "logicalId": "ai-google-deepmind",
-  "history": [],
-  "candidateId": "0ee9a4b2-dbd8-44d6-8f5f-db9ea43ad52a",
-  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/3ca10d6dad06171d20f646510d5517b052bd9ae5/candidates/0ee9a4b2-dbd8-44d6-8f5f-db9ea43ad52a/readback.json",
+  "history": [
+    {
+      "commit": "53d70f50d6cec85631017042f47707ef3073fbc5",
+      "id": "8ff35546-a538-480c-86ec-f1cb61e63e6a",
+      "candidateId": "0ee9a4b2-dbd8-44d6-8f5f-db9ea43ad52a"
+    }
+  ],
+  "candidateId": "0ebef7dd-66d2-4420-9c78-a5000f17589f",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/53d70f50d6cec85631017042f47707ef3073fbc5/candidates/0ebef7dd-66d2-4420-9c78-a5000f17589f/readback.json",
   "source": {
-    "repository": "v2fly/domain-list-community",
-    "releaseId": 433827795,
-    "tag": "20261104112839",
-    "commit": "3895d9a3a76de2c1598a10c5fefc38e3481117fa",
-    "yaml": {
-      "id": 709247183,
-      "name": "dlc.dat_plain.yml",
-      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261104112839/dlc.dat_plain.yml"
-    },
-    "checksum": {
-      "id": 709247191,
-      "name": "dlc.dat_plain.yml.sha256sum",
-      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261104112839/dlc.dat_plain.yml.sha256sum"
-    },
-    "inputSha256": "cd21da98a2a7fd1b65a7620ed47c70570fe4466b3e18a43aa71160ffef6c78cb",
-    "inputBytes": 3759937,
-    "checksumSha256": "e83b9f8a3677c7253daef36623c5db7df61a7bcad29b49055f72dec916023e62"
+    "kind": "synthetic",
+    "description": "Controlled synthetic origin issue-40-switch",
+    "revision": "issue-40-switch"
   },
   "validation": {
     "tool": {
@@ -31,10 +23,10 @@
       "identity": "sing-box version 1.14.4\n\nEnvironment: go1.26.10 darwin/arm64\nTags: with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_cloudflared,with_naive_outbound,with_usbip,with_openvpn,with_openconnect,badlinkname,tfogo_checklinkname0\nRevision: c005f35300ce76427dc285481ec5695f5b179cd2\nCGO: enabled",
       "sha256": "6546126c1759683fe85798da92409215d53c50e0f2b346b4f74a61babc8dbec2"
     },
-    "buildId": "6ab7e1258956f104f5523f6a2530a903b2447d54f40de0742ee246783724b325",
-    "nativeBuildId": "5e9aa979145bb81647dc858a11d995336bd75bdfbe96699e37eeab59ece58b98"
+    "buildId": "d663c3be7d7187ba5405a2a834be0870f98189595f33f9849a3590d80bbde8dc",
+    "nativeBuildId": "69606c7238ab95867f5247aba441fa38d1421912c3df8f58ea90a3e0e07d203d"
   },
-  "expectedHead": "f88557d006e83a990cf74768bf9418f457746a05",
+  "expectedHead": "53d70f50d6cec85631017042f47707ef3073fbc5",
   "subscription": {
     "schemaVersion": 2,
     "systemRuleSetId": "ai-google-deepmind",
@@ -72,12 +64,12 @@
   },
   "files": {
     "stable/ai-google-deepmind/domains.srs": {
-      "sha256": "652abe66df71563d3836fccafd551448935b7551a00fe9af572062bd7008fa45",
-      "byteLength": 594
+      "sha256": "b6a9ff48242ed4f17b7365db5baa3c829d7b53c34d7d8d1e9c246d13f6d7ca5b",
+      "byteLength": 74
     },
     "stable/ai-google-deepmind/domains.json": {
-      "sha256": "1f417b044c3cff900faa62bd5df7f92cb0bfca8c288c9f64689ccd17ffd83322",
-      "byteLength": 1830
+      "sha256": "305671c9b0ac9b0cb4527c1053d9ac48fb9e9b7b11205c87750b2af4578158e9",
+      "byteLength": 121
     }
   }
 }
