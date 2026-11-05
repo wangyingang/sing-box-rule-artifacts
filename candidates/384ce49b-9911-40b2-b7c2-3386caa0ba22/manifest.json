@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-openai",
+  "revision": "384ce49b-9911-40b2-b7c2-3386caa0ba22",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "ai-openai@384ce49b-9911-40b2-b7c2-3386caa0ba22:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/0dcd20c150de30fe2d88443bc5522ec34b83174b/candidates/384ce49b-9911-40b2-b7c2-3386caa0ba22/domains.json",
+      "sha256": "11cfa5ed7a3286639dee0c9a50b40ca21c5d8c2db09896ccbd5552ce9a747210",
+      "byteLength": 112,
+      "termCount": 1,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "ai-openai@384ce49b-9911-40b2-b7c2-3386caa0ba22:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/0dcd20c150de30fe2d88443bc5522ec34b83174b/candidates/384ce49b-9911-40b2-b7c2-3386caa0ba22/domains.srs",
+      "sha256": "1bccea87e965a7eca405ebb769ccd2f67284c7f57099f0209d1ecbf805a20c16",
+      "byteLength": 64,
+      "termCount": 1,
+      "requiredCapabilities": []
+    }
+  ],
+  "projections": {
+    "route": {
+      "artifactIds": [
+        "ai-openai@384ce49b-9911-40b2-b7c2-3386caa0ba22:domains.json",
+        "ai-openai@384ce49b-9911-40b2-b7c2-3386caa0ba22:domains.srs"
+      ]
+    },
+    "dns-query": {
+      "artifactIds": [
+        "ai-openai@384ce49b-9911-40b2-b7c2-3386caa0ba22:domains.json",
+        "ai-openai@384ce49b-9911-40b2-b7c2-3386caa0ba22:domains.srs"
+      ]
+    },
+    "dns-response": {
+      "unavailable": "empty"
+    }
+  }
+}
