@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "069a9cea-d825-47f7-8aeb-27e2c0e475bc",
+  "status": "remote-verified",
+  "filesCommit": "5c5fbe048dad3b5f6a60e4720fe7edc1d58960d1",
+  "metadataCommit": "f76f84c4226eb26a0d633babbb04504b9589ba02",
+  "buildId": "861307756b98da7dcd8504fe458090a44d1186ce6c02d5ce4bda7df663f84406",
+  "readback": [
+    {
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5c5fbe048dad3b5f6a60e4720fe7edc1d58960d1/candidates/069a9cea-d825-47f7-8aeb-27e2c0e475bc/domains.json",
+      "sha256": "1f417b044c3cff900faa62bd5df7f92cb0bfca8c288c9f64689ccd17ffd83322",
+      "byteLength": 1830,
+      "exactBytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5c5fbe048dad3b5f6a60e4720fe7edc1d58960d1/candidates/069a9cea-d825-47f7-8aeb-27e2c0e475bc/domains.srs",
+      "sha256": "652abe66df71563d3836fccafd551448935b7551a00fe9af572062bd7008fa45",
+      "byteLength": 594,
+      "exactBytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/f76f84c4226eb26a0d633babbb04504b9589ba02/candidates/069a9cea-d825-47f7-8aeb-27e2c0e475bc/manifest.json",
+      "sha256": "05444bcc7c6c84a138922a0aeed4d6ca3fc869efc45084d6d5f98ca3f176ae43",
+      "byteLength": 1645,
+      "exactBytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/f76f84c4226eb26a0d633babbb04504b9589ba02/candidates/069a9cea-d825-47f7-8aeb-27e2c0e475bc/source.json",
+      "sha256": "ba27c823d82f32bf54fcc2f655c55ed1cfb1d9d056edfb52f89311ccae41e05c",
+      "byteLength": 745,
+      "exactBytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/f76f84c4226eb26a0d633babbb04504b9589ba02/candidates/069a9cea-d825-47f7-8aeb-27e2c0e475bc/conversion-report.json",
+      "sha256": "5ebda9ff503f20d0c072ff86f58453efc7ffc7318a04a5fc3355827096b10ca5",
+      "byteLength": 673,
+      "exactBytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/f76f84c4226eb26a0d633babbb04504b9589ba02/candidates/069a9cea-d825-47f7-8aeb-27e2c0e475bc/build.json",
+      "sha256": "f7a6b1e9fda78e1f6a12f103699ca3aa6ddae7105a9899fa7c26b0a3df56cbbb",
+      "byteLength": 4058,
+      "exactBytes": true
+    }
+  ],
+  "native": {
+    "status": "passed",
+    "semanticRoundTrip": true,
+    "steps": [
+      {
+        "args": [
+          "rule-set",
+          "compile",
+          "domains.json",
+          "-o",
+          "domains.srs"
+        ],
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "rule-set",
+          "decompile",
+          "domains.srs",
+          "-o",
+          "domains.decoded.json"
+        ],
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "rule-set",
+          "match",
+          "domains.json",
+          "native-validation.invalid",
+          "--format",
+          "source"
+        ],
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "rule-set",
+          "match",
+          "domains.srs",
+          "native-validation.invalid",
+          "--format",
+          "binary"
+        ],
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  "tool": {
+    "path": "/Users/wangyg/.sbvm/versions/v1.14.4/sing-box-1.14.4-darwin-arm64/sing-box",
+    "version": "1.14.4",
+    "identity": "sing-box version 1.14.4\n\nEnvironment: go1.26.10 darwin/arm64\nTags: with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_cloudflared,with_naive_outbound,with_usbip,with_openvpn,with_openconnect,badlinkname,tfogo_checklinkname0\nRevision: c005f35300ce76427dc285481ec5695f5b179cd2\nCGO: enabled",
+    "sha256": "6546126c1759683fe85798da92409215d53c50e0f2b346b4f74a61babc8dbec2"
+  }
+}
