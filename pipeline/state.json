@@ -56,7 +56,7 @@
         "status": "publishing",
         "operation": "update",
         "generation": 1,
-        "phase": "files",
+        "phase": "metadata",
         "retained": true,
         "definition": {
           "id": "openai",
