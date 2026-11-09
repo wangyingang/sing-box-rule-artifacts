@@ -104,7 +104,7 @@
       ],
       "releaseId": 437954849,
       "tag": "20261108011013",
-      "status": "pending",
+      "status": "complete",
       "configuration": "schemaVersion: 2\ntarget:\n  repository: wangyingang/sing-box-rule-artifacts\n  branch: acceptance-openai-sfm-macos-20261109-ziyq8g6b\nsources:\n  dlc:\n    repository: v2fly/domain-list-community\n    version: latest-release\n    input:\n      format: plain-yaml\n      asset: dlc.dat_plain.yml\n      checksum: dlc.dat_plain.yml.sha256sum\nruleSets:\n  - id: openai\n    source: dlc\n    list: openai\n    stablePath: stable/openai\n    usages:\n      route:\n        artifact: domains\n      dns-query:\n        artifact: domains\n      dns-response:\n        unavailable: empty\n",
       "selectedIds": [
         "openai"
