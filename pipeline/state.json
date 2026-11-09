@@ -110,5 +110,18 @@
         "openai"
       ]
     }
+  },
+  "manualOperations": {
+    "49beb467-0a96-419f-87e6-88876af4e651": {
+      "id": "49beb467-0a96-419f-87e6-88876af4e651",
+      "kind": "activate",
+      "logicalId": "openai",
+      "recordPath": "stable/openai/activation.json",
+      "generation": 1,
+      "expectedHead": "1a1fa7a83cb9ca42558cd2896e396888b7ac7a09",
+      "candidateId": "7989e340-ca82-47bb-bb16-c125a23f626f",
+      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/70f4282efd1a93894c3a406bda136a7e57d1a47b/candidates/7989e340-ca82-47bb-bb16-c125a23f626f/readback.json",
+      "activationDigest": "5a9109217d3725bc3bb0e68361a19eab07a409fb06ee8bcb7f6697d07826a275"
+    }
   }
 }
