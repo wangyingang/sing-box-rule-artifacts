@@ -78,7 +78,9 @@
         "targetBranch": "acceptance-openai-sfm-macos-20261109-ziyq8g6b",
         "operationId": "ae351a50-89ca-4691-8403-f908c779dd9f",
         "buildId": "4aa44b5b39b33cec963496a8431c4a98e581947aa9b3a8ee8c9cb6ce2ce818a0",
-        "filesCommit": "d6afcddf5df92f9a466d5bc21f3b1c73b308915b"
+        "filesCommit": "d6afcddf5df92f9a466d5bc21f3b1c73b308915b",
+        "metadataCommit": "658f2bab4b5d0e02f984333114a39ce19a370e4a",
+        "manifestUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/658f2bab4b5d0e02f984333114a39ce19a370e4a/candidates/7989e340-ca82-47bb-bb16-c125a23f626f/manifest.json"
       }
     },
     "pendingOperation": {
