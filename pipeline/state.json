@@ -23,6 +23,25 @@
             "name": "dlc.dat_plain.yml.sha256sum",
             "url": "https://github.com/v2fly/domain-list-community/releases/download/20261108011013/dlc.dat_plain.yml.sha256sum"
           }
+        },
+        "source": {
+          "repository": "v2fly/domain-list-community",
+          "releaseId": 437954849,
+          "tag": "20261108011013",
+          "commit": "e8d7a10a15bf662c927a40a3aa680bae86379608",
+          "yaml": {
+            "id": 722476691,
+            "name": "dlc.dat_plain.yml",
+            "url": "https://github.com/v2fly/domain-list-community/releases/download/20261108011013/dlc.dat_plain.yml"
+          },
+          "checksum": {
+            "id": 722476686,
+            "name": "dlc.dat_plain.yml.sha256sum",
+            "url": "https://github.com/v2fly/domain-list-community/releases/download/20261108011013/dlc.dat_plain.yml.sha256sum"
+          },
+          "inputSha256": "186e7764e0e0061814cfcd9156e9b70cc977eda75d1614625c8cfe102cb580f5",
+          "inputBytes": 3770777,
+          "checksumSha256": "07029bc2c33d70d0ba85881304945b4aa69602f665219d332c461b0ffb785253"
         }
       }
     },
