@@ -47,13 +47,46 @@
     },
     "processed": {},
     "configuredProcessed": {},
-    "candidates": {},
+    "candidates": {
+      "7989e340-ca82-47bb-bb16-c125a23f626f": {
+        "id": "7989e340-ca82-47bb-bb16-c125a23f626f",
+        "logicalId": "openai",
+        "releaseId": 437954849,
+        "tag": "20261108011013",
+        "status": "building",
+        "operation": "update",
+        "generation": 1,
+        "phase": "registered",
+        "retained": true,
+        "definition": {
+          "id": "openai",
+          "source": "dlc",
+          "list": "openai",
+          "stablePath": "stable/openai",
+          "usages": {
+            "route": {
+              "artifact": "domains"
+            },
+            "dns-query": {
+              "artifact": "domains"
+            },
+            "dns-response": {
+              "unavailable": "empty"
+            }
+          }
+        },
+        "targetBranch": "acceptance-openai-sfm-macos-20261109-ziyq8g6b",
+        "operationId": "ae351a50-89ca-4691-8403-f908c779dd9f"
+      }
+    },
     "pendingOperation": {
       "id": "ae351a50-89ca-4691-8403-f908c779dd9f",
       "kind": "update",
       "generation": 1,
       "expectedHead": "c7de7b704de51de499256bae11a0fd541df58839",
-      "candidateIds": [],
+      "candidateIds": [
+        "7989e340-ca82-47bb-bb16-c125a23f626f"
+      ],
       "releaseId": 437954849,
       "tag": "20261108011013",
       "status": "pending",
