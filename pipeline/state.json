@@ -53,7 +53,7 @@
         "logicalId": "openai",
         "releaseId": 437954849,
         "tag": "20261108011013",
-        "status": "building",
+        "status": "publishing",
         "operation": "update",
         "generation": 1,
         "phase": "registered",
@@ -76,7 +76,8 @@
           }
         },
         "targetBranch": "acceptance-openai-sfm-macos-20261109-ziyq8g6b",
-        "operationId": "ae351a50-89ca-4691-8403-f908c779dd9f"
+        "operationId": "ae351a50-89ca-4691-8403-f908c779dd9f",
+        "buildId": "4aa44b5b39b33cec963496a8431c4a98e581947aa9b3a8ee8c9cb6ce2ce818a0"
       }
     },
     "pendingOperation": {
