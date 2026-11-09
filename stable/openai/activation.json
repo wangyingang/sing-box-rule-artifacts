@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "49beb467-0a96-419f-87e6-88876af4e651",
+  "control": {
+    "revision": "49beb467-0a96-419f-87e6-88876af4e651",
+    "reason": "manual-activation",
+    "pauseAutomaticActivation": true,
+    "pauseAutomaticRetry": false
+  },
+  "logicalId": "openai",
+  "history": [],
+  "candidateId": "7989e340-ca82-47bb-bb16-c125a23f626f",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/70f4282efd1a93894c3a406bda136a7e57d1a47b/candidates/7989e340-ca82-47bb-bb16-c125a23f626f/readback.json",
+  "source": {
+    "repository": "v2fly/domain-list-community",
+    "releaseId": 437954849,
+    "tag": "20261108011013",
+    "commit": "e8d7a10a15bf662c927a40a3aa680bae86379608",
+    "yaml": {
+      "id": 722476691,
+      "name": "dlc.dat_plain.yml",
+      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261108011013/dlc.dat_plain.yml"
+    },
+    "checksum": {
+      "id": 722476686,
+      "name": "dlc.dat_plain.yml.sha256sum",
+      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261108011013/dlc.dat_plain.yml.sha256sum"
+    },
+    "inputSha256": "186e7764e0e0061814cfcd9156e9b70cc977eda75d1614625c8cfe102cb580f5",
+    "inputBytes": 3770777,
+    "checksumSha256": "07029bc2c33d70d0ba85881304945b4aa69602f665219d332c461b0ffb785253"
+  },
+  "validation": {
+    "tool": {
+      "path": "/Users/wangyg/.sbvm/versions/v1.14.4/sing-box-1.14.4-darwin-arm64/sing-box",
+      "version": "1.14.4",
+      "identity": "sing-box version 1.14.4\n\nEnvironment: go1.26.10 darwin/arm64\nTags: with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_cloudflared,with_naive_outbound,with_usbip,with_openvpn,with_openconnect,badlinkname,tfogo_checklinkname0\nRevision: c005f35300ce76427dc285481ec5695f5b179cd2\nCGO: enabled",
+      "sha256": "6546126c1759683fe85798da92409215d53c50e0f2b346b4f74a61babc8dbec2"
+    },
+    "buildId": "4aa44b5b39b33cec963496a8431c4a98e581947aa9b3a8ee8c9cb6ce2ce818a0",
+    "nativeBuildId": "b6ed8473a1920cc2b0225ffd18e92cd376ba242c127cc2d40416edecf03af947"
+  },
+  "expectedHead": "fdabbe4c354ba6d73441f586252b72e6e8991f2c",
+  "subscription": {
+    "schemaVersion": 2,
+    "systemRuleSetId": "openai",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "projections": {
+      "route": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/acceptance-openai-sfm-macos-20261109-ziyq8g6b/stable/openai/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/acceptance-openai-sfm-macos-20261109-ziyq8g6b/stable/openai/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-query": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/acceptance-openai-sfm-macos-20261109-ziyq8g6b/stable/openai/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/acceptance-openai-sfm-macos-20261109-ziyq8g6b/stable/openai/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-response": {
+        "unavailable": "empty"
+      }
+    }
+  },
+  "files": {
+    "stable/openai/domains.srs": {
+      "sha256": "481b2b2c45202ef9b4b2ac0ef3e4e371296d0aa4cb1f245c450ecd1edde9b5d7",
+      "byteLength": 485
+    },
+    "stable/openai/domains.json": {
+      "sha256": "a70096077d78af43df6f56dbad775c27e8b0be7c92a81e36baaf8229b04de5d5",
+      "byteLength": 1036
+    }
+  }
+}
