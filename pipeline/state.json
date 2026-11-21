@@ -756,15 +756,158 @@
         "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
       },
       "buildId": "a18b62f4ab3d08e20ee744ad34dee4fb70d056b6e1e5eb969859d313e5fb61a7",
-      "status": "publishing",
+      "status": "verified",
       "operation": "sync",
       "controlRevision": "ac74b57e-6eb8-43d6-a9d0-e9b50a71156d",
       "filesCommit": "669d6be7634904f35c73767ca99e25d23d4dba95",
       "metadataCommit": "e4d0993ff70ff52f7d5b240a559aad972eb6a983",
       "manifestUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/e4d0993ff70ff52f7d5b240a559aad972eb6a983/candidates/f042db10-8f1b-445e-be06-9c96996f733a/manifest.json",
       "publishedAt": "2026-11-21T08:28:08.031Z",
-      "versionId": "2026-11-21T08:28:08.031Z~f042db10"
+      "versionId": "2026-11-21T08:28:08.031Z~f042db10",
+      "evidenceCommit": "9071ea8d9bdcae7d3a90022db13bc05c3d45e9e5",
+      "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/9071ea8d9bdcae7d3a90022db13bc05c3d45e9e5/candidates/f042db10-8f1b-445e-be06-9c96996f733a/readback.json"
     }
   },
-  "writeId": "e50fcf38-c268-4fae-a2b0-15669c1697f9"
+  "writeId": "97ba6db1-7bd6-4fa7-af42-736fbe0cd263",
+  "pendingDelivery": {
+    "id": "26bd42d7-c904-43e1-bebf-5fed0bf50455",
+    "kind": "sync",
+    "logicalId": "anthropic",
+    "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+    "stableHead": "3a0573780c4f46f9b2f11c9a2b56bd9fc0690c1f",
+    "afterRule": {
+      "definition": {
+        "id": "anthropic",
+        "source": "dlc",
+        "list": "anthropic",
+        "stablePath": "stable/anthropic",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "43ceda595a9a5bbe4ec17be06f2a21c9ee272365b81addbd8f4ddc46a0592755",
+      "definitionRevision": "489b87de4497756b180d9a1a7b64dc8eed8013f0cf58b69099545ee4bbcff0b4",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "c36846f6-d334-454a-83d8-40e45899d8a1",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "ac74b57e-6eb8-43d6-a9d0-e9b50a71156d",
+        "inputBindingRevision": "43ceda595a9a5bbe4ec17be06f2a21c9ee272365b81addbd8f4ddc46a0592755"
+      }
+    },
+    "record": {
+      "schemaVersion": 2,
+      "id": "26bd42d7-c904-43e1-bebf-5fed0bf50455",
+      "logicalId": "anthropic",
+      "candidateId": "f042db10-8f1b-445e-be06-9c96996f733a",
+      "versionId": "2026-11-21T08:28:08.031Z~f042db10",
+      "publishedAt": "2026-11-21T08:28:08.031Z",
+      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/9071ea8d9bdcae7d3a90022db13bc05c3d45e9e5/candidates/f042db10-8f1b-445e-be06-9c96996f733a/readback.json",
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "releaseId": 453498329,
+        "tag": "20261121064510",
+        "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
+        "yaml": {
+          "id": 774699061,
+          "name": "dlc.dat_plain.yml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
+        },
+        "checksum": {
+          "id": 774699069,
+          "name": "dlc.dat_plain.yml.sha256sum",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
+        },
+        "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
+        "inputBytes": 3763260,
+        "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
+      },
+      "subscription": {
+        "schemaVersion": 2,
+        "systemRuleSetId": "anthropic",
+        "targetVersion": "1.14.4",
+        "sourceFormatVersion": 4,
+        "projections": {
+          "route": {
+            "formats": {
+              "binary": {
+                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/anthropic/domains.srs",
+                "requiredCapabilities": []
+              },
+              "source": {
+                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/anthropic/domains.json",
+                "requiredCapabilities": []
+              }
+            }
+          },
+          "dns-query": {
+            "formats": {
+              "binary": {
+                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/anthropic/domains.srs",
+                "requiredCapabilities": []
+              },
+              "source": {
+                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/anthropic/domains.json",
+                "requiredCapabilities": []
+              }
+            }
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "files": {
+        "stable/anthropic/domains.srs": {
+          "sha256": "6bdf4ebc85d20b873b860875dd00030c40a673d92152a8fbae26a367f02fd8d1",
+          "byteLength": 326
+        },
+        "stable/anthropic/domains.json": {
+          "sha256": "2f50f77b8c2d6885e40d729dc16a8c830e4364f00330231ded8f696e636fff84",
+          "byteLength": 704
+        }
+      }
+    },
+    "changes": {
+      "stable/anthropic/domains.srs": {
+        "sha256": "6bdf4ebc85d20b873b860875dd00030c40a673d92152a8fbae26a367f02fd8d1",
+        "byteLength": 326
+      },
+      "stable/anthropic/domains.json": {
+        "sha256": "2f50f77b8c2d6885e40d729dc16a8c830e4364f00330231ded8f696e636fff84",
+        "byteLength": 704
+      },
+      "stable/anthropic/activation.json": {
+        "sha256": "ce8ac6b3313e7637573c6796a1610b26d606944b3c55515183e9882c00e68027",
+        "byteLength": 2729
+      }
+    },
+    "removeCandidates": [],
+    "qualifiedCandidate": {
+      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+      "buildToolsSha256": "011cbd5a6edff82cf4ed928a66a3d625c4141fd356907f6b10c6855ec0e1a683",
+      "validationPolicy": "native-compile-load-v1",
+      "nativeBuildId": "2bab0e746dec648bbfeabd74550ad07da4040f1a8407564bcb2977fb66c1c212",
+      "candidateId": "f042db10-8f1b-445e-be06-9c96996f733a",
+      "buildId": "a18b62f4ab3d08e20ee744ad34dee4fb70d056b6e1e5eb969859d313e5fb61a7"
+    }
+  }
 }
