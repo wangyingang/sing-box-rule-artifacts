@@ -1844,7 +1844,55 @@
       "versionId": "2026-11-21T08:37:55.684Z~47296f5b",
       "evidenceCommit": "6c8084994a780788ff257285f618ba9237df1511",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/6c8084994a780788ff257285f618ba9237df1511/candidates/47296f5b-7501-4bc6-b318-1bed16fa2f96/readback.json"
+    },
+    "14a78dfe-af30-47a4-91d9-0f1bd789e91f": {
+      "id": "14a78dfe-af30-47a4-91d9-0f1bd789e91f",
+      "logicalId": "onedrive",
+      "definition": {
+        "id": "onedrive",
+        "source": "blackmatrix7",
+        "list": "all",
+        "stablePath": "stable/onedrive",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "sourceInput": {
+        "repository": "blackmatrix7/ios_rule_script",
+        "version": "git-branch",
+        "branch": "master",
+        "input": {
+          "format": "typed-domain-text",
+          "path": "rule/Clash/OneDrive/OneDrive.list"
+        }
+      },
+      "inputBindingRevision": "39325255a756ff5328b967035b99a30bcdccfafea25ca7ee633380211571e6f0",
+      "definitionGeneration": "636b7b2b-9c3c-4da5-8fc9-eb2f47535482",
+      "source": {
+        "kind": "github-commit",
+        "repository": "blackmatrix7/ios_rule_script",
+        "branch": "master",
+        "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+        "file": {
+          "path": "rule/Clash/OneDrive/OneDrive.list",
+          "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Clash/OneDrive/OneDrive.list"
+        },
+        "inputSha256": "cf4f6b24e434b6c6033b70fc88cf7e33f5aaa0f353f6963ced770f5fa1ae6c9b",
+        "inputBytes": 735
+      },
+      "buildId": "7a976606e2ae9b540e3bd09d4d21bd9995816dbb6c676a4b07f7a94f1cae26d1",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "f59468be-f28b-4145-8943-891ac632747f"
     }
   },
-  "writeId": "d1ff6bfd-e809-4a55-afe7-284b14e7a802"
+  "writeId": "de92e845-e832-4592-a4da-42ab7c615cd1"
 }
