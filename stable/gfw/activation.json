@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "id": "bc9bd33e-6668-40e5-98b1-e5a982c9a7d4",
+  "logicalId": "gfw",
+  "candidateId": "47296f5b-7501-4bc6-b318-1bed16fa2f96",
+  "versionId": "2026-11-21T08:37:55.684Z~47296f5b",
+  "publishedAt": "2026-11-21T08:37:55.684Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/6c8084994a780788ff257285f618ba9237df1511/candidates/47296f5b-7501-4bc6-b318-1bed16fa2f96/readback.json",
+  "source": {
+    "kind": "github-commit",
+    "repository": "Loyalsoldier/v2ray-rules-dat",
+    "branch": "release",
+    "commit": "13f16def15efebb39c9a23206fdebb26bc8e4504",
+    "file": {
+      "path": "gfw.txt",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/13f16def15efebb39c9a23206fdebb26bc8e4504/gfw.txt"
+    },
+    "inputSha256": "29a01f7b45153c48124eb5b66c035483ea9089e041b9fa9faed1c22ab0c912a6",
+    "inputBytes": 60251
+  },
+  "subscription": {
+    "schemaVersion": 2,
+    "systemRuleSetId": "gfw",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "projections": {
+      "route": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/gfw/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/gfw/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-query": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/gfw/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/gfw/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-response": {
+        "unavailable": "empty"
+      }
+    }
+  },
+  "files": {
+    "stable/gfw/domains.srs": {
+      "sha256": "6de34db0649d6d48d4223d9b9caa8f3b57ed90043e99a54f629800be18dcc39e",
+      "byteLength": 29087
+    },
+    "stable/gfw/domains.json": {
+      "sha256": "b382c56a8c7d4e9f6b515a8f87728bf355e9d0e89e8c4bdb97f2887c48d42a5d",
+      "byteLength": 109623
+    }
+  }
+}
