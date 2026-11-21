@@ -1308,10 +1308,10 @@
         "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
       },
       "buildId": "91c3746b5beb0369b56aa3adfe8a10b84c1c64ba8dd618bab1fc35422b5205fd",
-      "status": "building",
+      "status": "publishing",
       "operation": "sync",
       "controlRevision": "cd1254af-5f54-4c26-9c42-0bdc868aa57b"
     }
   },
-  "writeId": "e201a07d-c1b6-45c3-8573-567b332ee882"
+  "writeId": "cf7b0b10-b717-49d4-a858-cad98732dd3d"
 }
