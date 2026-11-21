@@ -664,10 +664,10 @@
         "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
       },
       "buildId": "1da576e6054025acfc93109e2042ecae445cf2e4d36768da7a5b48cd753977e1",
-      "status": "building",
+      "status": "publishing",
       "operation": "sync",
       "controlRevision": "5fa258d4-ce30-473f-9e53-e9fe0ac2d54a"
     }
   },
-  "writeId": "15cd364a-130c-4aaf-be0e-c0d0224a747e"
+  "writeId": "6b497a00-bbf9-4a8f-b6dd-caedd2acb8ea"
 }
