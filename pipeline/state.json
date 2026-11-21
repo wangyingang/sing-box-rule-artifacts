@@ -1922,7 +1922,55 @@
       "versionId": "2026-11-21T08:38:46.266Z~14a78dfe",
       "evidenceCommit": "03fa17fa52f2fe73daf028c771a4fb1fef729ed5",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/03fa17fa52f2fe73daf028c771a4fb1fef729ed5/candidates/14a78dfe-af30-47a4-91d9-0f1bd789e91f/readback.json"
+    },
+    "2025780b-f13a-49c7-a2c5-49c39d49a7ca": {
+      "id": "2025780b-f13a-49c7-a2c5-49c39d49a7ca",
+      "logicalId": "stream",
+      "definition": {
+        "id": "stream",
+        "source": "sukka",
+        "list": "all",
+        "stablePath": "stable/stream",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "sourceInput": {
+        "repository": "SukkaLab/ruleset.skk.moe",
+        "version": "git-branch",
+        "branch": "master",
+        "input": {
+          "format": "sing-box-domain-json",
+          "path": "sing-box/non_ip/stream.json"
+        }
+      },
+      "inputBindingRevision": "3f6df38f90d1c2125e9c507741346972c17f257597411f2f08acbb6e7f0d7092",
+      "definitionGeneration": "639e26a6-9f4f-49ec-9fb1-4e866120ba4a",
+      "source": {
+        "kind": "github-commit",
+        "repository": "SukkaLab/ruleset.skk.moe",
+        "branch": "master",
+        "commit": "5205db70ea2eb45f550b353f3dd594dd992216ee",
+        "file": {
+          "path": "sing-box/non_ip/stream.json",
+          "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/5205db70ea2eb45f550b353f3dd594dd992216ee/sing-box/non_ip/stream.json"
+        },
+        "inputSha256": "88487bf51615620ee8fcca449fad6199db6968dc429804acb7ad3348a5df8ed5",
+        "inputBytes": 7653
+      },
+      "buildId": "025364ff72577adf206923eb2a8aa12a442dc962a47cf5f8d9f06f5d280c5918",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "5975fbff-cb23-4d00-bb25-62d784886a21"
     }
   },
-  "writeId": "0edf6543-7464-46e4-8bd1-5abfabd78d9d"
+  "writeId": "ef53f721-eaaf-4b3a-8124-027691817492"
 }
