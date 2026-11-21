@@ -612,6 +612,62 @@
       }
     }
   },
-  "candidates": {},
-  "writeId": "c1fdebf3-9328-4bf7-9153-d4197e8b73cf"
+  "candidates": {
+    "df6b9519-e176-49f7-893b-f1f2a0a9e0f8": {
+      "id": "df6b9519-e176-49f7-893b-f1f2a0a9e0f8",
+      "logicalId": "openai",
+      "definition": {
+        "id": "openai",
+        "source": "dlc",
+        "list": "openai",
+        "stablePath": "stable/openai",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "sourceInput": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "317a829014122e25ed8ca1d921d4b9f8a724587be32f9ccdd97f5147544c4239",
+      "definitionGeneration": "806f5c12-81b3-41e2-8bff-12ae2f201bc0",
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "releaseId": 453498329,
+        "tag": "20261121064510",
+        "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
+        "yaml": {
+          "id": 774699061,
+          "name": "dlc.dat_plain.yml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
+        },
+        "checksum": {
+          "id": 774699069,
+          "name": "dlc.dat_plain.yml.sha256sum",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
+        },
+        "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
+        "inputBytes": 3763260,
+        "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
+      },
+      "buildId": "1da576e6054025acfc93109e2042ecae445cf2e4d36768da7a5b48cd753977e1",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "5fa258d4-ce30-473f-9e53-e9fe0ac2d54a"
+    }
+  },
+  "writeId": "15cd364a-130c-4aaf-be0e-c0d0224a747e"
 }
