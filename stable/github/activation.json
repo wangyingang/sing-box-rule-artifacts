@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "id": "682ac3c0-da60-4799-905b-35b5d5ddd1f2",
+  "logicalId": "github",
+  "candidateId": "fc4026b1-2d15-4052-aa89-c2447444661e",
+  "versionId": "2026-11-21T08:33:49.285Z~fc4026b1",
+  "publishedAt": "2026-11-21T08:33:49.285Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/ae072961e5bdc297308ffa81908075af9af9dff3/candidates/fc4026b1-2d15-4052-aa89-c2447444661e/readback.json",
+  "source": {
+    "repository": "v2fly/domain-list-community",
+    "releaseId": 453498329,
+    "tag": "20261121064510",
+    "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
+    "yaml": {
+      "id": 774699061,
+      "name": "dlc.dat_plain.yml",
+      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
+    },
+    "checksum": {
+      "id": 774699069,
+      "name": "dlc.dat_plain.yml.sha256sum",
+      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
+    },
+    "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
+    "inputBytes": 3763260,
+    "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
+  },
+  "subscription": {
+    "schemaVersion": 2,
+    "systemRuleSetId": "github",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "projections": {
+      "route": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/github/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/github/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-query": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/github/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/github/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-response": {
+        "unavailable": "empty"
+      }
+    }
+  },
+  "files": {
+    "stable/github/domains.srs": {
+      "sha256": "870bcad14e670a18894f479e477495bd5b736cff2110ab6205253f4a2e930e45",
+      "byteLength": 808
+    },
+    "stable/github/domains.json": {
+      "sha256": "a6d13f172f3ef7a1603a62baa5f9f0bb048dca910e29a7eecf633df110b2f1ca",
+      "byteLength": 2682
+    }
+  }
+}
