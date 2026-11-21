@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "id": "4a006bfc-998c-4ea1-8122-882699ba4e1e",
+  "logicalId": "onedrive",
+  "candidateId": "14a78dfe-af30-47a4-91d9-0f1bd789e91f",
+  "versionId": "2026-11-21T08:38:46.266Z~14a78dfe",
+  "publishedAt": "2026-11-21T08:38:46.266Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/03fa17fa52f2fe73daf028c771a4fb1fef729ed5/candidates/14a78dfe-af30-47a4-91d9-0f1bd789e91f/readback.json",
+  "source": {
+    "kind": "github-commit",
+    "repository": "blackmatrix7/ios_rule_script",
+    "branch": "master",
+    "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+    "file": {
+      "path": "rule/Clash/OneDrive/OneDrive.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Clash/OneDrive/OneDrive.list"
+    },
+    "inputSha256": "cf4f6b24e434b6c6033b70fc88cf7e33f5aaa0f353f6963ced770f5fa1ae6c9b",
+    "inputBytes": 735
+  },
+  "subscription": {
+    "schemaVersion": 2,
+    "systemRuleSetId": "onedrive",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "projections": {
+      "route": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/onedrive/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/onedrive/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-query": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/onedrive/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/onedrive/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-response": {
+        "unavailable": "empty"
+      }
+    }
+  },
+  "files": {
+    "stable/onedrive/domains.srs": {
+      "sha256": "c294fe0d9a20ec433a67af492fa8f53b3f7b47f6b85fa9894e226c1934e2344b",
+      "byteLength": 237
+    },
+    "stable/onedrive/domains.json": {
+      "sha256": "bf5b223c60555033f61a1f4c19c1a8deba5b79abf47001848a125be2cc66db41",
+      "byteLength": 563
+    }
+  }
+}
