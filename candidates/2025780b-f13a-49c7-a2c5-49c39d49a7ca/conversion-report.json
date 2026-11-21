@@ -1,0 +1,38 @@
+{
+  "status": "converted",
+  "inputCount": 274,
+  "convertedCount": 274,
+  "unsupportedCount": 0,
+  "invalidCount": 0,
+  "duplicateCount": 0,
+  "outputTermCount": 274,
+  "attributeRecordCount": 0,
+  "typeCounts": {
+    "domain_suffix": {
+      "input": 200,
+      "converted": 200,
+      "output": 200
+    },
+    "domain": {
+      "input": 60,
+      "converted": 60,
+      "output": 60
+    },
+    "domain_keyword": {
+      "input": 14,
+      "converted": 14,
+      "output": 14
+    },
+    "domain_regex": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    }
+  },
+  "usageCounts": {
+    "route": 274,
+    "dns-query": 274,
+    "dns-response": 0
+  },
+  "diagnostics": []
+}
