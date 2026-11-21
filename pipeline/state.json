@@ -245,6 +245,29 @@
         "mode": "auto",
         "revision": "af7c25dd-928a-402b-9b37-862547335b8c",
         "inputBindingRevision": "6c92bb658b731fe207ad19f0cefda870f36506e3dee85d4f40809e8cec873045"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "ae04e932fc126aa311d4ee03b280271166c914fac820b86243e0105752a95e2c",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "d72283ae858b7b8e8be5d66c60c22903c31e40c1e3502458f63432d8572a56cb",
+        "candidateId": "83783f4a-72ac-4b7a-af68-c56602e70801",
+        "buildId": "8c945b44a0e87119afe0082204339c3ecf73d8ee9e683db73bf2c2fa1914aaef",
+        "source": {
+          "kind": "github-commit",
+          "repository": "gaoyifan/china-operator-ip",
+          "branch": "ip-lists",
+          "commit": "7e2773a184d01285feec0ab9cd6387533ede04c4",
+          "file": {
+            "path": "china46.txt",
+            "url": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/7e2773a184d01285feec0ab9cd6387533ede04c4/china46.txt"
+          },
+          "inputSha256": "97349126e31542ea48de435d3c967a596869647df100202b42e6af86aa636ef0",
+          "inputBytes": 154140
+        },
+        "inputBindingRevision": "6c92bb658b731fe207ad19f0cefda870f36506e3dee85d4f40809e8cec873045",
+        "definitionRevision": "19f0513a2220c023a5b1dff2753caef21057b84c0e4504c1872f00670f879132",
+        "definitionGeneration": "f0a818d5-9201-4c3b-84d6-c38396cf8fdf"
       }
     },
     "chatgpt-voice": {
@@ -1681,139 +1704,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/bc69892bf402816309566ebe412749e75ad2b25e/candidates/83783f4a-72ac-4b7a-af68-c56602e70801/readback.json"
     }
   },
-  "writeId": "9000ab4b-e1de-46d8-8a24-db23eab5ffde",
-  "pendingDelivery": {
-    "id": "91fb4dce-953b-4fa1-8ebf-97dedb101dfa",
-    "kind": "sync",
-    "logicalId": "china-ip",
-    "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
-    "stableHead": "0ded9ea7930d943ec2ecc26602cd34315add6fed",
-    "afterRule": {
-      "definition": {
-        "id": "china-ip",
-        "source": "china-operator-ip",
-        "list": "all",
-        "stablePath": "stable/china-ip",
-        "usages": {
-          "route": {
-            "artifact": "route"
-          },
-          "dns-query": {
-            "unavailable": "empty"
-          },
-          "dns-response": {
-            "artifact": "route"
-          }
-        }
-      },
-      "source": {
-        "repository": "gaoyifan/china-operator-ip",
-        "version": "git-branch",
-        "branch": "ip-lists",
-        "input": {
-          "format": "cidr-text",
-          "path": "china46.txt"
-        }
-      },
-      "inputBindingRevision": "6c92bb658b731fe207ad19f0cefda870f36506e3dee85d4f40809e8cec873045",
-      "definitionRevision": "19f0513a2220c023a5b1dff2753caef21057b84c0e4504c1872f00670f879132",
-      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
-      "generation": "f0a818d5-9201-4c3b-84d6-c38396cf8fdf",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "af7c25dd-928a-402b-9b37-862547335b8c",
-        "inputBindingRevision": "6c92bb658b731fe207ad19f0cefda870f36506e3dee85d4f40809e8cec873045"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "91fb4dce-953b-4fa1-8ebf-97dedb101dfa",
-      "logicalId": "china-ip",
-      "candidateId": "83783f4a-72ac-4b7a-af68-c56602e70801",
-      "versionId": "2026-11-21T08:36:14.617Z~83783f4a",
-      "publishedAt": "2026-11-21T08:36:14.617Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/bc69892bf402816309566ebe412749e75ad2b25e/candidates/83783f4a-72ac-4b7a-af68-c56602e70801/readback.json",
-      "source": {
-        "kind": "github-commit",
-        "repository": "gaoyifan/china-operator-ip",
-        "branch": "ip-lists",
-        "commit": "7e2773a184d01285feec0ab9cd6387533ede04c4",
-        "file": {
-          "path": "china46.txt",
-          "url": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/7e2773a184d01285feec0ab9cd6387533ede04c4/china46.txt"
-        },
-        "inputSha256": "97349126e31542ea48de435d3c967a596869647df100202b42e6af86aa636ef0",
-        "inputBytes": 154140
-      },
-      "subscription": {
-        "schemaVersion": 2,
-        "systemRuleSetId": "china-ip",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "projections": {
-          "route": {
-            "formats": {
-              "binary": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-ip/route.srs",
-                "requiredCapabilities": []
-              },
-              "source": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-ip/route.json",
-                "requiredCapabilities": []
-              }
-            }
-          },
-          "dns-query": {
-            "unavailable": "empty"
-          },
-          "dns-response": {
-            "formats": {
-              "binary": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-ip/route.srs",
-                "requiredCapabilities": []
-              },
-              "source": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-ip/route.json",
-                "requiredCapabilities": []
-              }
-            }
-          }
-        }
-      },
-      "files": {
-        "stable/china-ip/route.srs": {
-          "sha256": "cd64b2c14309e5145c77835ae600632475b6aa2207aff9afad65c84bbc6238c9",
-          "byteLength": 36425
-        },
-        "stable/china-ip/route.json": {
-          "sha256": "942f061c66e28794a1afad16e5043d6f135a42ef6516d7074f011d5c6217d585",
-          "byteLength": 260552
-        }
-      }
-    },
-    "changes": {
-      "stable/china-ip/route.srs": {
-        "sha256": "cd64b2c14309e5145c77835ae600632475b6aa2207aff9afad65c84bbc6238c9",
-        "byteLength": 36425
-      },
-      "stable/china-ip/route.json": {
-        "sha256": "942f061c66e28794a1afad16e5043d6f135a42ef6516d7074f011d5c6217d585",
-        "byteLength": 260552
-      },
-      "stable/china-ip/activation.json": {
-        "sha256": "79692188f7ebe4dde49597cb8abc1fb764a8e3c39221957ddf0d090a388bcae9",
-        "byteLength": 2391
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "ae04e932fc126aa311d4ee03b280271166c914fac820b86243e0105752a95e2c",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "d72283ae858b7b8e8be5d66c60c22903c31e40c1e3502458f63432d8572a56cb",
-      "candidateId": "83783f4a-72ac-4b7a-af68-c56602e70801",
-      "buildId": "8c945b44a0e87119afe0082204339c3ecf73d8ee9e683db73bf2c2fa1914aaef"
-    }
-  }
+  "writeId": "594a0a19-24db-4470-81bb-b77f8105246f"
 }
