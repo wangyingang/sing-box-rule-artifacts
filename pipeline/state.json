@@ -1072,7 +1072,62 @@
       "versionId": "2026-11-21T08:30:31.940Z~3dfd685d",
       "evidenceCommit": "34da8778a43b49c0003d7477e6f6ab7f3bbd9f44",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/34da8778a43b49c0003d7477e6f6ab7f3bbd9f44/candidates/3dfd685d-5c6e-4379-9ba5-476219ef80c9/readback.json"
+    },
+    "2d8d31a4-c557-41b2-b398-d150d09111b4": {
+      "id": "2d8d31a4-c557-41b2-b398-d150d09111b4",
+      "logicalId": "apple",
+      "definition": {
+        "id": "apple",
+        "source": "dlc",
+        "list": "apple",
+        "stablePath": "stable/apple",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "sourceInput": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "55a2a8c0bace28f2c7fdf041c71c20ef47c1653c4adb51efcaabdeedfb53aea6",
+      "definitionGeneration": "8568a148-9d69-4076-900f-a4a2c32da6ed",
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "releaseId": 453498329,
+        "tag": "20261121064510",
+        "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
+        "yaml": {
+          "id": 774699061,
+          "name": "dlc.dat_plain.yml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
+        },
+        "checksum": {
+          "id": 774699069,
+          "name": "dlc.dat_plain.yml.sha256sum",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
+        },
+        "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
+        "inputBytes": 3763260,
+        "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
+      },
+      "buildId": "bf5e1e08187126ef8d797ad8e6594d3680b1bf80b3eeea9779bddb8278a5cd70",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "361a2c1e-9b78-42f6-9cca-7e00df0a2a8d"
     }
   },
-  "writeId": "9484d781-28f2-4c28-a495-3f2ff6c0b846"
+  "writeId": "42b501e8-1421-4f20-9b2a-00d65e4504fd"
 }
