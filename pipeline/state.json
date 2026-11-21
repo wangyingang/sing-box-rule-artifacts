@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 2,
+  "id": "99bb90c5-e461-4d2c-a662-b9c2763eb0fb",
+  "generation": 1,
+  "maintenance": "open",
+  "targetBranch": "main",
+  "rules": {
+    "openai": {
+      "definition": {
+        "id": "openai",
+        "source": "dlc",
+        "list": "openai",
+        "stablePath": "stable/openai",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "317a829014122e25ed8ca1d921d4b9f8a724587be32f9ccdd97f5147544c4239",
+      "definitionRevision": "64cb38a06c71d472b50b4735bfb9a31e6086f7140534bde801743313546b0c0c",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "806f5c12-81b3-41e2-8bff-12ae2f201bc0",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "5fa258d4-ce30-473f-9e53-e9fe0ac2d54a",
+        "inputBindingRevision": "317a829014122e25ed8ca1d921d4b9f8a724587be32f9ccdd97f5147544c4239"
+      }
+    },
+    "anthropic": {
+      "definition": {
+        "id": "anthropic",
+        "source": "dlc",
+        "list": "anthropic",
+        "stablePath": "stable/anthropic",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "43ceda595a9a5bbe4ec17be06f2a21c9ee272365b81addbd8f4ddc46a0592755",
+      "definitionRevision": "489b87de4497756b180d9a1a7b64dc8eed8013f0cf58b69099545ee4bbcff0b4",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "c36846f6-d334-454a-83d8-40e45899d8a1",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "ac74b57e-6eb8-43d6-a9d0-e9b50a71156d",
+        "inputBindingRevision": "43ceda595a9a5bbe4ec17be06f2a21c9ee272365b81addbd8f4ddc46a0592755"
+      }
+    },
+    "google-deepmind": {
+      "definition": {
+        "id": "google-deepmind",
+        "source": "dlc",
+        "list": "google-deepmind",
+        "stablePath": "stable/google-deepmind",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "57ac7914f486593946cfa38f59e6752f6ab082adfb3bd04d4a365a1d9a73a619",
+      "definitionRevision": "e47e7996ff05a83f13c123f37e5c2478a5dcfd835d666bc587e5dd1a1a792e25",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "eb5ffac0-a6dd-4afa-a38f-f73e31d18ec1",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "08cc104d-9b02-4c3d-a2c8-30bf452da693",
+        "inputBindingRevision": "57ac7914f486593946cfa38f59e6752f6ab082adfb3bd04d4a365a1d9a73a619"
+      }
+    },
+    "china-ip": {
+      "definition": {
+        "id": "china-ip",
+        "source": "china-operator-ip",
+        "list": "all",
+        "stablePath": "stable/china-ip",
+        "usages": {
+          "route": {
+            "artifact": "route"
+          },
+          "dns-query": {
+            "unavailable": "empty"
+          },
+          "dns-response": {
+            "artifact": "route"
+          }
+        }
+      },
+      "source": {
+        "repository": "gaoyifan/china-operator-ip",
+        "version": "git-branch",
+        "branch": "ip-lists",
+        "input": {
+          "format": "cidr-text",
+          "path": "china46.txt"
+        }
+      },
+      "inputBindingRevision": "6c92bb658b731fe207ad19f0cefda870f36506e3dee85d4f40809e8cec873045",
+      "definitionRevision": "19f0513a2220c023a5b1dff2753caef21057b84c0e4504c1872f00670f879132",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "f0a818d5-9201-4c3b-84d6-c38396cf8fdf",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "af7c25dd-928a-402b-9b37-862547335b8c",
+        "inputBindingRevision": "6c92bb658b731fe207ad19f0cefda870f36506e3dee85d4f40809e8cec873045"
+      }
+    },
+    "chatgpt-voice": {
+      "definition": {
+        "id": "chatgpt-voice",
+        "source": "openai-voice",
+        "list": "all",
+        "stablePath": "stable/chatgpt-voice",
+        "usages": {
+          "route": {
+            "artifact": "route"
+          },
+          "dns-query": {
+            "unavailable": "empty"
+          },
+          "dns-response": {
+            "artifact": "route"
+          }
+        }
+      },
+      "source": {
+        "version": "openai-voice",
+        "input": {
+          "format": "openai-voice-json",
+          "url": "https://openai.com/chatgpt-voice.json"
+        }
+      },
+      "inputBindingRevision": "5d3d85ab3fac23d8b7b7b3578eb05b9d5edded93a835cf87d9c3d33a1f153827",
+      "definitionRevision": "8ed99a1a692e2dfc55fe8820e04c3b93547b7ab0882aa281ec13599859b02b39",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "f7d99cef-35ac-4844-95df-77c251526d7c",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "ddde5257-e2c5-4559-9ff3-4c4ffeaf7959",
+        "inputBindingRevision": "5d3d85ab3fac23d8b7b7b3578eb05b9d5edded93a835cf87d9c3d33a1f153827"
+      }
+    },
+    "china-domains": {
+      "definition": {
+        "id": "china-domains",
+        "source": "dlc",
+        "list": "geolocation-cn",
+        "stablePath": "stable/china-domains",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "a99ee0c794b1e724384388300324dd917fbc5195feb14c293423c05f4c0a5ac7",
+      "definitionRevision": "6598681e5f7eca24f097c204137b8f84a69d4ef7db5c20655e2fbb2c75b378f2",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "7281a59a-0ad3-4634-85d7-1b87f6c0b707",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "d4220454-8d72-4007-828c-b8da232f6b09",
+        "inputBindingRevision": "a99ee0c794b1e724384388300324dd917fbc5195feb14c293423c05f4c0a5ac7"
+      }
+    },
+    "global": {
+      "definition": {
+        "id": "global",
+        "source": "dlc",
+        "list": "geolocation-!cn",
+        "stablePath": "stable/global",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "5306fa0688932e0f2063595f8c5b0a5be4af53075a9876fb27d3322f8d8f92ed",
+      "definitionRevision": "4d696bc55e25da453dae775ef6024f8cc755a9607e523cadfc41351e3b17ef3c",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "e23273ff-6532-41ff-b654-75a2d100329b",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "adbd7bc0-17d7-4f15-aa08-f595aebb23d1",
+        "inputBindingRevision": "5306fa0688932e0f2063595f8c5b0a5be4af53075a9876fb27d3322f8d8f92ed"
+      }
+    },
+    "apple": {
+      "definition": {
+        "id": "apple",
+        "source": "dlc",
+        "list": "apple",
+        "stablePath": "stable/apple",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "55a2a8c0bace28f2c7fdf041c71c20ef47c1653c4adb51efcaabdeedfb53aea6",
+      "definitionRevision": "255effdd09e9c814847e110cf8df48d20b6bce1548dfd9324b4c6e6f4fb6029a",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "8568a148-9d69-4076-900f-a4a2c32da6ed",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "361a2c1e-9b78-42f6-9cca-7e00df0a2a8d",
+        "inputBindingRevision": "55a2a8c0bace28f2c7fdf041c71c20ef47c1653c4adb51efcaabdeedfb53aea6"
+      }
+    },
+    "microsoft": {
+      "definition": {
+        "id": "microsoft",
+        "source": "dlc",
+        "list": "microsoft",
+        "stablePath": "stable/microsoft",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "3d55e3cd9c0166847ce6b921eebbce92923126796eed37a8fe80a3973eb064b6",
+      "definitionRevision": "5dbf8e37a68de497e1543dfbaed6692b35fbe020dbb915b39a824d97474ec51e",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "ea4837f9-83ee-491d-a890-6b514577f544",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "ac69cee9-d56e-4c22-8324-179bc811647e",
+        "inputBindingRevision": "3d55e3cd9c0166847ce6b921eebbce92923126796eed37a8fe80a3973eb064b6"
+      }
+    },
+    "docker": {
+      "definition": {
+        "id": "docker",
+        "source": "dlc",
+        "list": "docker",
+        "stablePath": "stable/docker",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "e1e622338d9f6de077b3c08467e2739ce06de8180ad80011f6b6069b70c1d70f",
+      "definitionRevision": "f58c170ede66533abe3b525a7a7b56db17285c5bba5b8889e637684f98d0caa0",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "0e19a3d7-9695-4348-b9c2-01b518620e8a",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "cd1254af-5f54-4c26-9c42-0bdc868aa57b",
+        "inputBindingRevision": "e1e622338d9f6de077b3c08467e2739ce06de8180ad80011f6b6069b70c1d70f"
+      }
+    },
+    "github": {
+      "definition": {
+        "id": "github",
+        "source": "dlc",
+        "list": "github",
+        "stablePath": "stable/github",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "5e70232e83a0d324e80fbe6d727c0e1dbb4b24375f5b90647efe355aaa33275e",
+      "definitionRevision": "16703e7ea92ba34d33650cdfcc8c58bbe98e1cdf0c79aa74d4d6788e1ee828cc",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "a112537e-b880-4d10-9702-c9d8a060b8b1",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "05ca848e-9754-4c8a-aecb-87629a7329bf",
+        "inputBindingRevision": "5e70232e83a0d324e80fbe6d727c0e1dbb4b24375f5b90647efe355aaa33275e"
+      }
+    },
+    "google": {
+      "definition": {
+        "id": "google",
+        "source": "dlc",
+        "list": "google",
+        "stablePath": "stable/google",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "d3df4de7d7dcc84f4fbe880b76b6d352794dba9ba828340ca0d6c5519668517c",
+      "definitionRevision": "c7305816b9776cc9e36ea268c02b6be086256a356b31c697e3fab43a32b63ed3",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "dae3395c-9ac7-465e-bfa6-add21f1b4062",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "afac48e6-4d60-4fc9-bce0-b9ce93645149",
+        "inputBindingRevision": "d3df4de7d7dcc84f4fbe880b76b6d352794dba9ba828340ca0d6c5519668517c"
+      }
+    },
+    "youtube": {
+      "definition": {
+        "id": "youtube",
+        "source": "dlc",
+        "list": "youtube",
+        "stablePath": "stable/youtube",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "abb7538abac2457d5f12b2c3f30bc660ca29d23f1ff826bd78111a65b256424d",
+      "definitionRevision": "35969965fc3eaa88c413df77d415203a1f45a859fad366bedff2ba33cd82ea64",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "38a2ac31-1501-4fd3-94ef-8ed53c7a8ee2",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "c97000b9-97e5-47a2-8d53-f577027aa486",
+        "inputBindingRevision": "abb7538abac2457d5f12b2c3f30bc660ca29d23f1ff826bd78111a65b256424d"
+      }
+    },
+    "gfw": {
+      "definition": {
+        "id": "gfw",
+        "source": "loyalsoldier",
+        "list": "all",
+        "stablePath": "stable/gfw",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "Loyalsoldier/v2ray-rules-dat",
+        "version": "git-branch",
+        "branch": "release",
+        "input": {
+          "format": "domain-suffix-text",
+          "path": "gfw.txt"
+        }
+      },
+      "inputBindingRevision": "6836b025b98acfb7bc780951b0023289c266f4df4459b5255f4c57b3a3986342",
+      "definitionRevision": "1c385dca94febf8b06a90ebaaca6ba020b3836fd49374b455482db9299aaf9db",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "ef7668ae-a33d-40b0-8ef5-eff7af1c4247",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "12b489f8-3955-476e-b764-476fd8ad35dd",
+        "inputBindingRevision": "6836b025b98acfb7bc780951b0023289c266f4df4459b5255f4c57b3a3986342"
+      }
+    },
+    "onedrive": {
+      "definition": {
+        "id": "onedrive",
+        "source": "blackmatrix7",
+        "list": "all",
+        "stablePath": "stable/onedrive",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "blackmatrix7/ios_rule_script",
+        "version": "git-branch",
+        "branch": "master",
+        "input": {
+          "format": "typed-domain-text",
+          "path": "rule/Clash/OneDrive/OneDrive.list"
+        }
+      },
+      "inputBindingRevision": "39325255a756ff5328b967035b99a30bcdccfafea25ca7ee633380211571e6f0",
+      "definitionRevision": "2ed63adb4b344ef85db673611897b40f56ce93c054d335c77475afdbc2e56a93",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "636b7b2b-9c3c-4da5-8fc9-eb2f47535482",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "f59468be-f28b-4145-8943-891ac632747f",
+        "inputBindingRevision": "39325255a756ff5328b967035b99a30bcdccfafea25ca7ee633380211571e6f0"
+      }
+    },
+    "stream": {
+      "definition": {
+        "id": "stream",
+        "source": "sukka",
+        "list": "all",
+        "stablePath": "stable/stream",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "SukkaLab/ruleset.skk.moe",
+        "version": "git-branch",
+        "branch": "master",
+        "input": {
+          "format": "sing-box-domain-json",
+          "path": "sing-box/non_ip/stream.json"
+        }
+      },
+      "inputBindingRevision": "3f6df38f90d1c2125e9c507741346972c17f257597411f2f08acbb6e7f0d7092",
+      "definitionRevision": "3aa4382ca7db20f509bf52bedc0af5156c0022cd5421c5836d55599d6cdede27",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "639e26a6-9f4f-49ec-9fb1-4e866120ba4a",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "5975fbff-cb23-4d00-bb25-62d784886a21",
+        "inputBindingRevision": "3f6df38f90d1c2125e9c507741346972c17f257597411f2f08acbb6e7f0d7092"
+      }
+    }
+  },
+  "candidates": {},
+  "writeId": "c1fdebf3-9328-4bf7-9153-d4197e8b73cf"
+}
