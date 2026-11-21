@@ -850,8 +850,9 @@
       "buildId": "c94fdfc495f9309d37458e97d04dc2636e58392db51ce9d363f7d2df55543080",
       "status": "publishing",
       "operation": "sync",
-      "controlRevision": "08cc104d-9b02-4c3d-a2c8-30bf452da693"
+      "controlRevision": "08cc104d-9b02-4c3d-a2c8-30bf452da693",
+      "filesCommit": "1e8413324c674bf61186fea509ff443db8afa36a"
     }
   },
-  "writeId": "00045615-0e49-4988-93c5-189de6755bdc"
+  "writeId": "c1f0afee-e105-4c59-97ae-e2cdac4980a4"
 }
