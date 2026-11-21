@@ -796,7 +796,62 @@
       "versionId": "2026-11-21T08:28:08.031Z~f042db10",
       "evidenceCommit": "9071ea8d9bdcae7d3a90022db13bc05c3d45e9e5",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/9071ea8d9bdcae7d3a90022db13bc05c3d45e9e5/candidates/f042db10-8f1b-445e-be06-9c96996f733a/readback.json"
+    },
+    "5a6ff926-7194-44c5-88b9-a8635f4a0bca": {
+      "id": "5a6ff926-7194-44c5-88b9-a8635f4a0bca",
+      "logicalId": "google-deepmind",
+      "definition": {
+        "id": "google-deepmind",
+        "source": "dlc",
+        "list": "google-deepmind",
+        "stablePath": "stable/google-deepmind",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "sourceInput": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "57ac7914f486593946cfa38f59e6752f6ab082adfb3bd04d4a365a1d9a73a619",
+      "definitionGeneration": "eb5ffac0-a6dd-4afa-a38f-f73e31d18ec1",
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "releaseId": 453498329,
+        "tag": "20261121064510",
+        "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
+        "yaml": {
+          "id": 774699061,
+          "name": "dlc.dat_plain.yml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
+        },
+        "checksum": {
+          "id": 774699069,
+          "name": "dlc.dat_plain.yml.sha256sum",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
+        },
+        "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
+        "inputBytes": 3763260,
+        "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
+      },
+      "buildId": "c94fdfc495f9309d37458e97d04dc2636e58392db51ce9d363f7d2df55543080",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "08cc104d-9b02-4c3d-a2c8-30bf452da693"
     }
   },
-  "writeId": "a8acbf0e-0708-48e3-b6d5-6942af918650"
+  "writeId": "1aa27fa6-26b3-487f-b93b-6f774be77643"
 }
