@@ -523,6 +523,36 @@
         "mode": "auto",
         "revision": "ac69cee9-d56e-4c22-8324-179bc811647e",
         "inputBindingRevision": "3d55e3cd9c0166847ce6b921eebbce92923126796eed37a8fe80a3973eb064b6"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "011cbd5a6edff82cf4ed928a66a3d625c4141fd356907f6b10c6855ec0e1a683",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "8d5229556ec8ba0aefe92b45b5ce474168d541014e5ab68cc910a994cdcaf1eb",
+        "candidateId": "7cce1595-8150-485c-a857-16ed0785609e",
+        "buildId": "48f5969f06b64d706c06c80b987324cd8bd6e7680474f2208beb0f6936a5ccd0",
+        "source": {
+          "repository": "v2fly/domain-list-community",
+          "releaseId": 453498329,
+          "tag": "20261121064510",
+          "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
+          "yaml": {
+            "id": 774699061,
+            "name": "dlc.dat_plain.yml",
+            "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
+          },
+          "checksum": {
+            "id": 774699069,
+            "name": "dlc.dat_plain.yml.sha256sum",
+            "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
+          },
+          "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
+          "inputBytes": 3763260,
+          "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
+        },
+        "inputBindingRevision": "3d55e3cd9c0166847ce6b921eebbce92923126796eed37a8fe80a3973eb064b6",
+        "definitionRevision": "5dbf8e37a68de497e1543dfbaed6692b35fbe020dbb915b39a824d97474ec51e",
+        "definitionGeneration": "ea4837f9-83ee-491d-a890-6b514577f544"
       }
     },
     "docker": {
@@ -1228,146 +1258,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/da98029db372a100f18df5d7b2241b0c89944236/candidates/7cce1595-8150-485c-a857-16ed0785609e/readback.json"
     }
   },
-  "writeId": "2f27e351-9835-425b-9684-76cbf3d6d637",
-  "pendingDelivery": {
-    "id": "42e217f8-3b5f-4985-ac17-ec92379ddb10",
-    "kind": "sync",
-    "logicalId": "microsoft",
-    "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
-    "stableHead": "8c6a2e1b12e3337e1001adc18e084aa8f8e7ff46",
-    "afterRule": {
-      "definition": {
-        "id": "microsoft",
-        "source": "dlc",
-        "list": "microsoft",
-        "stablePath": "stable/microsoft",
-        "usages": {
-          "route": {
-            "artifact": "domains"
-          },
-          "dns-query": {
-            "artifact": "domains"
-          },
-          "dns-response": {
-            "unavailable": "empty"
-          }
-        }
-      },
-      "source": {
-        "repository": "v2fly/domain-list-community",
-        "version": "latest-release",
-        "input": {
-          "format": "plain-yaml",
-          "asset": "dlc.dat_plain.yml",
-          "checksum": "dlc.dat_plain.yml.sha256sum"
-        }
-      },
-      "inputBindingRevision": "3d55e3cd9c0166847ce6b921eebbce92923126796eed37a8fe80a3973eb064b6",
-      "definitionRevision": "5dbf8e37a68de497e1543dfbaed6692b35fbe020dbb915b39a824d97474ec51e",
-      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
-      "generation": "ea4837f9-83ee-491d-a890-6b514577f544",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "ac69cee9-d56e-4c22-8324-179bc811647e",
-        "inputBindingRevision": "3d55e3cd9c0166847ce6b921eebbce92923126796eed37a8fe80a3973eb064b6"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "42e217f8-3b5f-4985-ac17-ec92379ddb10",
-      "logicalId": "microsoft",
-      "candidateId": "7cce1595-8150-485c-a857-16ed0785609e",
-      "versionId": "2026-11-21T08:32:08.756Z~7cce1595",
-      "publishedAt": "2026-11-21T08:32:08.756Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/da98029db372a100f18df5d7b2241b0c89944236/candidates/7cce1595-8150-485c-a857-16ed0785609e/readback.json",
-      "source": {
-        "repository": "v2fly/domain-list-community",
-        "releaseId": 453498329,
-        "tag": "20261121064510",
-        "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
-        "yaml": {
-          "id": 774699061,
-          "name": "dlc.dat_plain.yml",
-          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
-        },
-        "checksum": {
-          "id": 774699069,
-          "name": "dlc.dat_plain.yml.sha256sum",
-          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
-        },
-        "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
-        "inputBytes": 3763260,
-        "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
-      },
-      "subscription": {
-        "schemaVersion": 2,
-        "systemRuleSetId": "microsoft",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "projections": {
-          "route": {
-            "formats": {
-              "binary": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/microsoft/domains.srs",
-                "requiredCapabilities": []
-              },
-              "source": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/microsoft/domains.json",
-                "requiredCapabilities": []
-              }
-            }
-          },
-          "dns-query": {
-            "formats": {
-              "binary": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/microsoft/domains.srs",
-                "requiredCapabilities": []
-              },
-              "source": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/microsoft/domains.json",
-                "requiredCapabilities": []
-              }
-            }
-          },
-          "dns-response": {
-            "unavailable": "empty"
-          }
-        }
-      },
-      "files": {
-        "stable/microsoft/domains.srs": {
-          "sha256": "f418743e05510367c47a5f7b60283299f089097f90d72e132990ce3e5e9f1ba8",
-          "byteLength": 6702
-        },
-        "stable/microsoft/domains.json": {
-          "sha256": "1ccfdb68b011a47194e4d80dd33d09a3f1e863ca6333cdc4e828a4d2eabff67f",
-          "byteLength": 20802
-        }
-      }
-    },
-    "changes": {
-      "stable/microsoft/domains.srs": {
-        "sha256": "f418743e05510367c47a5f7b60283299f089097f90d72e132990ce3e5e9f1ba8",
-        "byteLength": 6702
-      },
-      "stable/microsoft/domains.json": {
-        "sha256": "1ccfdb68b011a47194e4d80dd33d09a3f1e863ca6333cdc4e828a4d2eabff67f",
-        "byteLength": 20802
-      },
-      "stable/microsoft/activation.json": {
-        "sha256": "4fa31add2c8b0e06e85ed575a932df85bffc49d8a0889b2b68224756aa2ceb51",
-        "byteLength": 2732
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "011cbd5a6edff82cf4ed928a66a3d625c4141fd356907f6b10c6855ec0e1a683",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "8d5229556ec8ba0aefe92b45b5ce474168d541014e5ab68cc910a994cdcaf1eb",
-      "candidateId": "7cce1595-8150-485c-a857-16ed0785609e",
-      "buildId": "48f5969f06b64d706c06c80b987324cd8bd6e7680474f2208beb0f6936a5ccd0"
-    }
-  }
+  "writeId": "72cd8715-0259-42b6-9fad-18879de74160"
 }
