@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "id": "youtube",
+  "revision": "30693d7c-2c59-488f-9425-dedf58730788",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "youtube@30693d7c-2c59-488f-9425-dedf58730788:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/2aa3a8b8ba350304c44e1f00a9a395735e04e3b4/candidates/30693d7c-2c59-488f-9425-dedf58730788/domains.json",
+      "sha256": "38295c61f484ccbf4ba6375b649553298c841766e1ad6f2ea9a181af5d42bcc5",
+      "byteLength": 4467,
+      "termCount": 178,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "youtube@30693d7c-2c59-488f-9425-dedf58730788:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/2aa3a8b8ba350304c44e1f00a9a395735e04e3b4/candidates/30693d7c-2c59-488f-9425-dedf58730788/domains.srs",
+      "sha256": "a0b1e05d6df5862ee6405ab7b9d18f13e8f559175b4539aa5e96006121ef75a3",
+      "byteLength": 1168,
+      "requiredCapabilities": []
+    }
+  ],
+  "projections": {
+    "route": {
+      "artifactIds": [
+        "youtube@30693d7c-2c59-488f-9425-dedf58730788:domains.json",
+        "youtube@30693d7c-2c59-488f-9425-dedf58730788:domains.srs"
+      ]
+    },
+    "dns-query": {
+      "artifactIds": [
+        "youtube@30693d7c-2c59-488f-9425-dedf58730788:domains.json",
+        "youtube@30693d7c-2c59-488f-9425-dedf58730788:domains.srs"
+      ]
+    },
+    "dns-response": {
+      "unavailable": "empty"
+    }
+  }
+}
