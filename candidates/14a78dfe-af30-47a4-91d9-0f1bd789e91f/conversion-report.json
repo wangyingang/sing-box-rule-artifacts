@@ -1,0 +1,50 @@
+{
+  "status": "converted",
+  "inputCount": 18,
+  "convertedCount": 16,
+  "unsupportedCount": 0,
+  "invalidCount": 0,
+  "duplicateCount": 0,
+  "outputTermCount": 16,
+  "attributeRecordCount": 0,
+  "typeCounts": {
+    "domain_suffix": {
+      "input": 13,
+      "converted": 13,
+      "output": 13
+    },
+    "domain": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    },
+    "domain_keyword": {
+      "input": 3,
+      "converted": 3,
+      "output": 3
+    },
+    "domain_regex": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    }
+  },
+  "usageCounts": {
+    "route": 16,
+    "dns-query": 16,
+    "dns-response": 0
+  },
+  "diagnostics": [],
+  "filteredRules": [
+    {
+      "type": "PROCESS-NAME",
+      "value": "OneDrive",
+      "line": 25
+    },
+    {
+      "type": "PROCESS-NAME",
+      "value": "OneDriveUpdater",
+      "line": 26
+    }
+  ]
+}

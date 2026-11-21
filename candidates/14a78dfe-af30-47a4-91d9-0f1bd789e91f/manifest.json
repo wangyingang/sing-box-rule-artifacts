@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "id": "onedrive",
+  "revision": "14a78dfe-af30-47a4-91d9-0f1bd789e91f",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "onedrive@14a78dfe-af30-47a4-91d9-0f1bd789e91f:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c8ae4450f2ac621fcd5b6e9fe3b9cd96a98a0f6c/candidates/14a78dfe-af30-47a4-91d9-0f1bd789e91f/domains.json",
+      "sha256": "bf5b223c60555033f61a1f4c19c1a8deba5b79abf47001848a125be2cc66db41",
+      "byteLength": 563,
+      "termCount": 16,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "onedrive@14a78dfe-af30-47a4-91d9-0f1bd789e91f:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c8ae4450f2ac621fcd5b6e9fe3b9cd96a98a0f6c/candidates/14a78dfe-af30-47a4-91d9-0f1bd789e91f/domains.srs",
+      "sha256": "c294fe0d9a20ec433a67af492fa8f53b3f7b47f6b85fa9894e226c1934e2344b",
+      "byteLength": 237,
+      "requiredCapabilities": []
+    }
+  ],
+  "projections": {
+    "route": {
+      "artifactIds": [
+        "onedrive@14a78dfe-af30-47a4-91d9-0f1bd789e91f:domains.json",
+        "onedrive@14a78dfe-af30-47a4-91d9-0f1bd789e91f:domains.srs"
+      ]
+    },
+    "dns-query": {
+      "artifactIds": [
+        "onedrive@14a78dfe-af30-47a4-91d9-0f1bd789e91f:domains.json",
+        "onedrive@14a78dfe-af30-47a4-91d9-0f1bd789e91f:domains.srs"
+      ]
+    },
+    "dns-response": {
+      "unavailable": "empty"
+    }
+  }
+}
