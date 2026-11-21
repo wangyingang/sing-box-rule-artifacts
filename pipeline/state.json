@@ -903,6 +903,29 @@
         "mode": "auto",
         "revision": "12b489f8-3955-476e-b764-476fd8ad35dd",
         "inputBindingRevision": "6836b025b98acfb7bc780951b0023289c266f4df4459b5255f4c57b3a3986342"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "a1302d9bbd44ca9fa8a0c9e09ad19c4f5c3bf28efd9bf131925172e4a7bb1bea",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "238be88ddcdd028fc067e1a1ad2136e966df5deafb4d5f3072b8b999f8146eb5",
+        "candidateId": "47296f5b-7501-4bc6-b318-1bed16fa2f96",
+        "buildId": "174e3caaba6e6025cc7acd4f65021f0eef2bf7fd3cab824ce33545c3d8501d71",
+        "source": {
+          "kind": "github-commit",
+          "repository": "Loyalsoldier/v2ray-rules-dat",
+          "branch": "release",
+          "commit": "13f16def15efebb39c9a23206fdebb26bc8e4504",
+          "file": {
+            "path": "gfw.txt",
+            "url": "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/13f16def15efebb39c9a23206fdebb26bc8e4504/gfw.txt"
+          },
+          "inputSha256": "29a01f7b45153c48124eb5b66c035483ea9089e041b9fa9faed1c22ab0c912a6",
+          "inputBytes": 60251
+        },
+        "inputBindingRevision": "6836b025b98acfb7bc780951b0023289c266f4df4459b5255f4c57b3a3986342",
+        "definitionRevision": "1c385dca94febf8b06a90ebaaca6ba020b3836fd49374b455482db9299aaf9db",
+        "definitionGeneration": "ef7668ae-a33d-40b0-8ef5-eff7af1c4247"
       }
     },
     "onedrive": {
@@ -1823,139 +1846,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/6c8084994a780788ff257285f618ba9237df1511/candidates/47296f5b-7501-4bc6-b318-1bed16fa2f96/readback.json"
     }
   },
-  "writeId": "6737e7f5-8c0f-4b12-ab32-8f9e21165799",
-  "pendingDelivery": {
-    "id": "bc9bd33e-6668-40e5-98b1-e5a982c9a7d4",
-    "kind": "sync",
-    "logicalId": "gfw",
-    "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
-    "stableHead": "f5b088338e3b47d7bbdd99800a889257d07426b6",
-    "afterRule": {
-      "definition": {
-        "id": "gfw",
-        "source": "loyalsoldier",
-        "list": "all",
-        "stablePath": "stable/gfw",
-        "usages": {
-          "route": {
-            "artifact": "domains"
-          },
-          "dns-query": {
-            "artifact": "domains"
-          },
-          "dns-response": {
-            "unavailable": "empty"
-          }
-        }
-      },
-      "source": {
-        "repository": "Loyalsoldier/v2ray-rules-dat",
-        "version": "git-branch",
-        "branch": "release",
-        "input": {
-          "format": "domain-suffix-text",
-          "path": "gfw.txt"
-        }
-      },
-      "inputBindingRevision": "6836b025b98acfb7bc780951b0023289c266f4df4459b5255f4c57b3a3986342",
-      "definitionRevision": "1c385dca94febf8b06a90ebaaca6ba020b3836fd49374b455482db9299aaf9db",
-      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
-      "generation": "ef7668ae-a33d-40b0-8ef5-eff7af1c4247",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "12b489f8-3955-476e-b764-476fd8ad35dd",
-        "inputBindingRevision": "6836b025b98acfb7bc780951b0023289c266f4df4459b5255f4c57b3a3986342"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "bc9bd33e-6668-40e5-98b1-e5a982c9a7d4",
-      "logicalId": "gfw",
-      "candidateId": "47296f5b-7501-4bc6-b318-1bed16fa2f96",
-      "versionId": "2026-11-21T08:37:55.684Z~47296f5b",
-      "publishedAt": "2026-11-21T08:37:55.684Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/6c8084994a780788ff257285f618ba9237df1511/candidates/47296f5b-7501-4bc6-b318-1bed16fa2f96/readback.json",
-      "source": {
-        "kind": "github-commit",
-        "repository": "Loyalsoldier/v2ray-rules-dat",
-        "branch": "release",
-        "commit": "13f16def15efebb39c9a23206fdebb26bc8e4504",
-        "file": {
-          "path": "gfw.txt",
-          "url": "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/13f16def15efebb39c9a23206fdebb26bc8e4504/gfw.txt"
-        },
-        "inputSha256": "29a01f7b45153c48124eb5b66c035483ea9089e041b9fa9faed1c22ab0c912a6",
-        "inputBytes": 60251
-      },
-      "subscription": {
-        "schemaVersion": 2,
-        "systemRuleSetId": "gfw",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "projections": {
-          "route": {
-            "formats": {
-              "binary": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/gfw/domains.srs",
-                "requiredCapabilities": []
-              },
-              "source": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/gfw/domains.json",
-                "requiredCapabilities": []
-              }
-            }
-          },
-          "dns-query": {
-            "formats": {
-              "binary": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/gfw/domains.srs",
-                "requiredCapabilities": []
-              },
-              "source": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/gfw/domains.json",
-                "requiredCapabilities": []
-              }
-            }
-          },
-          "dns-response": {
-            "unavailable": "empty"
-          }
-        }
-      },
-      "files": {
-        "stable/gfw/domains.srs": {
-          "sha256": "6de34db0649d6d48d4223d9b9caa8f3b57ed90043e99a54f629800be18dcc39e",
-          "byteLength": 29087
-        },
-        "stable/gfw/domains.json": {
-          "sha256": "b382c56a8c7d4e9f6b515a8f87728bf355e9d0e89e8c4bdb97f2887c48d42a5d",
-          "byteLength": 109623
-        }
-      }
-    },
-    "changes": {
-      "stable/gfw/domains.srs": {
-        "sha256": "6de34db0649d6d48d4223d9b9caa8f3b57ed90043e99a54f629800be18dcc39e",
-        "byteLength": 29087
-      },
-      "stable/gfw/domains.json": {
-        "sha256": "b382c56a8c7d4e9f6b515a8f87728bf355e9d0e89e8c4bdb97f2887c48d42a5d",
-        "byteLength": 109623
-      },
-      "stable/gfw/activation.json": {
-        "sha256": "3a37281ecbbd0970b231f3d0a2ad2debac014d2c1060e0b0236b4294746f25f7",
-        "byteLength": 2357
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "a1302d9bbd44ca9fa8a0c9e09ad19c4f5c3bf28efd9bf131925172e4a7bb1bea",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "238be88ddcdd028fc067e1a1ad2136e966df5deafb4d5f3072b8b999f8146eb5",
-      "candidateId": "47296f5b-7501-4bc6-b318-1bed16fa2f96",
-      "buildId": "174e3caaba6e6025cc7acd4f65021f0eef2bf7fd3cab824ce33545c3d8501d71"
-    }
-  }
+  "writeId": "d1ff6bfd-e809-4a55-afe7-284b14e7a802"
 }
