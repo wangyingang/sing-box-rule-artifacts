@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 3,
+  "candidateId": "3dfd685d-5c6e-4379-9ba5-476219ef80c9",
+  "status": "remote-verified",
+  "publishedAt": "2026-11-21T08:30:31.940Z",
+  "versionId": "2026-11-21T08:30:31.940Z~3dfd685d",
+  "filesCommit": "d800cda368add17f97c70076c6e4b10307a36833",
+  "metadataCommit": "175931c7886b8cf17d835994fe8546899c06fb1c",
+  "buildId": "b4e65eb33c455b21a810913867a6dd11bab70aeafbd66243c1d30dee838d6e62",
+  "readback": [
+    {
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/d800cda368add17f97c70076c6e4b10307a36833/candidates/3dfd685d-5c6e-4379-9ba5-476219ef80c9/domains.json",
+      "sha256": "011277dbe45d4477fd3e50edc1a8bb6c0ffd1eba796d53e1b477fbbf495039b0",
+      "byteLength": 654277,
+      "exactBytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/d800cda368add17f97c70076c6e4b10307a36833/candidates/3dfd685d-5c6e-4379-9ba5-476219ef80c9/domains.srs",
+      "sha256": "e46fd362988fb685f0acb40e7c35bb23006b5b829e009cf0a60f39403c0e2d58",
+      "byteLength": 156131,
+      "exactBytes": true
+    }
+  ]
+}
