@@ -940,15 +940,158 @@
         "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
       },
       "buildId": "1f02ebddf97cf8fee61b0f0e45ed3fea05cb990c25ab0384e11ebb4be1feebe7",
-      "status": "publishing",
+      "status": "verified",
       "operation": "sync",
       "controlRevision": "d4220454-8d72-4007-828c-b8da232f6b09",
       "filesCommit": "a0bbf99c63d24308a681ced42ce67cccf0d91dda",
       "metadataCommit": "e83938f456f83d94322d03e066460367fe36b1b3",
       "manifestUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/e83938f456f83d94322d03e066460367fe36b1b3/candidates/62b954e3-60d4-49ee-907c-5194b9ce4431/manifest.json",
       "publishedAt": "2026-11-21T08:29:42.987Z",
-      "versionId": "2026-11-21T08:29:42.987Z~62b954e3"
+      "versionId": "2026-11-21T08:29:42.987Z~62b954e3",
+      "evidenceCommit": "98363cdc3eec78acc2c710b32ba35dc5699e5aa3",
+      "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/98363cdc3eec78acc2c710b32ba35dc5699e5aa3/candidates/62b954e3-60d4-49ee-907c-5194b9ce4431/readback.json"
     }
   },
-  "writeId": "b7f574f9-1e25-4a3c-b4e4-86163ed3d664"
+  "writeId": "98e10a3a-7cdd-4f90-9023-26f9de61a71c",
+  "pendingDelivery": {
+    "id": "a9a43b1d-186f-4715-a545-6b1ecac4147a",
+    "kind": "sync",
+    "logicalId": "china-domains",
+    "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+    "stableHead": "bbc728d516eefa90ebedf4e9d4bdfeed2b93fbaa",
+    "afterRule": {
+      "definition": {
+        "id": "china-domains",
+        "source": "dlc",
+        "list": "geolocation-cn",
+        "stablePath": "stable/china-domains",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "version": "latest-release",
+        "input": {
+          "format": "plain-yaml",
+          "asset": "dlc.dat_plain.yml",
+          "checksum": "dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "a99ee0c794b1e724384388300324dd917fbc5195feb14c293423c05f4c0a5ac7",
+      "definitionRevision": "6598681e5f7eca24f097c204137b8f84a69d4ef7db5c20655e2fbb2c75b378f2",
+      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
+      "generation": "7281a59a-0ad3-4634-85d7-1b87f6c0b707",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "d4220454-8d72-4007-828c-b8da232f6b09",
+        "inputBindingRevision": "a99ee0c794b1e724384388300324dd917fbc5195feb14c293423c05f4c0a5ac7"
+      }
+    },
+    "record": {
+      "schemaVersion": 2,
+      "id": "a9a43b1d-186f-4715-a545-6b1ecac4147a",
+      "logicalId": "china-domains",
+      "candidateId": "62b954e3-60d4-49ee-907c-5194b9ce4431",
+      "versionId": "2026-11-21T08:29:42.987Z~62b954e3",
+      "publishedAt": "2026-11-21T08:29:42.987Z",
+      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/98363cdc3eec78acc2c710b32ba35dc5699e5aa3/candidates/62b954e3-60d4-49ee-907c-5194b9ce4431/readback.json",
+      "source": {
+        "repository": "v2fly/domain-list-community",
+        "releaseId": 453498329,
+        "tag": "20261121064510",
+        "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
+        "yaml": {
+          "id": 774699061,
+          "name": "dlc.dat_plain.yml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
+        },
+        "checksum": {
+          "id": 774699069,
+          "name": "dlc.dat_plain.yml.sha256sum",
+          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
+        },
+        "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
+        "inputBytes": 3763260,
+        "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
+      },
+      "subscription": {
+        "schemaVersion": 2,
+        "systemRuleSetId": "china-domains",
+        "targetVersion": "1.14.4",
+        "sourceFormatVersion": 4,
+        "projections": {
+          "route": {
+            "formats": {
+              "binary": {
+                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-domains/domains.srs",
+                "requiredCapabilities": []
+              },
+              "source": {
+                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-domains/domains.json",
+                "requiredCapabilities": []
+              }
+            }
+          },
+          "dns-query": {
+            "formats": {
+              "binary": {
+                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-domains/domains.srs",
+                "requiredCapabilities": []
+              },
+              "source": {
+                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-domains/domains.json",
+                "requiredCapabilities": []
+              }
+            }
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "files": {
+        "stable/china-domains/domains.srs": {
+          "sha256": "4df030b879e826b4549a1b687176bd24b751bc907dcf233478ad8d6d347bf3aa",
+          "byteLength": 44000
+        },
+        "stable/china-domains/domains.json": {
+          "sha256": "7c5e515a9bfff84834ca9ebd809e598a6784e12b8022ef44a3f92024df9754b9",
+          "byteLength": 204105
+        }
+      }
+    },
+    "changes": {
+      "stable/china-domains/domains.srs": {
+        "sha256": "4df030b879e826b4549a1b687176bd24b751bc907dcf233478ad8d6d347bf3aa",
+        "byteLength": 44000
+      },
+      "stable/china-domains/domains.json": {
+        "sha256": "7c5e515a9bfff84834ca9ebd809e598a6784e12b8022ef44a3f92024df9754b9",
+        "byteLength": 204105
+      },
+      "stable/china-domains/activation.json": {
+        "sha256": "6442d7746ea1b2ac28131503e149e2cbf65f36a6cae96012d6d23bfdf927dac7",
+        "byteLength": 2766
+      }
+    },
+    "removeCandidates": [],
+    "qualifiedCandidate": {
+      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+      "buildToolsSha256": "011cbd5a6edff82cf4ed928a66a3d625c4141fd356907f6b10c6855ec0e1a683",
+      "validationPolicy": "native-compile-load-v1",
+      "nativeBuildId": "2b6beac538364354226196ff94873cdb971efc92a74624a4e8ef0e81ccbf906d",
+      "candidateId": "62b954e3-60d4-49ee-907c-5194b9ce4431",
+      "buildId": "1f02ebddf97cf8fee61b0f0e45ed3fea05cb990c25ab0384e11ebb4be1feebe7"
+    }
+  }
 }
