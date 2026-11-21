@@ -1766,7 +1766,55 @@
       "versionId": "2026-11-21T08:37:03.324Z~1e4667f2",
       "evidenceCommit": "9112c49bfbe56810c98391db25276fafcbfaa51b",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/9112c49bfbe56810c98391db25276fafcbfaa51b/candidates/1e4667f2-d961-48e4-b4bd-2f44823a1906/readback.json"
+    },
+    "47296f5b-7501-4bc6-b318-1bed16fa2f96": {
+      "id": "47296f5b-7501-4bc6-b318-1bed16fa2f96",
+      "logicalId": "gfw",
+      "definition": {
+        "id": "gfw",
+        "source": "loyalsoldier",
+        "list": "all",
+        "stablePath": "stable/gfw",
+        "usages": {
+          "route": {
+            "artifact": "domains"
+          },
+          "dns-query": {
+            "artifact": "domains"
+          },
+          "dns-response": {
+            "unavailable": "empty"
+          }
+        }
+      },
+      "sourceInput": {
+        "repository": "Loyalsoldier/v2ray-rules-dat",
+        "version": "git-branch",
+        "branch": "release",
+        "input": {
+          "format": "domain-suffix-text",
+          "path": "gfw.txt"
+        }
+      },
+      "inputBindingRevision": "6836b025b98acfb7bc780951b0023289c266f4df4459b5255f4c57b3a3986342",
+      "definitionGeneration": "ef7668ae-a33d-40b0-8ef5-eff7af1c4247",
+      "source": {
+        "kind": "github-commit",
+        "repository": "Loyalsoldier/v2ray-rules-dat",
+        "branch": "release",
+        "commit": "13f16def15efebb39c9a23206fdebb26bc8e4504",
+        "file": {
+          "path": "gfw.txt",
+          "url": "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/13f16def15efebb39c9a23206fdebb26bc8e4504/gfw.txt"
+        },
+        "inputSha256": "29a01f7b45153c48124eb5b66c035483ea9089e041b9fa9faed1c22ab0c912a6",
+        "inputBytes": 60251
+      },
+      "buildId": "174e3caaba6e6025cc7acd4f65021f0eef2bf7fd3cab824ce33545c3d8501d71",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "12b489f8-3955-476e-b764-476fd8ad35dd"
     }
   },
-  "writeId": "dac4d4ac-ded7-4969-9abb-ca8b6d6556a3"
+  "writeId": "73a9152e-759b-4519-a317-63d8150398a2"
 }
