@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "id": "3dea4232-3d11-4b11-82ae-bfc9f098df7c",
+  "logicalId": "google-deepmind",
+  "candidateId": "5a6ff926-7194-44c5-88b9-a8635f4a0bca",
+  "versionId": "2026-11-21T08:28:54.961Z~5a6ff926",
+  "publishedAt": "2026-11-21T08:28:54.961Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/b56825fe240f08ffa4cb35bbf632d357cf2e2a0c/candidates/5a6ff926-7194-44c5-88b9-a8635f4a0bca/readback.json",
+  "source": {
+    "repository": "v2fly/domain-list-community",
+    "releaseId": 453498329,
+    "tag": "20261121064510",
+    "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
+    "yaml": {
+      "id": 774699061,
+      "name": "dlc.dat_plain.yml",
+      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
+    },
+    "checksum": {
+      "id": 774699069,
+      "name": "dlc.dat_plain.yml.sha256sum",
+      "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
+    },
+    "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
+    "inputBytes": 3763260,
+    "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
+  },
+  "subscription": {
+    "schemaVersion": 2,
+    "systemRuleSetId": "google-deepmind",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "projections": {
+      "route": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/google-deepmind/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/google-deepmind/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-query": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/google-deepmind/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/google-deepmind/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-response": {
+        "unavailable": "empty"
+      }
+    }
+  },
+  "files": {
+    "stable/google-deepmind/domains.srs": {
+      "sha256": "652abe66df71563d3836fccafd551448935b7551a00fe9af572062bd7008fa45",
+      "byteLength": 594
+    },
+    "stable/google-deepmind/domains.json": {
+      "sha256": "1f417b044c3cff900faa62bd5df7f92cb0bfca8c288c9f64689ccd17ffd83322",
+      "byteLength": 1830
+    }
+  }
+}
