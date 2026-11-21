@@ -1216,10 +1216,10 @@
         "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
       },
       "buildId": "48f5969f06b64d706c06c80b987324cd8bd6e7680474f2208beb0f6936a5ccd0",
-      "status": "building",
+      "status": "publishing",
       "operation": "sync",
       "controlRevision": "ac69cee9-d56e-4c22-8324-179bc811647e"
     }
   },
-  "writeId": "7021b987-345b-4d06-a104-9cbbd6bdae65"
+  "writeId": "eeab9a4a-9733-44f1-ad4d-d7bea7c3f918"
 }
