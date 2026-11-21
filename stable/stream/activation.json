@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "id": "8d7a2719-46fe-41d0-9fe0-d8fff9241600",
+  "logicalId": "stream",
+  "candidateId": "2025780b-f13a-49c7-a2c5-49c39d49a7ca",
+  "versionId": "2026-11-21T08:39:35.871Z~2025780b",
+  "publishedAt": "2026-11-21T08:39:35.871Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/86a20efa5572456879e2deb8c5aba0edf67a57c4/candidates/2025780b-f13a-49c7-a2c5-49c39d49a7ca/readback.json",
+  "source": {
+    "kind": "github-commit",
+    "repository": "SukkaLab/ruleset.skk.moe",
+    "branch": "master",
+    "commit": "5205db70ea2eb45f550b353f3dd594dd992216ee",
+    "file": {
+      "path": "sing-box/non_ip/stream.json",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/5205db70ea2eb45f550b353f3dd594dd992216ee/sing-box/non_ip/stream.json"
+    },
+    "inputSha256": "88487bf51615620ee8fcca449fad6199db6968dc429804acb7ad3348a5df8ed5",
+    "inputBytes": 7653
+  },
+  "subscription": {
+    "schemaVersion": 2,
+    "systemRuleSetId": "stream",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "projections": {
+      "route": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/stream/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/stream/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-query": {
+        "formats": {
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/stream/domains.srs",
+            "requiredCapabilities": []
+          },
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/stream/domains.json",
+            "requiredCapabilities": []
+          }
+        }
+      },
+      "dns-response": {
+        "unavailable": "empty"
+      }
+    }
+  },
+  "files": {
+    "stable/stream/domains.srs": {
+      "sha256": "a495177e3b1e8e82220ddd82851e2f20ced2f5d1f040ff1f74a8508d74ee94af",
+      "byteLength": 2651
+    },
+    "stable/stream/domains.json": {
+      "sha256": "d9681c23db68a039bee87134b223ca565812259e3831d0e6771ed41fe04c2614",
+      "byteLength": 7677
+    }
+  }
+}
