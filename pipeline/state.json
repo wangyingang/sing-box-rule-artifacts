@@ -591,6 +591,36 @@
         "mode": "auto",
         "revision": "cd1254af-5f54-4c26-9c42-0bdc868aa57b",
         "inputBindingRevision": "e1e622338d9f6de077b3c08467e2739ce06de8180ad80011f6b6069b70c1d70f"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "011cbd5a6edff82cf4ed928a66a3d625c4141fd356907f6b10c6855ec0e1a683",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "4a1089358f6604f4e9d0aff38809a0018ebd307b854b06568d45a145fa049452",
+        "candidateId": "a0592b32-4c25-4e5f-b70c-a1d0f17ef711",
+        "buildId": "91c3746b5beb0369b56aa3adfe8a10b84c1c64ba8dd618bab1fc35422b5205fd",
+        "source": {
+          "repository": "v2fly/domain-list-community",
+          "releaseId": 453498329,
+          "tag": "20261121064510",
+          "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
+          "yaml": {
+            "id": 774699061,
+            "name": "dlc.dat_plain.yml",
+            "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
+          },
+          "checksum": {
+            "id": 774699069,
+            "name": "dlc.dat_plain.yml.sha256sum",
+            "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
+          },
+          "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
+          "inputBytes": 3763260,
+          "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
+        },
+        "inputBindingRevision": "e1e622338d9f6de077b3c08467e2739ce06de8180ad80011f6b6069b70c1d70f",
+        "definitionRevision": "f58c170ede66533abe3b525a7a7b56db17285c5bba5b8889e637684f98d0caa0",
+        "definitionGeneration": "0e19a3d7-9695-4348-b9c2-01b518620e8a"
       }
     },
     "github": {
@@ -1320,146 +1350,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/8fd5b882ededae233ed4a2067e0bb420c36128dc/candidates/a0592b32-4c25-4e5f-b70c-a1d0f17ef711/readback.json"
     }
   },
-  "writeId": "36e17883-e6cc-4df0-8850-ad2e576218bd",
-  "pendingDelivery": {
-    "id": "c8b25c86-d245-4a01-ac7b-e2950f731414",
-    "kind": "sync",
-    "logicalId": "docker",
-    "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
-    "stableHead": "c3e34323d438ee3de70bceb7a12dff7968889e2d",
-    "afterRule": {
-      "definition": {
-        "id": "docker",
-        "source": "dlc",
-        "list": "docker",
-        "stablePath": "stable/docker",
-        "usages": {
-          "route": {
-            "artifact": "domains"
-          },
-          "dns-query": {
-            "artifact": "domains"
-          },
-          "dns-response": {
-            "unavailable": "empty"
-          }
-        }
-      },
-      "source": {
-        "repository": "v2fly/domain-list-community",
-        "version": "latest-release",
-        "input": {
-          "format": "plain-yaml",
-          "asset": "dlc.dat_plain.yml",
-          "checksum": "dlc.dat_plain.yml.sha256sum"
-        }
-      },
-      "inputBindingRevision": "e1e622338d9f6de077b3c08467e2739ce06de8180ad80011f6b6069b70c1d70f",
-      "definitionRevision": "f58c170ede66533abe3b525a7a7b56db17285c5bba5b8889e637684f98d0caa0",
-      "configurationRevision": "bf46226edcaf724357065ab776f248fc4179e78e",
-      "generation": "0e19a3d7-9695-4348-b9c2-01b518620e8a",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "cd1254af-5f54-4c26-9c42-0bdc868aa57b",
-        "inputBindingRevision": "e1e622338d9f6de077b3c08467e2739ce06de8180ad80011f6b6069b70c1d70f"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "c8b25c86-d245-4a01-ac7b-e2950f731414",
-      "logicalId": "docker",
-      "candidateId": "a0592b32-4c25-4e5f-b70c-a1d0f17ef711",
-      "versionId": "2026-11-21T08:33:02.197Z~a0592b32",
-      "publishedAt": "2026-11-21T08:33:02.197Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/8fd5b882ededae233ed4a2067e0bb420c36128dc/candidates/a0592b32-4c25-4e5f-b70c-a1d0f17ef711/readback.json",
-      "source": {
-        "repository": "v2fly/domain-list-community",
-        "releaseId": 453498329,
-        "tag": "20261121064510",
-        "commit": "ffb513217b9cb22835eb74a39a907d77742ce68f",
-        "yaml": {
-          "id": 774699061,
-          "name": "dlc.dat_plain.yml",
-          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml"
-        },
-        "checksum": {
-          "id": 774699069,
-          "name": "dlc.dat_plain.yml.sha256sum",
-          "url": "https://github.com/v2fly/domain-list-community/releases/download/20261121064510/dlc.dat_plain.yml.sha256sum"
-        },
-        "inputSha256": "76375ef9db522fd278dabd6c2965feb2e996db0e0e8d1c529ae65d0a8a770587",
-        "inputBytes": 3763260,
-        "checksumSha256": "13d1326d7c60a210bed5d585651a0c69cc48f46ff20d3d400ab8c99156ad61cf"
-      },
-      "subscription": {
-        "schemaVersion": 2,
-        "systemRuleSetId": "docker",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "projections": {
-          "route": {
-            "formats": {
-              "binary": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/docker/domains.srs",
-                "requiredCapabilities": []
-              },
-              "source": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/docker/domains.json",
-                "requiredCapabilities": []
-              }
-            }
-          },
-          "dns-query": {
-            "formats": {
-              "binary": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/docker/domains.srs",
-                "requiredCapabilities": []
-              },
-              "source": {
-                "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/docker/domains.json",
-                "requiredCapabilities": []
-              }
-            }
-          },
-          "dns-response": {
-            "unavailable": "empty"
-          }
-        }
-      },
-      "files": {
-        "stable/docker/domains.srs": {
-          "sha256": "1f66f663694e9aa2b8b986f6dc8c3fa67eafd8e4ad268b81bfa9ea4b6b0a58fe",
-          "byteLength": 208
-        },
-        "stable/docker/domains.json": {
-          "sha256": "9447a56a0228a8363375ec02875abde7492bf0c771d6cba4763bbc105a3a5a34",
-          "byteLength": 355
-        }
-      }
-    },
-    "changes": {
-      "stable/docker/domains.srs": {
-        "sha256": "1f66f663694e9aa2b8b986f6dc8c3fa67eafd8e4ad268b81bfa9ea4b6b0a58fe",
-        "byteLength": 208
-      },
-      "stable/docker/domains.json": {
-        "sha256": "9447a56a0228a8363375ec02875abde7492bf0c771d6cba4763bbc105a3a5a34",
-        "byteLength": 355
-      },
-      "stable/docker/activation.json": {
-        "sha256": "f79ebe3e60e5466f9bd3c277a012fb6bf43fe980324f1909e2367825feee459c",
-        "byteLength": 2705
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "011cbd5a6edff82cf4ed928a66a3d625c4141fd356907f6b10c6855ec0e1a683",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "4a1089358f6604f4e9d0aff38809a0018ebd307b854b06568d45a145fa049452",
-      "candidateId": "a0592b32-4c25-4e5f-b70c-a1d0f17ef711",
-      "buildId": "91c3746b5beb0369b56aa3adfe8a10b84c1c64ba8dd618bab1fc35422b5205fd"
-    }
-  }
+  "writeId": "e5d909ea-c650-427c-8089-d6875974e64d"
 }
