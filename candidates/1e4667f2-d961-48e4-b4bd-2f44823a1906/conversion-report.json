@@ -1,0 +1,43 @@
+{
+  "status": "converted",
+  "inputCount": 411,
+  "convertedCount": 411,
+  "unsupportedCount": 0,
+  "invalidCount": 0,
+  "duplicateCount": 0,
+  "outputTermCount": 411,
+  "attributeRecordCount": 0,
+  "typeCounts": {
+    "domain_suffix": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    },
+    "domain": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    },
+    "domain_keyword": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    },
+    "domain_regex": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    },
+    "ip_cidr": {
+      "input": 411,
+      "converted": 411,
+      "output": 411
+    }
+  },
+  "usageCounts": {
+    "route": 411,
+    "dns-query": 0,
+    "dns-response": 411
+  },
+  "diagnostics": []
+}

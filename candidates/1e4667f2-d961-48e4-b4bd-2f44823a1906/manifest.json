@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "id": "chatgpt-voice",
+  "revision": "1e4667f2-d961-48e4-b4bd-2f44823a1906",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "chatgpt-voice@1e4667f2-d961-48e4-b4bd-2f44823a1906:route.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/ac45abb703a9e70bbc6b8a84dae37e5560d6493e/candidates/1e4667f2-d961-48e4-b4bd-2f44823a1906/route.json",
+      "sha256": "0863f9d63f5dff70c96c2d553e8924f90f560798f57c620db3c398c43aa6a300",
+      "byteLength": 11577,
+      "termCount": 411,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "chatgpt-voice@1e4667f2-d961-48e4-b4bd-2f44823a1906:route.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/ac45abb703a9e70bbc6b8a84dae37e5560d6493e/candidates/1e4667f2-d961-48e4-b4bd-2f44823a1906/route.srs",
+      "sha256": "687dea9ee40533438ec4eef002bc14c63bf7180f50ca826d31dca2b3ee33a441",
+      "byteLength": 1421,
+      "requiredCapabilities": []
+    }
+  ],
+  "projections": {
+    "route": {
+      "artifactIds": [
+        "chatgpt-voice@1e4667f2-d961-48e4-b4bd-2f44823a1906:route.json",
+        "chatgpt-voice@1e4667f2-d961-48e4-b4bd-2f44823a1906:route.srs"
+      ]
+    },
+    "dns-query": {
+      "unavailable": "empty"
+    },
+    "dns-response": {
+      "artifactIds": [
+        "chatgpt-voice@1e4667f2-d961-48e4-b4bd-2f44823a1906:route.json",
+        "chatgpt-voice@1e4667f2-d961-48e4-b4bd-2f44823a1906:route.srs"
+      ]
+    }
+  }
+}
