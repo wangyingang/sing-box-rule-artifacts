@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "id": "docker",
+  "revision": "a0592b32-4c25-4e5f-b70c-a1d0f17ef711",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "docker@a0592b32-4c25-4e5f-b70c-a1d0f17ef711:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/aae06f53f8f80f30607f876794b6cfd563c8f5c0/candidates/a0592b32-4c25-4e5f-b70c-a1d0f17ef711/domains.json",
+      "sha256": "9447a56a0228a8363375ec02875abde7492bf0c771d6cba4763bbc105a3a5a34",
+      "byteLength": 355,
+      "termCount": 6,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "docker@a0592b32-4c25-4e5f-b70c-a1d0f17ef711:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/aae06f53f8f80f30607f876794b6cfd563c8f5c0/candidates/a0592b32-4c25-4e5f-b70c-a1d0f17ef711/domains.srs",
+      "sha256": "1f66f663694e9aa2b8b986f6dc8c3fa67eafd8e4ad268b81bfa9ea4b6b0a58fe",
+      "byteLength": 208,
+      "requiredCapabilities": []
+    }
+  ],
+  "projections": {
+    "route": {
+      "artifactIds": [
+        "docker@a0592b32-4c25-4e5f-b70c-a1d0f17ef711:domains.json",
+        "docker@a0592b32-4c25-4e5f-b70c-a1d0f17ef711:domains.srs"
+      ]
+    },
+    "dns-query": {
+      "artifactIds": [
+        "docker@a0592b32-4c25-4e5f-b70c-a1d0f17ef711:domains.json",
+        "docker@a0592b32-4c25-4e5f-b70c-a1d0f17ef711:domains.srs"
+      ]
+    },
+    "dns-response": {
+      "unavailable": "empty"
+    }
+  }
+}
