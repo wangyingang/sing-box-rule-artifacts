@@ -1,0 +1,12 @@
+{
+  "kind": "github-commit",
+  "repository": "gaoyifan/china-operator-ip",
+  "branch": "ip-lists",
+  "commit": "7e2773a184d01285feec0ab9cd6387533ede04c4",
+  "file": {
+    "path": "china46.txt",
+    "url": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/7e2773a184d01285feec0ab9cd6387533ede04c4/china46.txt"
+  },
+  "inputSha256": "97349126e31542ea48de435d3c967a596869647df100202b42e6af86aa636ef0",
+  "inputBytes": 154140
+}

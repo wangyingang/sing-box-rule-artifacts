@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "id": "china-ip",
+  "revision": "83783f4a-72ac-4b7a-af68-c56602e70801",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "china-ip@83783f4a-72ac-4b7a-af68-c56602e70801:route.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/d9e86ace57786bdaf11bcc36a748d48e94b625cd/candidates/83783f4a-72ac-4b7a-af68-c56602e70801/route.json",
+      "sha256": "942f061c66e28794a1afad16e5043d6f135a42ef6516d7074f011d5c6217d585",
+      "byteLength": 260552,
+      "termCount": 9667,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "china-ip@83783f4a-72ac-4b7a-af68-c56602e70801:route.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/d9e86ace57786bdaf11bcc36a748d48e94b625cd/candidates/83783f4a-72ac-4b7a-af68-c56602e70801/route.srs",
+      "sha256": "cd64b2c14309e5145c77835ae600632475b6aa2207aff9afad65c84bbc6238c9",
+      "byteLength": 36425,
+      "requiredCapabilities": []
+    }
+  ],
+  "projections": {
+    "route": {
+      "artifactIds": [
+        "china-ip@83783f4a-72ac-4b7a-af68-c56602e70801:route.json",
+        "china-ip@83783f4a-72ac-4b7a-af68-c56602e70801:route.srs"
+      ]
+    },
+    "dns-query": {
+      "unavailable": "empty"
+    },
+    "dns-response": {
+      "artifactIds": [
+        "china-ip@83783f4a-72ac-4b7a-af68-c56602e70801:route.json",
+        "china-ip@83783f4a-72ac-4b7a-af68-c56602e70801:route.srs"
+      ]
+    }
+  }
+}
