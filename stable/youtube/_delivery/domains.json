@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "b32e3bc5-3d62-419b-b94e-686236bf743b",
+  "logicalId": "youtube",
+  "candidateId": "86e5a509-f457-468a-835d-f70f5a729cdf",
+  "versionId": "2026-11-23T13:49:55.804Z~86e5a509",
+  "publishedAt": "2026-11-23T13:49:55.804Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/065ecc69226b370de1350c98b86a0d0d27e16acc/candidates/86e5a509-f457-468a-835d-f70f5a729cdf/readback.json",
+  "source": {
+    "kind": "fixed-url",
+    "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+    "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+    "inputBytes": 3764294,
+    "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "youtube",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/youtube/domains.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/youtube/domains.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/youtube/domains.json": {
+      "sha256": "38295c61f484ccbf4ba6375b649553298c841766e1ad6f2ea9a181af5d42bcc5",
+      "byteLength": 4467
+    },
+    "stable/youtube/domains.srs": {
+      "sha256": "a0b1e05d6df5862ee6405ab7b9d18f13e8f559175b4539aa5e96006121ef75a3",
+      "byteLength": 1168
+    }
+  }
+}
