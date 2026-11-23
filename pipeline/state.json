@@ -817,15 +817,114 @@
         "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
       },
       "buildId": "df7cde74832a083bbb9fae2d2c1a461f12a7f6336dffe0ed1ded99eef48fe753",
-      "status": "publishing",
+      "status": "verified",
       "operation": "sync",
       "controlRevision": "28883971-25fa-4c03-80ff-27ddb77315f4",
       "filesCommit": "e9b42d23212a7e48945006c9db558886f54f3126",
       "metadataCommit": "069ae9ae649d29f5dff4c6d5a6e550a392a5902e",
       "manifestUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/069ae9ae649d29f5dff4c6d5a6e550a392a5902e/candidates/81ef7010-2545-40a6-83f9-22769a6f39da/manifest.json",
       "publishedAt": "2026-11-23T13:43:31.641Z",
-      "versionId": "2026-11-23T13:43:31.641Z~81ef7010"
+      "versionId": "2026-11-23T13:43:31.641Z~81ef7010",
+      "evidenceCommit": "5aa17839fa5b0733989004367a2848a363216521",
+      "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5aa17839fa5b0733989004367a2848a363216521/candidates/81ef7010-2545-40a6-83f9-22769a6f39da/readback.json"
     }
   },
-  "writeId": "8973bb29-002b-4e07-8419-4471a66790bf"
+  "writeId": "e85a7488-b0bf-4d1a-924d-abcaba831fc9",
+  "pendingDelivery": {
+    "id": "1befaa3e-a3a6-4cc0-9283-53045ecde54a",
+    "kind": "sync",
+    "logicalId": "microsoft",
+    "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+    "stableHead": "c882bab67672da60d295d06237309b1c95d1b882",
+    "afterRule": {
+      "definition": {
+        "id": "microsoft",
+        "source": "dlc",
+        "stablePath": "stable/microsoft",
+        "artifact": "domains",
+        "list": "microsoft"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "e75569442f9aee0f82a5dbce901656bd0c3437652992508a2da309a68183c24d",
+      "definitionRevision": "705cc70382f39d9d318cef8a80fd0255f1212e4a581d8f5f28f9ce5913f58990",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "6e722757-6578-4706-9a87-d5aa5650973b",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "28883971-25fa-4c03-80ff-27ddb77315f4",
+        "inputBindingRevision": "e75569442f9aee0f82a5dbce901656bd0c3437652992508a2da309a68183c24d"
+      }
+    },
+    "record": {
+      "schemaVersion": 2,
+      "id": "1befaa3e-a3a6-4cc0-9283-53045ecde54a",
+      "logicalId": "microsoft",
+      "candidateId": "81ef7010-2545-40a6-83f9-22769a6f39da",
+      "versionId": "2026-11-23T13:43:31.641Z~81ef7010",
+      "publishedAt": "2026-11-23T13:43:31.641Z",
+      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5aa17839fa5b0733989004367a2848a363216521/candidates/81ef7010-2545-40a6-83f9-22769a6f39da/readback.json",
+      "source": {
+        "kind": "fixed-url",
+        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+        "inputBytes": 3764294,
+        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+      },
+      "subscription": {
+        "schemaVersion": 3,
+        "systemRuleSetId": "microsoft",
+        "targetVersion": "1.14.4",
+        "sourceFormatVersion": 4,
+        "formats": {
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/microsoft/domains.json"
+          },
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/microsoft/domains.srs"
+          }
+        }
+      },
+      "files": {
+        "stable/microsoft/domains.json": {
+          "sha256": "1ccfdb68b011a47194e4d80dd33d09a3f1e863ca6333cdc4e828a4d2eabff67f",
+          "byteLength": 20802
+        },
+        "stable/microsoft/domains.srs": {
+          "sha256": "f418743e05510367c47a5f7b60283299f089097f90d72e132990ce3e5e9f1ba8",
+          "byteLength": 6702
+        }
+      }
+    },
+    "changes": {
+      "stable/microsoft/domains.json": {
+        "sha256": "1ccfdb68b011a47194e4d80dd33d09a3f1e863ca6333cdc4e828a4d2eabff67f",
+        "byteLength": 20802
+      },
+      "stable/microsoft/domains.srs": {
+        "sha256": "f418743e05510367c47a5f7b60283299f089097f90d72e132990ce3e5e9f1ba8",
+        "byteLength": 6702
+      },
+      "stable/microsoft/_delivery/domains.json": {
+        "sha256": "1715943137a7428ccb1406414520b74d77cee9653abeed5e8d0f907e84332e26",
+        "byteLength": 1600
+      }
+    },
+    "removeCandidates": [],
+    "qualifiedCandidate": {
+      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+      "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
+      "validationPolicy": "native-compile-load-v1",
+      "nativeBuildId": "8d5229556ec8ba0aefe92b45b5ce474168d541014e5ab68cc910a994cdcaf1eb",
+      "candidateId": "81ef7010-2545-40a6-83f9-22769a6f39da",
+      "buildId": "df7cde74832a083bbb9fae2d2c1a461f12a7f6336dffe0ed1ded99eef48fe753"
+    }
+  }
 }
