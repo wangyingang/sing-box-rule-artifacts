@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "id": "796b11fe-f31d-4827-b7dc-597b12b052eb",
+  "logicalId": "stream",
+  "candidateId": "8ae619a6-5f56-4ac9-b6ff-491fee1f1be5",
+  "versionId": "2026-11-23T13:55:18.127Z~8ae619a6",
+  "publishedAt": "2026-11-23T13:55:18.127Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/95d9a8be1496f998b4a5738750e6f52fa56cc022/candidates/8ae619a6-5f56-4ac9-b6ff-491fee1f1be5/readback.json",
+  "source": {
+    "kind": "github-commit",
+    "repository": "SukkaLab/ruleset.skk.moe",
+    "branch": "master",
+    "commit": "eb5922d1aaa0c997c50f79bc03f898ada2f2ba77",
+    "file": {
+      "path": "sing-box/non_ip/stream.json",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/eb5922d1aaa0c997c50f79bc03f898ada2f2ba77/sing-box/non_ip/stream.json"
+    },
+    "inputSha256": "88487bf51615620ee8fcca449fad6199db6968dc429804acb7ad3348a5df8ed5",
+    "inputBytes": 7653
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "stream",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/stream/domains.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/stream/domains.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/stream/domains.json": {
+      "sha256": "80386ce2b0effffb755b35e1ce6175246c9868e9e64c3dc8f77c71c797987c1f",
+      "byteLength": 7653
+    },
+    "stable/stream/domains.srs": {
+      "sha256": "c22f313a7265824dec45fab5443ce6b1408b1de086fae377b0f394076135a33c",
+      "byteLength": 2570
+    }
+  }
+}
