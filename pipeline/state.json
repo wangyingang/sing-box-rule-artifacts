@@ -1227,10 +1227,10 @@
         "inputBytes": 60251
       },
       "buildId": "c22401a80bbf818f62270b5b2873768a841bb8a18e7804f5f0ba1591dfb98b89",
-      "status": "building",
+      "status": "publishing",
       "operation": "sync",
       "controlRevision": "bcb21a98-b32d-4456-be0e-dddfc750bca6"
     }
   },
-  "writeId": "39015e4c-b9f5-4b99-9267-0b1ac428a10a"
+  "writeId": "21ac7ddf-9e29-4439-8c91-b8c6c4d170e3"
 }
