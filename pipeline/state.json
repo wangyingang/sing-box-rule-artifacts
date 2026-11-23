@@ -1140,7 +1140,36 @@
       "versionId": "2026-11-23T13:50:59.673Z~e63f1430",
       "evidenceCommit": "5896807f28fdb0c6fbc4135342ee8b9bf2cfc9fc",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5896807f28fdb0c6fbc4135342ee8b9bf2cfc9fc/candidates/e63f1430-f845-4f6b-89a2-74ce573fdf55/readback.json"
+    },
+    "522140d8-9669-45f8-ac55-c9db4a28d232": {
+      "id": "522140d8-9669-45f8-ac55-c9db4a28d232",
+      "logicalId": "chatgpt-voice",
+      "definition": {
+        "id": "chatgpt-voice",
+        "source": "openai-voice",
+        "stablePath": "stable/chatgpt-voice",
+        "artifact": "ips"
+      },
+      "sourceInput": {
+        "version": "url",
+        "input": {
+          "format": "openai-voice-json",
+          "url": "https://openai.com/chatgpt-voice.json"
+        }
+      },
+      "inputBindingRevision": "c6afc89c243a5c859f3d2aa80d985ce8e225d898e23e8644e042af36b31aa23b",
+      "definitionGeneration": "8fc926dd-11f3-4a9d-acab-976913b98952",
+      "source": {
+        "kind": "fixed-url",
+        "url": "https://openai.com/chatgpt-voice.json",
+        "inputSha256": "0852b8be430cb4ae4a68ff8c0169f05bcdc5ce2ab6649cb3fc02d057a50612e7",
+        "inputBytes": 14856
+      },
+      "buildId": "d6b7a6326c2424a64cfeb7243b9e2c359ad4651677bdf4f3bcd4fd64d585913a",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "59a4371d-40d5-4322-9414-9b2303396ac0"
     }
   },
-  "writeId": "a724575f-1280-4d03-ac10-a08da443e2f0"
+  "writeId": "588752ca-0ab5-417a-8403-037a51d0e892"
 }
