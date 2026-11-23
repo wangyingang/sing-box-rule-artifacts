@@ -1,0 +1,12 @@
+{
+  "kind": "github-commit",
+  "repository": "Loyalsoldier/v2ray-rules-dat",
+  "branch": "release",
+  "commit": "0568dcea85796a397c753e51725d7a1e40dad4c2",
+  "file": {
+    "path": "gfw.txt",
+    "url": "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/0568dcea85796a397c753e51725d7a1e40dad4c2/gfw.txt"
+  },
+  "inputSha256": "29a01f7b45153c48124eb5b66c035483ea9089e041b9fa9faed1c22ab0c912a6",
+  "inputBytes": 60251
+}
