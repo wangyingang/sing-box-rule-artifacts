@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "id": "c5ba8990-de81-4cb0-b9a8-1250e032567b",
+  "logicalId": "onedrive",
+  "candidateId": "9230dcd2-11cd-4f32-a980-8592047e6222",
+  "versionId": "2026-11-23T13:54:16.367Z~9230dcd2",
+  "publishedAt": "2026-11-23T13:54:16.367Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/aad5de882ec3a4f2e1a08717bda5a512c09b9dd2/candidates/9230dcd2-11cd-4f32-a980-8592047e6222/readback.json",
+  "source": {
+    "kind": "github-commit",
+    "repository": "blackmatrix7/ios_rule_script",
+    "branch": "master",
+    "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+    "file": {
+      "path": "rule/Clash/OneDrive/OneDrive.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Clash/OneDrive/OneDrive.list"
+    },
+    "inputSha256": "cf4f6b24e434b6c6033b70fc88cf7e33f5aaa0f353f6963ced770f5fa1ae6c9b",
+    "inputBytes": 735
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "onedrive",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/onedrive/domains.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/onedrive/domains.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/onedrive/domains.json": {
+      "sha256": "bf5b223c60555033f61a1f4c19c1a8deba5b79abf47001848a125be2cc66db41",
+      "byteLength": 563
+    },
+    "stable/onedrive/domains.srs": {
+      "sha256": "c294fe0d9a20ec433a67af492fa8f53b3f7b47f6b85fa9894e226c1934e2344b",
+      "byteLength": 237
+    }
+  }
+}
