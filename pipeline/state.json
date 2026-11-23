@@ -1260,7 +1260,54 @@
       "versionId": "2026-11-23T13:53:05.979Z~527b5514",
       "evidenceCommit": "ad98fc3f7e92ac0ce1f33b09a95faf900f1368d7",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/ad98fc3f7e92ac0ce1f33b09a95faf900f1368d7/candidates/527b5514-2ec3-47ce-8aca-f81ddf88c4d5/readback.json"
+    },
+    "9230dcd2-11cd-4f32-a980-8592047e6222": {
+      "id": "9230dcd2-11cd-4f32-a980-8592047e6222",
+      "logicalId": "onedrive",
+      "definition": {
+        "id": "onedrive",
+        "source": "blackmatrix7",
+        "stablePath": "stable/onedrive",
+        "artifact": "domains",
+        "filter": {
+          "include": {
+            "type": {
+              "anyOf": [
+                "DOMAIN-KEYWORD",
+                "DOMAIN-SUFFIX"
+              ]
+            }
+          }
+        }
+      },
+      "sourceInput": {
+        "repository": "blackmatrix7/ios_rule_script",
+        "version": "git-branch",
+        "branch": "master",
+        "input": {
+          "format": "clash-rule-list",
+          "path": "rule/Clash/OneDrive/OneDrive.list"
+        }
+      },
+      "inputBindingRevision": "16547ca2bfa51baf31344631decb119f781dc313f8ae3b23acdedbca1e646beb",
+      "definitionGeneration": "f6f5a372-96ec-4f7b-a7ff-19161f4e0106",
+      "source": {
+        "kind": "github-commit",
+        "repository": "blackmatrix7/ios_rule_script",
+        "branch": "master",
+        "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+        "file": {
+          "path": "rule/Clash/OneDrive/OneDrive.list",
+          "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Clash/OneDrive/OneDrive.list"
+        },
+        "inputSha256": "cf4f6b24e434b6c6033b70fc88cf7e33f5aaa0f353f6963ced770f5fa1ae6c9b",
+        "inputBytes": 735
+      },
+      "buildId": "5d310353de78fe8fb508cc2c0759ef42356dbb47548a0f44823d731a14f759cc",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "dc53ac2a-8d4c-458a-85b9-d0d21400d2bd"
     }
   },
-  "writeId": "014427d1-f543-4252-8644-ece11ced588d"
+  "writeId": "a235aa2f-b072-421c-bd63-a33f919b7176"
 }
