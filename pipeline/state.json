@@ -845,7 +845,39 @@
       "versionId": "2026-11-23T13:43:31.641Z~81ef7010",
       "evidenceCommit": "5aa17839fa5b0733989004367a2848a363216521",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5aa17839fa5b0733989004367a2848a363216521/candidates/81ef7010-2545-40a6-83f9-22769a6f39da/readback.json"
+    },
+    "b9e8902c-0686-43de-af76-73a6873761e1": {
+      "id": "b9e8902c-0686-43de-af76-73a6873761e1",
+      "logicalId": "docker",
+      "definition": {
+        "id": "docker",
+        "source": "dlc",
+        "stablePath": "stable/docker",
+        "artifact": "domains",
+        "list": "docker"
+      },
+      "sourceInput": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "06b9f7aad340298f0d201de41d9673c82a335f7fa43c7c2e2bcc773c52f91d12",
+      "definitionGeneration": "0e6e45be-9e1e-43b8-9105-5a0beac31d45",
+      "source": {
+        "kind": "fixed-url",
+        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+        "inputBytes": 3764294,
+        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+      },
+      "buildId": "e662a09c9a5636ef887b4359822795e04213ec7caf2b9812c7ad72df1c4f9b50",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "a1fe97a8-dae8-4073-8bf3-6b976b1a94b4"
     }
   },
-  "writeId": "ae4923d9-b35a-4daf-951b-048854d84eae"
+  "writeId": "9ab0c0d8-5a2a-4702-b0fc-bfea71665300"
 }
