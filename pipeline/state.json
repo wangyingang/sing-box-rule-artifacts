@@ -532,10 +532,10 @@
         "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
       },
       "buildId": "6dc7a61b816583949a52e789ac5edb31a52cd99a1ba80b56e2c9df172a522a28",
-      "status": "building",
+      "status": "publishing",
       "operation": "sync",
       "controlRevision": "5da1b3ea-2fc1-4eb4-8031-00edf896a4f3"
     }
   },
-  "writeId": "706411b1-29c1-44d3-b51b-e9808831eebc"
+  "writeId": "e8b20261-7872-4935-8dff-635e5e75327c"
 }
