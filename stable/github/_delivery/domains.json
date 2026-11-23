@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "6e2223af-7038-4ca5-ab7d-2e5756e969d2",
+  "logicalId": "github",
+  "candidateId": "864af4d4-fb49-45f8-b221-db06016848aa",
+  "versionId": "2026-11-23T13:47:42.683Z~864af4d4",
+  "publishedAt": "2026-11-23T13:47:42.683Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/cd9b92b9e29c90ebfb6b05715244f25e432880a1/candidates/864af4d4-fb49-45f8-b221-db06016848aa/readback.json",
+  "source": {
+    "kind": "fixed-url",
+    "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+    "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+    "inputBytes": 3764294,
+    "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "github",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/github/domains.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/github/domains.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/github/domains.json": {
+      "sha256": "a6d13f172f3ef7a1603a62baa5f9f0bb048dca910e29a7eecf633df110b2f1ca",
+      "byteLength": 2682
+    },
+    "stable/github/domains.srs": {
+      "sha256": "870bcad14e670a18894f479e477495bd5b736cff2110ab6205253f4a2e930e45",
+      "byteLength": 808
+    }
+  }
+}
