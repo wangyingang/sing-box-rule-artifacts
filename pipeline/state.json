@@ -1193,7 +1193,44 @@
       "versionId": "2026-11-23T13:52:03.304Z~522140d8",
       "evidenceCommit": "68528f1f2255d25cfed141c67044b698f8e06cde",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/68528f1f2255d25cfed141c67044b698f8e06cde/candidates/522140d8-9669-45f8-ac55-c9db4a28d232/readback.json"
+    },
+    "527b5514-2ec3-47ce-8aca-f81ddf88c4d5": {
+      "id": "527b5514-2ec3-47ce-8aca-f81ddf88c4d5",
+      "logicalId": "gfw",
+      "definition": {
+        "id": "gfw",
+        "source": "loyalsoldier",
+        "stablePath": "stable/gfw",
+        "artifact": "domains"
+      },
+      "sourceInput": {
+        "repository": "Loyalsoldier/v2ray-rules-dat",
+        "version": "git-branch",
+        "branch": "release",
+        "input": {
+          "format": "domain-suffix-text",
+          "path": "gfw.txt"
+        }
+      },
+      "inputBindingRevision": "94a21563bed39c464b39bed542f42ee1e9bbe0248da81424d38dc9767381f294",
+      "definitionGeneration": "b7e93f50-399f-4f00-88ae-828a804c1b82",
+      "source": {
+        "kind": "github-commit",
+        "repository": "Loyalsoldier/v2ray-rules-dat",
+        "branch": "release",
+        "commit": "0568dcea85796a397c753e51725d7a1e40dad4c2",
+        "file": {
+          "path": "gfw.txt",
+          "url": "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/0568dcea85796a397c753e51725d7a1e40dad4c2/gfw.txt"
+        },
+        "inputSha256": "29a01f7b45153c48124eb5b66c035483ea9089e041b9fa9faed1c22ab0c912a6",
+        "inputBytes": 60251
+      },
+      "buildId": "c22401a80bbf818f62270b5b2873768a841bb8a18e7804f5f0ba1591dfb98b89",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "bcb21a98-b32d-4456-be0e-dddfc750bca6"
     }
   },
-  "writeId": "1ed89a31-3648-4099-b142-d25e63a073c4"
+  "writeId": "39015e4c-b9f5-4b99-9267-0b1ac428a10a"
 }
