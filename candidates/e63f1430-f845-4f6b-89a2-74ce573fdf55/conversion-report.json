@@ -1,0 +1,38 @@
+{
+  "status": "converted",
+  "inputCount": 9703,
+  "convertedCount": 9703,
+  "unsupportedCount": 0,
+  "invalidCount": 0,
+  "duplicateCount": 0,
+  "outputTermCount": 9703,
+  "attributeRecordCount": 0,
+  "typeCounts": {
+    "domain_suffix": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    },
+    "domain": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    },
+    "domain_keyword": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    },
+    "domain_regex": {
+      "input": 0,
+      "converted": 0,
+      "output": 0
+    },
+    "ip_cidr": {
+      "input": 9703,
+      "converted": 9703,
+      "output": 9703
+    }
+  },
+  "diagnostics": []
+}

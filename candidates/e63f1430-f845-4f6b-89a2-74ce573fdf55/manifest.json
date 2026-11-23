@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 3,
+  "id": "china-ip",
+  "revision": "e63f1430-f845-4f6b-89a2-74ce573fdf55",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "china-ip@e63f1430-f845-4f6b-89a2-74ce573fdf55:ips.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/49100e27f5badf3b2b7ac14a5bd159eda8e8f6de/candidates/e63f1430-f845-4f6b-89a2-74ce573fdf55/ips.json",
+      "sha256": "57432cff26492e0954f4a0afaf888c639ac82f023d6ff6957e2259c7832358c8",
+      "byteLength": 261557,
+      "termCount": 9703,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "china-ip@e63f1430-f845-4f6b-89a2-74ce573fdf55:ips.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/49100e27f5badf3b2b7ac14a5bd159eda8e8f6de/candidates/e63f1430-f845-4f6b-89a2-74ce573fdf55/ips.srs",
+      "sha256": "3c33fb9aec2574a8d07d2b2431084c31d890639bd1b9bba1051c76e81f2bad93",
+      "byteLength": 36539,
+      "requiredCapabilities": []
+    }
+  ]
+}
