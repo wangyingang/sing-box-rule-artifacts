@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "id": "3fe6c010-d737-4369-b3fd-b424215553d7",
+  "logicalId": "china-ip",
+  "candidateId": "e63f1430-f845-4f6b-89a2-74ce573fdf55",
+  "versionId": "2026-11-23T13:50:59.673Z~e63f1430",
+  "publishedAt": "2026-11-23T13:50:59.673Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5896807f28fdb0c6fbc4135342ee8b9bf2cfc9fc/candidates/e63f1430-f845-4f6b-89a2-74ce573fdf55/readback.json",
+  "source": {
+    "kind": "github-commit",
+    "repository": "gaoyifan/china-operator-ip",
+    "branch": "ip-lists",
+    "commit": "a1214434b6211eca49508ef42989daaa83fa5436",
+    "file": {
+      "path": "china46.txt",
+      "url": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/a1214434b6211eca49508ef42989daaa83fa5436/china46.txt"
+    },
+    "inputSha256": "056a9a7d26c1434c4cabf5248535d8999f0564e7f16f75553fddcecdad9942c5",
+    "inputBytes": 154749
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "china-ip",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-ip/ips.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-ip/ips.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/china-ip/ips.json": {
+      "sha256": "57432cff26492e0954f4a0afaf888c639ac82f023d6ff6957e2259c7832358c8",
+      "byteLength": 261557
+    },
+    "stable/china-ip/ips.srs": {
+      "sha256": "3c33fb9aec2574a8d07d2b2431084c31d890639bd1b9bba1051c76e81f2bad93",
+      "byteLength": 36539
+    }
+  }
+}
