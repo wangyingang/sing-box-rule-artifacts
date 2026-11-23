@@ -1,0 +1,103 @@
+{
+  "id": "global",
+  "definition": {
+    "id": "global",
+    "source": "dlc",
+    "stablePath": "stable/global",
+    "artifact": "domains",
+    "list": "geolocation-!cn"
+  },
+  "target": {
+    "repository": "wangyingang/sing-box-rule-artifacts",
+    "branch": "main"
+  },
+  "buildId": "2d8bacd75f61a35431b10689ca45e901c96415dd0ce1827e466629d2fc5b4f71",
+  "candidateId": "5e255821-c2ed-4091-b529-4e6ba091ecdb",
+  "operation": "sync",
+  "contracts": {
+    "artifactManifest": 3,
+    "sourceFormat": 4,
+    "buildRecord": 3
+  },
+  "source": {
+    "kind": "fixed-url",
+    "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+    "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+    "inputBytes": 3764294,
+    "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+  },
+  "tools": {
+    "pipeline": "0.1.0",
+    "implementationSha256": "f411193edff17294f1805659330cec6e939502ce8c5a8983a27d9fe78411dff6",
+    "conversionPolicy": "v2fly-dlc-yaml-v1",
+    "node": "24.22.3",
+    "yaml": "2.9.1",
+    "sourceFormat": 4
+  },
+  "nativeBuildId": "95aaae7b161b4b76109bcaaa56466d5d19460df0bad19ce6a9095fcf71433b06",
+  "status": "built-validated",
+  "tool": {
+    "path": "/home/runner/work/_temp/sing-box-1.14.4-linux-amd64/sing-box",
+    "version": "1.14.4",
+    "identity": "sing-box version 1.14.4\n\nEnvironment: go1.26.10 linux/amd64\nTags: with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_cloudflared,with_naive_outbound,with_usbip,with_openvpn,with_openconnect,badlinkname,tfogo_checklinkname0,with_purego\nRevision: c005f35300ce76427dc285481ec5695f5b179cd2\nCGO: disabled",
+    "sha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a"
+  },
+  "validation": {
+    "status": "passed",
+    "policy": "native-compile-load-v1",
+    "steps": [
+      {
+        "args": [
+          "rule-set",
+          "compile",
+          "domains.json",
+          "-o",
+          "domains.srs"
+        ],
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "rule-set",
+          "match",
+          "domains.json",
+          "native-validation.invalid",
+          "--format",
+          "source"
+        ],
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "rule-set",
+          "match",
+          "domains.srs",
+          "native-validation.invalid",
+          "--format",
+          "binary"
+        ],
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "file": "domains.json",
+      "sha256": "84587bee2b7ce81675ed6fc270f5f745b01e90849d42ac591343dca30790cc54",
+      "bytes": 654370,
+      "requiredCapabilities": [],
+      "format": "source",
+      "termCount": 25117
+    },
+    {
+      "file": "domains.srs",
+      "sha256": "7b48a8306ab7a6e94d9501c8cf974df5e21500d23437eb187b0b60d2dc57471a",
+      "bytes": 156092,
+      "requiredCapabilities": [],
+      "format": "binary"
+    }
+  ]
+}
