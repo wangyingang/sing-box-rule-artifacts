@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 3,
+  "id": "apple",
+  "revision": "eb9262df-019d-475e-b2e9-a9be8e407875",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "apple@eb9262df-019d-475e-b2e9-a9be8e407875:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/30596466f512efc2227fc3b5e011f9342f07791c/candidates/eb9262df-019d-475e-b2e9-a9be8e407875/domains.json",
+      "sha256": "13e07eee94b0780a49785eaa6dbfaebd67f015dfda021f76ff6b9e7dc3052856",
+      "byteLength": 49966,
+      "termCount": 1661,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "apple@eb9262df-019d-475e-b2e9-a9be8e407875:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/30596466f512efc2227fc3b5e011f9342f07791c/candidates/eb9262df-019d-475e-b2e9-a9be8e407875/domains.srs",
+      "sha256": "3ef5d91b394922f3e4f87747bafff104403c618600cd26ef030a807f14bf55ac",
+      "byteLength": 14719,
+      "requiredCapabilities": []
+    }
+  ]
+}
