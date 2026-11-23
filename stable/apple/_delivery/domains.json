@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "f51a9690-716a-4cbc-bb8f-acf6afb11402",
+  "logicalId": "apple",
+  "candidateId": "eb9262df-019d-475e-b2e9-a9be8e407875",
+  "versionId": "2026-11-23T13:42:23.933Z~eb9262df",
+  "publishedAt": "2026-11-23T13:42:23.933Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/07c94ad79ce71e27e3ebcc4b0e4be0b2544ba8d0/candidates/eb9262df-019d-475e-b2e9-a9be8e407875/readback.json",
+  "source": {
+    "kind": "fixed-url",
+    "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+    "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+    "inputBytes": 3764294,
+    "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "apple",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/apple/domains.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/apple/domains.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/apple/domains.json": {
+      "sha256": "13e07eee94b0780a49785eaa6dbfaebd67f015dfda021f76ff6b9e7dc3052856",
+      "byteLength": 49966
+    },
+    "stable/apple/domains.srs": {
+      "sha256": "3ef5d91b394922f3e4f87747bafff104403c618600cd26ef030a807f14bf55ac",
+      "byteLength": 14719
+    }
+  }
+}
