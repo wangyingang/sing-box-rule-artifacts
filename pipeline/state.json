@@ -213,6 +213,23 @@
         "mode": "auto",
         "revision": "59a4371d-40d5-4322-9414-9b2303396ac0",
         "inputBindingRevision": "c6afc89c243a5c859f3d2aa80d985ce8e225d898e23e8644e042af36b31aa23b"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "00800680b9ae02e24497cef19ebef28de829d139dfa8351f6a2947f17dcf97da",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "d9e45a571a76365bb4f8fb1fecd59b0c26e97d30f9dc57fab756f63c64dbf152",
+        "candidateId": "522140d8-9669-45f8-ac55-c9db4a28d232",
+        "buildId": "d6b7a6326c2424a64cfeb7243b9e2c359ad4651677bdf4f3bcd4fd64d585913a",
+        "source": {
+          "kind": "fixed-url",
+          "url": "https://openai.com/chatgpt-voice.json",
+          "inputSha256": "0852b8be430cb4ae4a68ff8c0169f05bcdc5ce2ab6649cb3fc02d057a50612e7",
+          "inputBytes": 14856
+        },
+        "inputBindingRevision": "c6afc89c243a5c859f3d2aa80d985ce8e225d898e23e8644e042af36b31aa23b",
+        "definitionRevision": "64dc5bb5dbaa4c61a7418176d12d02edf1445176f00466a619cbbb9b4dffa3b4",
+        "definitionGeneration": "8fc926dd-11f3-4a9d-acab-976913b98952"
       }
     },
     "china-domains": {
@@ -1178,99 +1195,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/68528f1f2255d25cfed141c67044b698f8e06cde/candidates/522140d8-9669-45f8-ac55-c9db4a28d232/readback.json"
     }
   },
-  "writeId": "d8a9919d-3834-4ffa-8423-3fdf3f2bd2bc",
-  "pendingDelivery": {
-    "id": "14fd7c67-0049-4b14-bb57-2a57bafc9e1c",
-    "kind": "sync",
-    "logicalId": "chatgpt-voice",
-    "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-    "stableHead": "628103292b796edebd6d28be2ac5dd088109dc71",
-    "afterRule": {
-      "definition": {
-        "id": "chatgpt-voice",
-        "source": "openai-voice",
-        "stablePath": "stable/chatgpt-voice",
-        "artifact": "ips"
-      },
-      "source": {
-        "version": "url",
-        "input": {
-          "format": "openai-voice-json",
-          "url": "https://openai.com/chatgpt-voice.json"
-        }
-      },
-      "inputBindingRevision": "c6afc89c243a5c859f3d2aa80d985ce8e225d898e23e8644e042af36b31aa23b",
-      "definitionRevision": "64dc5bb5dbaa4c61a7418176d12d02edf1445176f00466a619cbbb9b4dffa3b4",
-      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-      "generation": "8fc926dd-11f3-4a9d-acab-976913b98952",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "59a4371d-40d5-4322-9414-9b2303396ac0",
-        "inputBindingRevision": "c6afc89c243a5c859f3d2aa80d985ce8e225d898e23e8644e042af36b31aa23b"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "14fd7c67-0049-4b14-bb57-2a57bafc9e1c",
-      "logicalId": "chatgpt-voice",
-      "candidateId": "522140d8-9669-45f8-ac55-c9db4a28d232",
-      "versionId": "2026-11-23T13:52:03.304Z~522140d8",
-      "publishedAt": "2026-11-23T13:52:03.304Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/68528f1f2255d25cfed141c67044b698f8e06cde/candidates/522140d8-9669-45f8-ac55-c9db4a28d232/readback.json",
-      "source": {
-        "kind": "fixed-url",
-        "url": "https://openai.com/chatgpt-voice.json",
-        "inputSha256": "0852b8be430cb4ae4a68ff8c0169f05bcdc5ce2ab6649cb3fc02d057a50612e7",
-        "inputBytes": 14856
-      },
-      "subscription": {
-        "schemaVersion": 3,
-        "systemRuleSetId": "chatgpt-voice",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "formats": {
-          "source": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/chatgpt-voice/ips.json"
-          },
-          "binary": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/chatgpt-voice/ips.srs"
-          }
-        }
-      },
-      "files": {
-        "stable/chatgpt-voice/ips.json": {
-          "sha256": "0863f9d63f5dff70c96c2d553e8924f90f560798f57c620db3c398c43aa6a300",
-          "byteLength": 11577
-        },
-        "stable/chatgpt-voice/ips.srs": {
-          "sha256": "687dea9ee40533438ec4eef002bc14c63bf7180f50ca826d31dca2b3ee33a441",
-          "byteLength": 1421
-        }
-      }
-    },
-    "changes": {
-      "stable/chatgpt-voice/ips.json": {
-        "sha256": "0863f9d63f5dff70c96c2d553e8924f90f560798f57c620db3c398c43aa6a300",
-        "byteLength": 11577
-      },
-      "stable/chatgpt-voice/ips.srs": {
-        "sha256": "687dea9ee40533438ec4eef002bc14c63bf7180f50ca826d31dca2b3ee33a441",
-        "byteLength": 1421
-      },
-      "stable/chatgpt-voice/_delivery/ips.json": {
-        "sha256": "042a2c9dd0b7c1e3264d5e6433a55de9df877d97c60c16cd8d16f743620349ee",
-        "byteLength": 1464
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "00800680b9ae02e24497cef19ebef28de829d139dfa8351f6a2947f17dcf97da",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "d9e45a571a76365bb4f8fb1fecd59b0c26e97d30f9dc57fab756f63c64dbf152",
-      "candidateId": "522140d8-9669-45f8-ac55-c9db4a28d232",
-      "buildId": "d6b7a6326c2424a64cfeb7243b9e2c359ad4651677bdf4f3bcd4fd64d585913a"
-    }
-  }
+  "writeId": "1ed89a31-3648-4099-b142-d25e63a073c4"
 }
