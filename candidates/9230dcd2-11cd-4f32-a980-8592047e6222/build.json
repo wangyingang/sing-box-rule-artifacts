@@ -1,0 +1,118 @@
+{
+  "id": "onedrive",
+  "definition": {
+    "id": "onedrive",
+    "source": "blackmatrix7",
+    "stablePath": "stable/onedrive",
+    "artifact": "domains",
+    "filter": {
+      "include": {
+        "type": {
+          "anyOf": [
+            "DOMAIN-KEYWORD",
+            "DOMAIN-SUFFIX"
+          ]
+        }
+      }
+    }
+  },
+  "target": {
+    "repository": "wangyingang/sing-box-rule-artifacts",
+    "branch": "main"
+  },
+  "buildId": "5d310353de78fe8fb508cc2c0759ef42356dbb47548a0f44823d731a14f759cc",
+  "candidateId": "9230dcd2-11cd-4f32-a980-8592047e6222",
+  "operation": "sync",
+  "contracts": {
+    "artifactManifest": 3,
+    "sourceFormat": 4,
+    "buildRecord": 3
+  },
+  "source": {
+    "kind": "github-commit",
+    "repository": "blackmatrix7/ios_rule_script",
+    "branch": "master",
+    "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+    "file": {
+      "path": "rule/Clash/OneDrive/OneDrive.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Clash/OneDrive/OneDrive.list"
+    },
+    "inputSha256": "cf4f6b24e434b6c6033b70fc88cf7e33f5aaa0f353f6963ced770f5fa1ae6c9b",
+    "inputBytes": 735
+  },
+  "tools": {
+    "pipeline": "0.1.0",
+    "implementationSha256": "255966bdc7fa2f799c68e41c901c9582e0676f52e51e09a5af252a7206d19935",
+    "conversionPolicy": "clash-rule-list-v1",
+    "node": "24.22.3",
+    "yaml": "2.9.1",
+    "sourceFormat": 4,
+    "ipaddr": "2.5.0"
+  },
+  "nativeBuildId": "0d84cfbf323bba1d13f825e29292d1ee7eaf9ca1721c0688f7e10587430480d4",
+  "status": "built-validated",
+  "tool": {
+    "path": "/home/runner/work/_temp/sing-box-1.14.4-linux-amd64/sing-box",
+    "version": "1.14.4",
+    "identity": "sing-box version 1.14.4\n\nEnvironment: go1.26.10 linux/amd64\nTags: with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_cloudflared,with_naive_outbound,with_usbip,with_openvpn,with_openconnect,badlinkname,tfogo_checklinkname0,with_purego\nRevision: c005f35300ce76427dc285481ec5695f5b179cd2\nCGO: disabled",
+    "sha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a"
+  },
+  "validation": {
+    "status": "passed",
+    "policy": "native-compile-load-v1",
+    "steps": [
+      {
+        "args": [
+          "rule-set",
+          "compile",
+          "domains.json",
+          "-o",
+          "domains.srs"
+        ],
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "rule-set",
+          "match",
+          "domains.json",
+          "native-validation.invalid",
+          "--format",
+          "source"
+        ],
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "rule-set",
+          "match",
+          "domains.srs",
+          "native-validation.invalid",
+          "--format",
+          "binary"
+        ],
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "file": "domains.json",
+      "sha256": "bf5b223c60555033f61a1f4c19c1a8deba5b79abf47001848a125be2cc66db41",
+      "bytes": 563,
+      "requiredCapabilities": [],
+      "format": "source",
+      "termCount": 16
+    },
+    {
+      "file": "domains.srs",
+      "sha256": "c294fe0d9a20ec433a67af492fa8f53b3f7b47f6b85fa9894e226c1934e2344b",
+      "bytes": 237,
+      "requiredCapabilities": [],
+      "format": "binary"
+    }
+  ]
+}

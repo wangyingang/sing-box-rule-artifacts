@@ -1,0 +1,12 @@
+{
+  "kind": "github-commit",
+  "repository": "blackmatrix7/ios_rule_script",
+  "branch": "master",
+  "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+  "file": {
+    "path": "rule/Clash/OneDrive/OneDrive.list",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Clash/OneDrive/OneDrive.list"
+  },
+  "inputSha256": "cf4f6b24e434b6c6033b70fc88cf7e33f5aaa0f353f6963ced770f5fa1ae6c9b",
+  "inputBytes": 735
+}

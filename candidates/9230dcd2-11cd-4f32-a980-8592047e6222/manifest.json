@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 3,
+  "id": "onedrive",
+  "revision": "9230dcd2-11cd-4f32-a980-8592047e6222",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "onedrive@9230dcd2-11cd-4f32-a980-8592047e6222:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/3c1768e917291c6f2ec1014ea31bfa8e1eacfaaf/candidates/9230dcd2-11cd-4f32-a980-8592047e6222/domains.json",
+      "sha256": "bf5b223c60555033f61a1f4c19c1a8deba5b79abf47001848a125be2cc66db41",
+      "byteLength": 563,
+      "termCount": 16,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "onedrive@9230dcd2-11cd-4f32-a980-8592047e6222:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/3c1768e917291c6f2ec1014ea31bfa8e1eacfaaf/candidates/9230dcd2-11cd-4f32-a980-8592047e6222/domains.srs",
+      "sha256": "c294fe0d9a20ec433a67af492fa8f53b3f7b47f6b85fa9894e226c1934e2344b",
+      "byteLength": 237,
+      "requiredCapabilities": []
+    }
+  ]
+}
