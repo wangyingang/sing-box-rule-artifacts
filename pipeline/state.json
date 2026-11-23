@@ -988,15 +988,114 @@
         "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
       },
       "buildId": "6c58abc46b93826516a3747dd5e85216e5cb1e754f5fa8de9778208c5700e56f",
-      "status": "publishing",
+      "status": "verified",
       "operation": "sync",
       "controlRevision": "4341174a-8b96-4036-b9b3-59eb06636e3e",
       "filesCommit": "c84b1eda4c6af2dae72f94f60cffc3571397c3db",
       "metadataCommit": "574da40db9170fbb2851d5ff9508576086651f5e",
       "manifestUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/574da40db9170fbb2851d5ff9508576086651f5e/candidates/35a01c18-510a-47ec-b0e0-ff0fd2e27bb4/manifest.json",
       "publishedAt": "2026-11-23T13:48:45.262Z",
-      "versionId": "2026-11-23T13:48:45.262Z~35a01c18"
+      "versionId": "2026-11-23T13:48:45.262Z~35a01c18",
+      "evidenceCommit": "de46e9d2e0b764b5e34b5abe85cf416c4794ff5b",
+      "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/de46e9d2e0b764b5e34b5abe85cf416c4794ff5b/candidates/35a01c18-510a-47ec-b0e0-ff0fd2e27bb4/readback.json"
     }
   },
-  "writeId": "969aef26-6330-440d-b64c-5d5e05a8cfef"
+  "writeId": "795815b5-3a9d-40ff-9c30-268e94e80057",
+  "pendingDelivery": {
+    "id": "0a6527f8-f290-4c3e-9910-c625080ef6c2",
+    "kind": "sync",
+    "logicalId": "google",
+    "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+    "stableHead": "625232d560a394ac52e3d3e2a6c57bdc185cd9e0",
+    "afterRule": {
+      "definition": {
+        "id": "google",
+        "source": "dlc",
+        "stablePath": "stable/google",
+        "artifact": "domains",
+        "list": "google"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "6839673006cc61d124b1719fc5753402212a9bbbf26db3d266d2f40826c2e9e2",
+      "definitionRevision": "e2281916162d37d1967074952919ec945f04d6ea728a0894b2d950026d902962",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "39a1a6d1-c3ab-4497-85d7-d8901d31395f",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "4341174a-8b96-4036-b9b3-59eb06636e3e",
+        "inputBindingRevision": "6839673006cc61d124b1719fc5753402212a9bbbf26db3d266d2f40826c2e9e2"
+      }
+    },
+    "record": {
+      "schemaVersion": 2,
+      "id": "0a6527f8-f290-4c3e-9910-c625080ef6c2",
+      "logicalId": "google",
+      "candidateId": "35a01c18-510a-47ec-b0e0-ff0fd2e27bb4",
+      "versionId": "2026-11-23T13:48:45.262Z~35a01c18",
+      "publishedAt": "2026-11-23T13:48:45.262Z",
+      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/de46e9d2e0b764b5e34b5abe85cf416c4794ff5b/candidates/35a01c18-510a-47ec-b0e0-ff0fd2e27bb4/readback.json",
+      "source": {
+        "kind": "fixed-url",
+        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+        "inputBytes": 3764294,
+        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+      },
+      "subscription": {
+        "schemaVersion": 3,
+        "systemRuleSetId": "google",
+        "targetVersion": "1.14.4",
+        "sourceFormatVersion": 4,
+        "formats": {
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/google/domains.json"
+          },
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/google/domains.srs"
+          }
+        }
+      },
+      "files": {
+        "stable/google/domains.json": {
+          "sha256": "67b9c9e1d0ea23d2080f5a5b15098e108e95be2f8539aa32b8498540316fdd3a",
+          "byteLength": 25016
+        },
+        "stable/google/domains.srs": {
+          "sha256": "f3b09639e72ba0376655bc3cf509019967b9c6daeff0ef3cf4520484d2773b9e",
+          "byteLength": 7432
+        }
+      }
+    },
+    "changes": {
+      "stable/google/domains.json": {
+        "sha256": "67b9c9e1d0ea23d2080f5a5b15098e108e95be2f8539aa32b8498540316fdd3a",
+        "byteLength": 25016
+      },
+      "stable/google/domains.srs": {
+        "sha256": "f3b09639e72ba0376655bc3cf509019967b9c6daeff0ef3cf4520484d2773b9e",
+        "byteLength": 7432
+      },
+      "stable/google/_delivery/domains.json": {
+        "sha256": "8d15c1f45808077f1b35732f6023765c59334dd5e6d9e272b7b92cb56e40a188",
+        "byteLength": 1582
+      }
+    },
+    "removeCandidates": [],
+    "qualifiedCandidate": {
+      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+      "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
+      "validationPolicy": "native-compile-load-v1",
+      "nativeBuildId": "17fa5105d2950da53299b8341dcbfb0e38ecfb84edf1ae56907e35fdbd54d78d",
+      "candidateId": "35a01c18-510a-47ec-b0e0-ff0fd2e27bb4",
+      "buildId": "6c58abc46b93826516a3747dd5e85216e5cb1e754f5fa8de9778208c5700e56f"
+    }
+  }
 }
