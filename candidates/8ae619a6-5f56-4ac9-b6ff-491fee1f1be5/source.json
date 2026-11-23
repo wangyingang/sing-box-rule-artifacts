@@ -1,0 +1,12 @@
+{
+  "kind": "github-commit",
+  "repository": "SukkaLab/ruleset.skk.moe",
+  "branch": "master",
+  "commit": "eb5922d1aaa0c997c50f79bc03f898ada2f2ba77",
+  "file": {
+    "path": "sing-box/non_ip/stream.json",
+    "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/eb5922d1aaa0c997c50f79bc03f898ada2f2ba77/sing-box/non_ip/stream.json"
+  },
+  "inputSha256": "88487bf51615620ee8fcca449fad6199db6968dc429804acb7ad3348a5df8ed5",
+  "inputBytes": 7653
+}
