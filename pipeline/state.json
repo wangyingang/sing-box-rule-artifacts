@@ -788,7 +788,39 @@
       "versionId": "2026-11-23T13:42:23.933Z~eb9262df",
       "evidenceCommit": "07c94ad79ce71e27e3ebcc4b0e4be0b2544ba8d0",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/07c94ad79ce71e27e3ebcc4b0e4be0b2544ba8d0/candidates/eb9262df-019d-475e-b2e9-a9be8e407875/readback.json"
+    },
+    "81ef7010-2545-40a6-83f9-22769a6f39da": {
+      "id": "81ef7010-2545-40a6-83f9-22769a6f39da",
+      "logicalId": "microsoft",
+      "definition": {
+        "id": "microsoft",
+        "source": "dlc",
+        "stablePath": "stable/microsoft",
+        "artifact": "domains",
+        "list": "microsoft"
+      },
+      "sourceInput": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "e75569442f9aee0f82a5dbce901656bd0c3437652992508a2da309a68183c24d",
+      "definitionGeneration": "6e722757-6578-4706-9a87-d5aa5650973b",
+      "source": {
+        "kind": "fixed-url",
+        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+        "inputBytes": 3764294,
+        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+      },
+      "buildId": "df7cde74832a083bbb9fae2d2c1a461f12a7f6336dffe0ed1ded99eef48fe753",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "28883971-25fa-4c03-80ff-27ddb77315f4"
     }
   },
-  "writeId": "cd1cdf13-414c-4e5a-81fc-f2b69b597932"
+  "writeId": "391d7f07-e257-4822-898c-74f5636620dd"
 }
