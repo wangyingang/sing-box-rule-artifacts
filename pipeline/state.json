@@ -307,6 +307,24 @@
         "mode": "auto",
         "revision": "c63e148b-1a77-4cce-8f37-36e6ff1c6f9e",
         "inputBindingRevision": "d82f9a46db54e1f6982093a59d4a6f975dac03769c30c58917f7842a4db7677e"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "e1133bbece003c07a0456c46047caa86958638d8d7c66c78054c9c6273dbf19e",
+        "candidateId": "eb9262df-019d-475e-b2e9-a9be8e407875",
+        "buildId": "7ecdf805f0a71f4f8b7a1a9b9cf18437f241c8cf217ead1ecfce42caa3b0b803",
+        "source": {
+          "kind": "fixed-url",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+          "inputBytes": 3764294,
+          "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+        },
+        "inputBindingRevision": "d82f9a46db54e1f6982093a59d4a6f975dac03769c30c58917f7842a4db7677e",
+        "definitionRevision": "f54959a3d4d6920ea86a945246810e32c06450799675e561c434d4e17b9ffadd",
+        "definitionGeneration": "0cd32f22-7503-484f-9675-dc72bb1a6ebc"
       }
     },
     "microsoft": {
@@ -772,102 +790,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/07c94ad79ce71e27e3ebcc4b0e4be0b2544ba8d0/candidates/eb9262df-019d-475e-b2e9-a9be8e407875/readback.json"
     }
   },
-  "writeId": "0a522a63-4abc-4864-9d1c-05f46c33053b",
-  "pendingDelivery": {
-    "id": "f51a9690-716a-4cbc-bb8f-acf6afb11402",
-    "kind": "sync",
-    "logicalId": "apple",
-    "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-    "stableHead": "a3d458f140a8cd347d3bd3a46325dbb02105aeb4",
-    "afterRule": {
-      "definition": {
-        "id": "apple",
-        "source": "dlc",
-        "stablePath": "stable/apple",
-        "artifact": "domains",
-        "list": "apple"
-      },
-      "source": {
-        "version": "url",
-        "input": {
-          "format": "v2fly-dlc-yaml",
-          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
-        }
-      },
-      "inputBindingRevision": "d82f9a46db54e1f6982093a59d4a6f975dac03769c30c58917f7842a4db7677e",
-      "definitionRevision": "f54959a3d4d6920ea86a945246810e32c06450799675e561c434d4e17b9ffadd",
-      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-      "generation": "0cd32f22-7503-484f-9675-dc72bb1a6ebc",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "c63e148b-1a77-4cce-8f37-36e6ff1c6f9e",
-        "inputBindingRevision": "d82f9a46db54e1f6982093a59d4a6f975dac03769c30c58917f7842a4db7677e"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "f51a9690-716a-4cbc-bb8f-acf6afb11402",
-      "logicalId": "apple",
-      "candidateId": "eb9262df-019d-475e-b2e9-a9be8e407875",
-      "versionId": "2026-11-23T13:42:23.933Z~eb9262df",
-      "publishedAt": "2026-11-23T13:42:23.933Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/07c94ad79ce71e27e3ebcc4b0e4be0b2544ba8d0/candidates/eb9262df-019d-475e-b2e9-a9be8e407875/readback.json",
-      "source": {
-        "kind": "fixed-url",
-        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
-        "inputBytes": 3764294,
-        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
-      },
-      "subscription": {
-        "schemaVersion": 3,
-        "systemRuleSetId": "apple",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "formats": {
-          "source": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/apple/domains.json"
-          },
-          "binary": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/apple/domains.srs"
-          }
-        }
-      },
-      "files": {
-        "stable/apple/domains.json": {
-          "sha256": "13e07eee94b0780a49785eaa6dbfaebd67f015dfda021f76ff6b9e7dc3052856",
-          "byteLength": 49966
-        },
-        "stable/apple/domains.srs": {
-          "sha256": "3ef5d91b394922f3e4f87747bafff104403c618600cd26ef030a807f14bf55ac",
-          "byteLength": 14719
-        }
-      }
-    },
-    "changes": {
-      "stable/apple/domains.json": {
-        "sha256": "13e07eee94b0780a49785eaa6dbfaebd67f015dfda021f76ff6b9e7dc3052856",
-        "byteLength": 49966
-      },
-      "stable/apple/domains.srs": {
-        "sha256": "3ef5d91b394922f3e4f87747bafff104403c618600cd26ef030a807f14bf55ac",
-        "byteLength": 14719
-      },
-      "stable/apple/_delivery/domains.json": {
-        "sha256": "90c00787bb9a29f3d7b7bd19cd279736b9f4ce2fe652f9ed249dfa16d61fc481",
-        "byteLength": 1577
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "e1133bbece003c07a0456c46047caa86958638d8d7c66c78054c9c6273dbf19e",
-      "candidateId": "eb9262df-019d-475e-b2e9-a9be8e407875",
-      "buildId": "7ecdf805f0a71f4f8b7a1a9b9cf18437f241c8cf217ead1ecfce42caa3b0b803"
-    }
-  }
+  "writeId": "cd1cdf13-414c-4e5a-81fc-f2b69b597932"
 }
