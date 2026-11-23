@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "id": "14fd7c67-0049-4b14-bb57-2a57bafc9e1c",
+  "logicalId": "chatgpt-voice",
+  "candidateId": "522140d8-9669-45f8-ac55-c9db4a28d232",
+  "versionId": "2026-11-23T13:52:03.304Z~522140d8",
+  "publishedAt": "2026-11-23T13:52:03.304Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/68528f1f2255d25cfed141c67044b698f8e06cde/candidates/522140d8-9669-45f8-ac55-c9db4a28d232/readback.json",
+  "source": {
+    "kind": "fixed-url",
+    "url": "https://openai.com/chatgpt-voice.json",
+    "inputSha256": "0852b8be430cb4ae4a68ff8c0169f05bcdc5ce2ab6649cb3fc02d057a50612e7",
+    "inputBytes": 14856
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "chatgpt-voice",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/chatgpt-voice/ips.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/chatgpt-voice/ips.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/chatgpt-voice/ips.json": {
+      "sha256": "0863f9d63f5dff70c96c2d553e8924f90f560798f57c620db3c398c43aa6a300",
+      "byteLength": 11577
+    },
+    "stable/chatgpt-voice/ips.srs": {
+      "sha256": "687dea9ee40533438ec4eef002bc14c63bf7180f50ca826d31dca2b3ee33a441",
+      "byteLength": 1421
+    }
+  }
+}
