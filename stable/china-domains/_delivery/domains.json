@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "19383c7f-3914-499e-8e29-a97fe691442f",
+  "logicalId": "china-domains",
+  "candidateId": "7e03ac03-2b33-476c-9fb8-624986d90e69",
+  "versionId": "2026-11-23T13:40:04.939Z~7e03ac03",
+  "publishedAt": "2026-11-23T13:40:04.939Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c35bfb022c807f5e3154f82c7c163e8273ea6da7/candidates/7e03ac03-2b33-476c-9fb8-624986d90e69/readback.json",
+  "source": {
+    "kind": "fixed-url",
+    "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+    "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+    "inputBytes": 3764294,
+    "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "china-domains",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-domains/domains.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-domains/domains.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/china-domains/domains.json": {
+      "sha256": "345755934424b87d383f9d8df6ddb35592661db32f25976adf880233c63affd9",
+      "byteLength": 204240
+    },
+    "stable/china-domains/domains.srs": {
+      "sha256": "5b219f04c49ddaf44a4ea74bcefb09cbe84fa64548112c3761696803cfdb92fe",
+      "byteLength": 44019
+    }
+  }
+}
