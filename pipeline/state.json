@@ -706,8 +706,12 @@
       "status": "publishing",
       "operation": "sync",
       "controlRevision": "98f1fc64-93eb-470a-a5dc-1b908fe066de",
-      "filesCommit": "2eb0fd12a4a50e09bfc175e9ea51826bddfaa057"
+      "filesCommit": "2eb0fd12a4a50e09bfc175e9ea51826bddfaa057",
+      "metadataCommit": "544ef5edb902921883ee67f2681130fa970ade6d",
+      "manifestUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/544ef5edb902921883ee67f2681130fa970ade6d/candidates/5e255821-c2ed-4091-b529-4e6ba091ecdb/manifest.json",
+      "publishedAt": "2026-11-23T13:41:14.561Z",
+      "versionId": "2026-11-23T13:41:14.561Z~5e255821"
     }
   },
-  "writeId": "f4dba547-7db5-45bc-a3f3-7be9dc2221a2"
+  "writeId": "9e1c5bd7-4182-4127-83e4-6f2e7ae56181"
 }
