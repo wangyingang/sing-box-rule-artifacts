@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 2,
+  "id": "c0560082-97fc-42f6-a8e6-b12b6b121d6d",
+  "generation": 1,
+  "maintenance": "open",
+  "targetBranch": "main",
+  "rules": {
+    "openai": {
+      "definition": {
+        "id": "openai",
+        "source": "dlc",
+        "stablePath": "stable/openai",
+        "artifact": "domains",
+        "list": "openai"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "7295acebe111a218b19ac499a6af4d2261167b6ef831ba05a2e5ac17d4899437",
+      "definitionRevision": "b83233b627547e94abc1594e1906668112585084c490a9a76ba9fac11fd35e7f",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "40c7e9d8-9a50-4732-bc58-c1f76422b12f",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "abf3c6bd-0ace-4c8e-8630-57240f0edafa",
+        "inputBindingRevision": "7295acebe111a218b19ac499a6af4d2261167b6ef831ba05a2e5ac17d4899437"
+      }
+    },
+    "anthropic": {
+      "definition": {
+        "id": "anthropic",
+        "source": "dlc",
+        "stablePath": "stable/anthropic",
+        "artifact": "domains",
+        "list": "anthropic"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "e19c4a7a4b79447378f1b3f792928d6043fa59141ee11052a84c9ad2bf140ec4",
+      "definitionRevision": "3c79e2daac48bae4487bef37e2746b0460038e6c728b3cc4b03736853108f339",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "56eac6d5-1f14-4caf-8b36-ab3a825fdd2b",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "5da1b3ea-2fc1-4eb4-8031-00edf896a4f3",
+        "inputBindingRevision": "e19c4a7a4b79447378f1b3f792928d6043fa59141ee11052a84c9ad2bf140ec4"
+      }
+    },
+    "google-deepmind": {
+      "definition": {
+        "id": "google-deepmind",
+        "source": "dlc",
+        "stablePath": "stable/google-deepmind",
+        "artifact": "domains",
+        "list": "google-deepmind"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "d265d5b1629be65f844d47f969b4595ef0a55f6a40f86a127ce7dfb6971dd00b",
+      "definitionRevision": "afeee5bb80e257cf2ea721d8d581b072333e1e0857fb4d0f1c8931e9415ba204",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "2c515c2c-35c9-4522-84e6-1d2b1e535d4c",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "043c4b11-1aba-462b-9ec1-bebc1a68b4ff",
+        "inputBindingRevision": "d265d5b1629be65f844d47f969b4595ef0a55f6a40f86a127ce7dfb6971dd00b"
+      }
+    },
+    "china-ip": {
+      "definition": {
+        "id": "china-ip",
+        "source": "china-operator-ip",
+        "stablePath": "stable/china-ip",
+        "artifact": "ips"
+      },
+      "source": {
+        "repository": "gaoyifan/china-operator-ip",
+        "version": "git-branch",
+        "branch": "ip-lists",
+        "input": {
+          "format": "cidr-text",
+          "path": "china46.txt"
+        }
+      },
+      "inputBindingRevision": "37b3ef7b3020b81377160b05266bf27952846b831bc83c150a856ccceacde921",
+      "definitionRevision": "076da3c6b8a9f00387e871cb8c6351b3797f22e5ebb7ff0f4ae34fe0e9025bfb",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "44cd0168-52ac-4af6-871c-461fb8c01993",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "6973060a-eb46-4b97-94cb-54f030df9d88",
+        "inputBindingRevision": "37b3ef7b3020b81377160b05266bf27952846b831bc83c150a856ccceacde921"
+      }
+    },
+    "chatgpt-voice": {
+      "definition": {
+        "id": "chatgpt-voice",
+        "source": "openai-voice",
+        "stablePath": "stable/chatgpt-voice",
+        "artifact": "ips"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "openai-voice-json",
+          "url": "https://openai.com/chatgpt-voice.json"
+        }
+      },
+      "inputBindingRevision": "c6afc89c243a5c859f3d2aa80d985ce8e225d898e23e8644e042af36b31aa23b",
+      "definitionRevision": "64dc5bb5dbaa4c61a7418176d12d02edf1445176f00466a619cbbb9b4dffa3b4",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "8fc926dd-11f3-4a9d-acab-976913b98952",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "59a4371d-40d5-4322-9414-9b2303396ac0",
+        "inputBindingRevision": "c6afc89c243a5c859f3d2aa80d985ce8e225d898e23e8644e042af36b31aa23b"
+      }
+    },
+    "china-domains": {
+      "definition": {
+        "id": "china-domains",
+        "source": "dlc",
+        "stablePath": "stable/china-domains",
+        "artifact": "domains",
+        "list": "geolocation-cn"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e",
+      "definitionRevision": "410bc7007229fc1af60195f79b3743bc4cab0931d9691470ceba875ff6b32615",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "35b84202-cc22-40e4-8fb7-cfb4aa9fcb5b",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "0fcf9efd-b5d3-4db6-aace-7aca76e0e179",
+        "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e"
+      }
+    },
+    "global": {
+      "definition": {
+        "id": "global",
+        "source": "dlc",
+        "stablePath": "stable/global",
+        "artifact": "domains",
+        "list": "geolocation-!cn"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "303744bd4968e94ee0e1ca67e1d6d510e767d7890e3bed997d48402380e116d1",
+      "definitionRevision": "ff609dc88c2f23e714b6bb8e87e0fed9079fbaf16d5178b54e1de58484db3b7f",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "7de613c4-6cfc-4b47-8a30-7122146e4256",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "98f1fc64-93eb-470a-a5dc-1b908fe066de",
+        "inputBindingRevision": "303744bd4968e94ee0e1ca67e1d6d510e767d7890e3bed997d48402380e116d1"
+      }
+    },
+    "apple": {
+      "definition": {
+        "id": "apple",
+        "source": "dlc",
+        "stablePath": "stable/apple",
+        "artifact": "domains",
+        "list": "apple"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "d82f9a46db54e1f6982093a59d4a6f975dac03769c30c58917f7842a4db7677e",
+      "definitionRevision": "f54959a3d4d6920ea86a945246810e32c06450799675e561c434d4e17b9ffadd",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "0cd32f22-7503-484f-9675-dc72bb1a6ebc",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "c63e148b-1a77-4cce-8f37-36e6ff1c6f9e",
+        "inputBindingRevision": "d82f9a46db54e1f6982093a59d4a6f975dac03769c30c58917f7842a4db7677e"
+      }
+    },
+    "microsoft": {
+      "definition": {
+        "id": "microsoft",
+        "source": "dlc",
+        "stablePath": "stable/microsoft",
+        "artifact": "domains",
+        "list": "microsoft"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "e75569442f9aee0f82a5dbce901656bd0c3437652992508a2da309a68183c24d",
+      "definitionRevision": "705cc70382f39d9d318cef8a80fd0255f1212e4a581d8f5f28f9ce5913f58990",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "6e722757-6578-4706-9a87-d5aa5650973b",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "28883971-25fa-4c03-80ff-27ddb77315f4",
+        "inputBindingRevision": "e75569442f9aee0f82a5dbce901656bd0c3437652992508a2da309a68183c24d"
+      }
+    },
+    "docker": {
+      "definition": {
+        "id": "docker",
+        "source": "dlc",
+        "stablePath": "stable/docker",
+        "artifact": "domains",
+        "list": "docker"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "06b9f7aad340298f0d201de41d9673c82a335f7fa43c7c2e2bcc773c52f91d12",
+      "definitionRevision": "dd5ebdab51133e0e25042f4e44045b04a1fe5cde1bb48f5897516e16794b5fd2",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "0e6e45be-9e1e-43b8-9105-5a0beac31d45",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "a1fe97a8-dae8-4073-8bf3-6b976b1a94b4",
+        "inputBindingRevision": "06b9f7aad340298f0d201de41d9673c82a335f7fa43c7c2e2bcc773c52f91d12"
+      }
+    },
+    "github": {
+      "definition": {
+        "id": "github",
+        "source": "dlc",
+        "stablePath": "stable/github",
+        "artifact": "domains",
+        "list": "github"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "2c23f74c74c9e9305eba0707e206ab3d35b5e82eade4e86ddbaea0dcb9b8bcb2",
+      "definitionRevision": "f713d671d1fa5233485dc6c372b4e503670974fd5e8cd8884279ba6aa5ede15e",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "bb8972b0-8fac-4efa-a3a4-d8832485cc4e",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "c8c403ba-92bd-49bd-8041-0cc26aec784a",
+        "inputBindingRevision": "2c23f74c74c9e9305eba0707e206ab3d35b5e82eade4e86ddbaea0dcb9b8bcb2"
+      }
+    },
+    "google": {
+      "definition": {
+        "id": "google",
+        "source": "dlc",
+        "stablePath": "stable/google",
+        "artifact": "domains",
+        "list": "google"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "6839673006cc61d124b1719fc5753402212a9bbbf26db3d266d2f40826c2e9e2",
+      "definitionRevision": "e2281916162d37d1967074952919ec945f04d6ea728a0894b2d950026d902962",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "39a1a6d1-c3ab-4497-85d7-d8901d31395f",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "4341174a-8b96-4036-b9b3-59eb06636e3e",
+        "inputBindingRevision": "6839673006cc61d124b1719fc5753402212a9bbbf26db3d266d2f40826c2e9e2"
+      }
+    },
+    "youtube": {
+      "definition": {
+        "id": "youtube",
+        "source": "dlc",
+        "stablePath": "stable/youtube",
+        "artifact": "domains",
+        "list": "youtube"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "6e88d58842b0fcc86a1e29274de030ad239796f18d5ceb1518331f88e5abccfd",
+      "definitionRevision": "04080d5ac401fa5fe95772a15fa19782cbbbad7c62cf901c7f229f674046e38c",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "b9695de8-7292-4da7-917d-bb302b7c4881",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "df3f5724-bb57-43c9-8f4e-1205e66ee182",
+        "inputBindingRevision": "6e88d58842b0fcc86a1e29274de030ad239796f18d5ceb1518331f88e5abccfd"
+      }
+    },
+    "gfw": {
+      "definition": {
+        "id": "gfw",
+        "source": "loyalsoldier",
+        "stablePath": "stable/gfw",
+        "artifact": "domains"
+      },
+      "source": {
+        "repository": "Loyalsoldier/v2ray-rules-dat",
+        "version": "git-branch",
+        "branch": "release",
+        "input": {
+          "format": "domain-suffix-text",
+          "path": "gfw.txt"
+        }
+      },
+      "inputBindingRevision": "94a21563bed39c464b39bed542f42ee1e9bbe0248da81424d38dc9767381f294",
+      "definitionRevision": "3382dff70b38a2bc2bf4a6f7017eb308d6d1b604129dcf4ac1a54546d1b6211f",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "b7e93f50-399f-4f00-88ae-828a804c1b82",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "bcb21a98-b32d-4456-be0e-dddfc750bca6",
+        "inputBindingRevision": "94a21563bed39c464b39bed542f42ee1e9bbe0248da81424d38dc9767381f294"
+      }
+    },
+    "onedrive": {
+      "definition": {
+        "id": "onedrive",
+        "source": "blackmatrix7",
+        "stablePath": "stable/onedrive",
+        "artifact": "domains",
+        "filter": {
+          "include": {
+            "type": {
+              "anyOf": [
+                "DOMAIN-KEYWORD",
+                "DOMAIN-SUFFIX"
+              ]
+            }
+          }
+        }
+      },
+      "source": {
+        "repository": "blackmatrix7/ios_rule_script",
+        "version": "git-branch",
+        "branch": "master",
+        "input": {
+          "format": "clash-rule-list",
+          "path": "rule/Clash/OneDrive/OneDrive.list"
+        }
+      },
+      "inputBindingRevision": "16547ca2bfa51baf31344631decb119f781dc313f8ae3b23acdedbca1e646beb",
+      "definitionRevision": "26c0f890ad75d1f3ec95d4ee07893bfc731ec9cafdf812c8c7a30d05349cf29c",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "f6f5a372-96ec-4f7b-a7ff-19161f4e0106",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "dc53ac2a-8d4c-458a-85b9-d0d21400d2bd",
+        "inputBindingRevision": "16547ca2bfa51baf31344631decb119f781dc313f8ae3b23acdedbca1e646beb"
+      }
+    },
+    "stream": {
+      "definition": {
+        "id": "stream",
+        "source": "sukka",
+        "stablePath": "stable/stream",
+        "artifact": "domains"
+      },
+      "source": {
+        "repository": "SukkaLab/ruleset.skk.moe",
+        "version": "git-branch",
+        "branch": "master",
+        "input": {
+          "format": "sing-box-source-json",
+          "path": "sing-box/non_ip/stream.json"
+        }
+      },
+      "inputBindingRevision": "ab01dc7ea58931f244b9e4564293a62a37211bb569ff959947d6a0acdfd38fb8",
+      "definitionRevision": "f77f47ede76bfb83b8ec41fb39a5e8f6ff81d30187fddebef5529060a8195325",
+      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
+      "generation": "11334a62-a290-466c-b855-674ed43f30fd",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "437df287-1873-4b06-91b7-9ff6321abf72",
+        "inputBindingRevision": "ab01dc7ea58931f244b9e4564293a62a37211bb569ff959947d6a0acdfd38fb8"
+      }
+    }
+  },
+  "candidates": {},
+  "writeId": "006e67c5-4f49-4f6e-9858-d935741095dc"
+}
