@@ -727,6 +727,29 @@
         "mode": "auto",
         "revision": "437df287-1873-4b06-91b7-9ff6321abf72",
         "inputBindingRevision": "ab01dc7ea58931f244b9e4564293a62a37211bb569ff959947d6a0acdfd38fb8"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "755ca667d1328bf80d64d2e692babccc8b9c7939aff5c933b3043f04b3d5bf2f",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "d81d05e1a1ed99131054756c9912b574eecbe341b0a18c520279b19f2c9c4717",
+        "candidateId": "8ae619a6-5f56-4ac9-b6ff-491fee1f1be5",
+        "buildId": "3974a23264f12a4ce0f0a9290fed835866a2c9806ba69df2be21c1b626559594",
+        "source": {
+          "kind": "github-commit",
+          "repository": "SukkaLab/ruleset.skk.moe",
+          "branch": "master",
+          "commit": "eb5922d1aaa0c997c50f79bc03f898ada2f2ba77",
+          "file": {
+            "path": "sing-box/non_ip/stream.json",
+            "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/eb5922d1aaa0c997c50f79bc03f898ada2f2ba77/sing-box/non_ip/stream.json"
+          },
+          "inputSha256": "88487bf51615620ee8fcca449fad6199db6968dc429804acb7ad3348a5df8ed5",
+          "inputBytes": 7653
+        },
+        "inputBindingRevision": "ab01dc7ea58931f244b9e4564293a62a37211bb569ff959947d6a0acdfd38fb8",
+        "definitionRevision": "f77f47ede76bfb83b8ec41fb39a5e8f6ff81d30187fddebef5529060a8195325",
+        "definitionGeneration": "11334a62-a290-466c-b855-674ed43f30fd"
       }
     }
   },
@@ -1383,107 +1406,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/95d9a8be1496f998b4a5738750e6f52fa56cc022/candidates/8ae619a6-5f56-4ac9-b6ff-491fee1f1be5/readback.json"
     }
   },
-  "writeId": "b7a92a51-4dc3-4f66-a632-a5c7b0f98149",
-  "pendingDelivery": {
-    "id": "796b11fe-f31d-4827-b7dc-597b12b052eb",
-    "kind": "sync",
-    "logicalId": "stream",
-    "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-    "stableHead": "51be5b99b41520aea05ca84956ead50c55ad6854",
-    "afterRule": {
-      "definition": {
-        "id": "stream",
-        "source": "sukka",
-        "stablePath": "stable/stream",
-        "artifact": "domains"
-      },
-      "source": {
-        "repository": "SukkaLab/ruleset.skk.moe",
-        "version": "git-branch",
-        "branch": "master",
-        "input": {
-          "format": "sing-box-source-json",
-          "path": "sing-box/non_ip/stream.json"
-        }
-      },
-      "inputBindingRevision": "ab01dc7ea58931f244b9e4564293a62a37211bb569ff959947d6a0acdfd38fb8",
-      "definitionRevision": "f77f47ede76bfb83b8ec41fb39a5e8f6ff81d30187fddebef5529060a8195325",
-      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-      "generation": "11334a62-a290-466c-b855-674ed43f30fd",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "437df287-1873-4b06-91b7-9ff6321abf72",
-        "inputBindingRevision": "ab01dc7ea58931f244b9e4564293a62a37211bb569ff959947d6a0acdfd38fb8"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "796b11fe-f31d-4827-b7dc-597b12b052eb",
-      "logicalId": "stream",
-      "candidateId": "8ae619a6-5f56-4ac9-b6ff-491fee1f1be5",
-      "versionId": "2026-11-23T13:55:18.127Z~8ae619a6",
-      "publishedAt": "2026-11-23T13:55:18.127Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/95d9a8be1496f998b4a5738750e6f52fa56cc022/candidates/8ae619a6-5f56-4ac9-b6ff-491fee1f1be5/readback.json",
-      "source": {
-        "kind": "github-commit",
-        "repository": "SukkaLab/ruleset.skk.moe",
-        "branch": "master",
-        "commit": "eb5922d1aaa0c997c50f79bc03f898ada2f2ba77",
-        "file": {
-          "path": "sing-box/non_ip/stream.json",
-          "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/eb5922d1aaa0c997c50f79bc03f898ada2f2ba77/sing-box/non_ip/stream.json"
-        },
-        "inputSha256": "88487bf51615620ee8fcca449fad6199db6968dc429804acb7ad3348a5df8ed5",
-        "inputBytes": 7653
-      },
-      "subscription": {
-        "schemaVersion": 3,
-        "systemRuleSetId": "stream",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "formats": {
-          "source": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/stream/domains.json"
-          },
-          "binary": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/stream/domains.srs"
-          }
-        }
-      },
-      "files": {
-        "stable/stream/domains.json": {
-          "sha256": "80386ce2b0effffb755b35e1ce6175246c9868e9e64c3dc8f77c71c797987c1f",
-          "byteLength": 7653
-        },
-        "stable/stream/domains.srs": {
-          "sha256": "c22f313a7265824dec45fab5443ce6b1408b1de086fae377b0f394076135a33c",
-          "byteLength": 2570
-        }
-      }
-    },
-    "changes": {
-      "stable/stream/domains.json": {
-        "sha256": "80386ce2b0effffb755b35e1ce6175246c9868e9e64c3dc8f77c71c797987c1f",
-        "byteLength": 7653
-      },
-      "stable/stream/domains.srs": {
-        "sha256": "c22f313a7265824dec45fab5443ce6b1408b1de086fae377b0f394076135a33c",
-        "byteLength": 2570
-      },
-      "stable/stream/_delivery/domains.json": {
-        "sha256": "296ce883afc3df6b8ca4cf3e77bcab78b5016acc305cb27355c891f08737e6c2",
-        "byteLength": 1725
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "755ca667d1328bf80d64d2e692babccc8b9c7939aff5c933b3043f04b3d5bf2f",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "d81d05e1a1ed99131054756c9912b574eecbe341b0a18c520279b19f2c9c4717",
-      "candidateId": "8ae619a6-5f56-4ac9-b6ff-491fee1f1be5",
-      "buildId": "3974a23264f12a4ce0f0a9290fed835866a2c9806ba69df2be21c1b626559594"
-    }
-  }
+  "writeId": "83f77322-34ff-46a7-b40a-ee6f669357e8"
 }
