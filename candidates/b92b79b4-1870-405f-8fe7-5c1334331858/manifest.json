@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 3,
+  "id": "openai",
+  "revision": "b92b79b4-1870-405f-8fe7-5c1334331858",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "openai@b92b79b4-1870-405f-8fe7-5c1334331858:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/1c66ed9b6b1e1407e0578260a8e1c4c5e4b72aee/candidates/b92b79b4-1870-405f-8fe7-5c1334331858/domains.json",
+      "sha256": "a70096077d78af43df6f56dbad775c27e8b0be7c92a81e36baaf8229b04de5d5",
+      "byteLength": 1036,
+      "termCount": 25,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "openai@b92b79b4-1870-405f-8fe7-5c1334331858:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/1c66ed9b6b1e1407e0578260a8e1c4c5e4b72aee/candidates/b92b79b4-1870-405f-8fe7-5c1334331858/domains.srs",
+      "sha256": "481b2b2c45202ef9b4b2ac0ef3e4e371296d0aa4cb1f245c450ecd1edde9b5d7",
+      "byteLength": 485,
+      "requiredCapabilities": []
+    }
+  ]
+}
