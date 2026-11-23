@@ -217,6 +217,24 @@
         "mode": "auto",
         "revision": "0fcf9efd-b5d3-4db6-aace-7aca76e0e179",
         "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "1632c45c1a9b8a04776dde16edecc31fddbf78f8be6210d6ab495b49546fd0ac",
+        "candidateId": "7e03ac03-2b33-476c-9fb8-624986d90e69",
+        "buildId": "f552b1a94a4e67029590b609e3506eba2777e9afc7db2bb7f799b4904af54c19",
+        "source": {
+          "kind": "fixed-url",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+          "inputBytes": 3764294,
+          "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+        },
+        "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e",
+        "definitionRevision": "410bc7007229fc1af60195f79b3743bc4cab0931d9691470ceba875ff6b32615",
+        "definitionGeneration": "35b84202-cc22-40e4-8fb7-cfb4aa9fcb5b"
       }
     },
     "global": {
@@ -658,102 +676,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c35bfb022c807f5e3154f82c7c163e8273ea6da7/candidates/7e03ac03-2b33-476c-9fb8-624986d90e69/readback.json"
     }
   },
-  "writeId": "2e39bc25-d6ed-48c0-933c-5e1734b60925",
-  "pendingDelivery": {
-    "id": "19383c7f-3914-499e-8e29-a97fe691442f",
-    "kind": "sync",
-    "logicalId": "china-domains",
-    "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-    "stableHead": "e1aa87fb635f31774ac76ae80649a2751910221c",
-    "afterRule": {
-      "definition": {
-        "id": "china-domains",
-        "source": "dlc",
-        "stablePath": "stable/china-domains",
-        "artifact": "domains",
-        "list": "geolocation-cn"
-      },
-      "source": {
-        "version": "url",
-        "input": {
-          "format": "v2fly-dlc-yaml",
-          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
-        }
-      },
-      "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e",
-      "definitionRevision": "410bc7007229fc1af60195f79b3743bc4cab0931d9691470ceba875ff6b32615",
-      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-      "generation": "35b84202-cc22-40e4-8fb7-cfb4aa9fcb5b",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "0fcf9efd-b5d3-4db6-aace-7aca76e0e179",
-        "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "19383c7f-3914-499e-8e29-a97fe691442f",
-      "logicalId": "china-domains",
-      "candidateId": "7e03ac03-2b33-476c-9fb8-624986d90e69",
-      "versionId": "2026-11-23T13:40:04.939Z~7e03ac03",
-      "publishedAt": "2026-11-23T13:40:04.939Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c35bfb022c807f5e3154f82c7c163e8273ea6da7/candidates/7e03ac03-2b33-476c-9fb8-624986d90e69/readback.json",
-      "source": {
-        "kind": "fixed-url",
-        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
-        "inputBytes": 3764294,
-        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
-      },
-      "subscription": {
-        "schemaVersion": 3,
-        "systemRuleSetId": "china-domains",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "formats": {
-          "source": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-domains/domains.json"
-          },
-          "binary": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-domains/domains.srs"
-          }
-        }
-      },
-      "files": {
-        "stable/china-domains/domains.json": {
-          "sha256": "345755934424b87d383f9d8df6ddb35592661db32f25976adf880233c63affd9",
-          "byteLength": 204240
-        },
-        "stable/china-domains/domains.srs": {
-          "sha256": "5b219f04c49ddaf44a4ea74bcefb09cbe84fa64548112c3761696803cfdb92fe",
-          "byteLength": 44019
-        }
-      }
-    },
-    "changes": {
-      "stable/china-domains/domains.json": {
-        "sha256": "345755934424b87d383f9d8df6ddb35592661db32f25976adf880233c63affd9",
-        "byteLength": 204240
-      },
-      "stable/china-domains/domains.srs": {
-        "sha256": "5b219f04c49ddaf44a4ea74bcefb09cbe84fa64548112c3761696803cfdb92fe",
-        "byteLength": 44019
-      },
-      "stable/china-domains/_delivery/domains.json": {
-        "sha256": "4dd429c6ea23efa8926ae21707de1704fc3675ced177b692a73efa8416bbe39f",
-        "byteLength": 1626
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "1632c45c1a9b8a04776dde16edecc31fddbf78f8be6210d6ab495b49546fd0ac",
-      "candidateId": "7e03ac03-2b33-476c-9fb8-624986d90e69",
-      "buildId": "f552b1a94a4e67029590b609e3506eba2777e9afc7db2bb7f799b4904af54c19"
-    }
-  }
+  "writeId": "779cac3b-3250-43a7-8d7c-703d7e48033a"
 }
