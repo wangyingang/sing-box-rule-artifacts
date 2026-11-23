@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "2caf30e1-8870-4895-b2ea-edd59245ac89",
+  "logicalId": "anthropic",
+  "candidateId": "d6a326b2-76c2-448e-b05a-8da7284b6d4c",
+  "versionId": "2026-11-23T13:37:50.407Z~d6a326b2",
+  "publishedAt": "2026-11-23T13:37:50.407Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/9e3734beae6ed85c35f537f53810cecfaa465ac0/candidates/d6a326b2-76c2-448e-b05a-8da7284b6d4c/readback.json",
+  "source": {
+    "kind": "fixed-url",
+    "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+    "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+    "inputBytes": 3764294,
+    "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "anthropic",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/anthropic/domains.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/anthropic/domains.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/anthropic/domains.json": {
+      "sha256": "2f50f77b8c2d6885e40d729dc16a8c830e4364f00330231ded8f696e636fff84",
+      "byteLength": 704
+    },
+    "stable/anthropic/domains.srs": {
+      "sha256": "6bdf4ebc85d20b873b860875dd00030c40a673d92152a8fbae26a367f02fd8d1",
+      "byteLength": 326
+    }
+  }
+}
