@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "d603889a-0d92-4895-9a28-d3f00dcded15",
+  "logicalId": "google-deepmind",
+  "candidateId": "5d4f9f0e-51ea-4df7-9327-95f3b278ae0b",
+  "versionId": "2026-11-23T13:38:56.719Z~5d4f9f0e",
+  "publishedAt": "2026-11-23T13:38:56.719Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/0c8422f813cd73cca13347c075d22ef20aa53390/candidates/5d4f9f0e-51ea-4df7-9327-95f3b278ae0b/readback.json",
+  "source": {
+    "kind": "fixed-url",
+    "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+    "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+    "inputBytes": 3764294,
+    "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+  },
+  "subscription": {
+    "schemaVersion": 3,
+    "systemRuleSetId": "google-deepmind",
+    "targetVersion": "1.14.4",
+    "sourceFormatVersion": 4,
+    "formats": {
+      "source": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/google-deepmind/domains.json"
+      },
+      "binary": {
+        "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/google-deepmind/domains.srs"
+      }
+    }
+  },
+  "files": {
+    "stable/google-deepmind/domains.json": {
+      "sha256": "1f417b044c3cff900faa62bd5df7f92cb0bfca8c288c9f64689ccd17ffd83322",
+      "byteLength": 1830
+    },
+    "stable/google-deepmind/domains.srs": {
+      "sha256": "652abe66df71563d3836fccafd551448935b7551a00fe9af572062bd7008fa45",
+      "byteLength": 594
+    }
+  }
+}
