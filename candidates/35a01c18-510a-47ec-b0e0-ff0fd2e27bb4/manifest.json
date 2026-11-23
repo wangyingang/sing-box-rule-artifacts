@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 3,
+  "id": "google",
+  "revision": "35a01c18-510a-47ec-b0e0-ff0fd2e27bb4",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "google@35a01c18-510a-47ec-b0e0-ff0fd2e27bb4:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c84b1eda4c6af2dae72f94f60cffc3571397c3db/candidates/35a01c18-510a-47ec-b0e0-ff0fd2e27bb4/domains.json",
+      "sha256": "67b9c9e1d0ea23d2080f5a5b15098e108e95be2f8539aa32b8498540316fdd3a",
+      "byteLength": 25016,
+      "termCount": 966,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "google@35a01c18-510a-47ec-b0e0-ff0fd2e27bb4:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c84b1eda4c6af2dae72f94f60cffc3571397c3db/candidates/35a01c18-510a-47ec-b0e0-ff0fd2e27bb4/domains.srs",
+      "sha256": "f3b09639e72ba0376655bc3cf509019967b9c6daeff0ef3cf4520484d2773b9e",
+      "byteLength": 7432,
+      "requiredCapabilities": []
+    }
+  ]
+}
