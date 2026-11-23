@@ -1,0 +1,103 @@
+{
+  "id": "docker",
+  "definition": {
+    "id": "docker",
+    "source": "dlc",
+    "stablePath": "stable/docker",
+    "artifact": "domains",
+    "list": "docker"
+  },
+  "target": {
+    "repository": "wangyingang/sing-box-rule-artifacts",
+    "branch": "main"
+  },
+  "buildId": "e662a09c9a5636ef887b4359822795e04213ec7caf2b9812c7ad72df1c4f9b50",
+  "candidateId": "b9e8902c-0686-43de-af76-73a6873761e1",
+  "operation": "sync",
+  "contracts": {
+    "artifactManifest": 3,
+    "sourceFormat": 4,
+    "buildRecord": 3
+  },
+  "source": {
+    "kind": "fixed-url",
+    "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+    "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+    "inputBytes": 3764294,
+    "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+  },
+  "tools": {
+    "pipeline": "0.1.0",
+    "implementationSha256": "f411193edff17294f1805659330cec6e939502ce8c5a8983a27d9fe78411dff6",
+    "conversionPolicy": "v2fly-dlc-yaml-v1",
+    "node": "24.22.3",
+    "yaml": "2.9.1",
+    "sourceFormat": 4
+  },
+  "nativeBuildId": "4a1089358f6604f4e9d0aff38809a0018ebd307b854b06568d45a145fa049452",
+  "status": "built-validated",
+  "tool": {
+    "path": "/home/runner/work/_temp/sing-box-1.14.4-linux-amd64/sing-box",
+    "version": "1.14.4",
+    "identity": "sing-box version 1.14.4\n\nEnvironment: go1.26.10 linux/amd64\nTags: with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_cloudflared,with_naive_outbound,with_usbip,with_openvpn,with_openconnect,badlinkname,tfogo_checklinkname0,with_purego\nRevision: c005f35300ce76427dc285481ec5695f5b179cd2\nCGO: disabled",
+    "sha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a"
+  },
+  "validation": {
+    "status": "passed",
+    "policy": "native-compile-load-v1",
+    "steps": [
+      {
+        "args": [
+          "rule-set",
+          "compile",
+          "domains.json",
+          "-o",
+          "domains.srs"
+        ],
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "rule-set",
+          "match",
+          "domains.json",
+          "native-validation.invalid",
+          "--format",
+          "source"
+        ],
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "rule-set",
+          "match",
+          "domains.srs",
+          "native-validation.invalid",
+          "--format",
+          "binary"
+        ],
+        "stdout": "",
+        "stderr": ""
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "file": "domains.json",
+      "sha256": "9447a56a0228a8363375ec02875abde7492bf0c771d6cba4763bbc105a3a5a34",
+      "bytes": 355,
+      "requiredCapabilities": [],
+      "format": "source",
+      "termCount": 6
+    },
+    {
+      "file": "domains.srs",
+      "sha256": "1f66f663694e9aa2b8b986f6dc8c3fa67eafd8e4ad268b81bfa9ea4b6b0a58fe",
+      "bytes": 208,
+      "requiredCapabilities": [],
+      "format": "binary"
+    }
+  ]
+}
