@@ -1073,7 +1073,44 @@
       "versionId": "2026-11-23T13:49:55.804Z~86e5a509",
       "evidenceCommit": "065ecc69226b370de1350c98b86a0d0d27e16acc",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/065ecc69226b370de1350c98b86a0d0d27e16acc/candidates/86e5a509-f457-468a-835d-f70f5a729cdf/readback.json"
+    },
+    "e63f1430-f845-4f6b-89a2-74ce573fdf55": {
+      "id": "e63f1430-f845-4f6b-89a2-74ce573fdf55",
+      "logicalId": "china-ip",
+      "definition": {
+        "id": "china-ip",
+        "source": "china-operator-ip",
+        "stablePath": "stable/china-ip",
+        "artifact": "ips"
+      },
+      "sourceInput": {
+        "repository": "gaoyifan/china-operator-ip",
+        "version": "git-branch",
+        "branch": "ip-lists",
+        "input": {
+          "format": "cidr-text",
+          "path": "china46.txt"
+        }
+      },
+      "inputBindingRevision": "37b3ef7b3020b81377160b05266bf27952846b831bc83c150a856ccceacde921",
+      "definitionGeneration": "44cd0168-52ac-4af6-871c-461fb8c01993",
+      "source": {
+        "kind": "github-commit",
+        "repository": "gaoyifan/china-operator-ip",
+        "branch": "ip-lists",
+        "commit": "a1214434b6211eca49508ef42989daaa83fa5436",
+        "file": {
+          "path": "china46.txt",
+          "url": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/a1214434b6211eca49508ef42989daaa83fa5436/china46.txt"
+        },
+        "inputSha256": "056a9a7d26c1434c4cabf5248535d8999f0564e7f16f75553fddcecdad9942c5",
+        "inputBytes": 154749
+      },
+      "buildId": "7f21fca61052f1f1eabc9455eb5e0830551b6743d21a1c6893b842c5da6b6a13",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "6973060a-eb46-4b97-94cb-54f030df9d88"
     }
   },
-  "writeId": "a08d1b36-b81a-4a26-b594-511ce17e57f8"
+  "writeId": "264e16d2-d76b-4479-a104-408369ca5c05"
 }
