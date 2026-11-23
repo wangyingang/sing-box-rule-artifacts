@@ -446,6 +446,39 @@
       }
     }
   },
-  "candidates": {},
-  "writeId": "006e67c5-4f49-4f6e-9858-d935741095dc"
+  "candidates": {
+    "b92b79b4-1870-405f-8fe7-5c1334331858": {
+      "id": "b92b79b4-1870-405f-8fe7-5c1334331858",
+      "logicalId": "openai",
+      "definition": {
+        "id": "openai",
+        "source": "dlc",
+        "stablePath": "stable/openai",
+        "artifact": "domains",
+        "list": "openai"
+      },
+      "sourceInput": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "7295acebe111a218b19ac499a6af4d2261167b6ef831ba05a2e5ac17d4899437",
+      "definitionGeneration": "40c7e9d8-9a50-4732-bc58-c1f76422b12f",
+      "source": {
+        "kind": "fixed-url",
+        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+        "inputBytes": 3764294,
+        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+      },
+      "buildId": "ec7d9b621ffa1741450f868dfc82a2897386fbaf5b2736fa8a52ec65e7486596",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "abf3c6bd-0ace-4c8e-8630-57240f0edafa"
+    }
+  },
+  "writeId": "0d59c106-0755-4e69-bc53-caddd0efcd50"
 }
