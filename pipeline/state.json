@@ -1337,7 +1337,44 @@
       "versionId": "2026-11-23T13:54:16.367Z~9230dcd2",
       "evidenceCommit": "aad5de882ec3a4f2e1a08717bda5a512c09b9dd2",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/aad5de882ec3a4f2e1a08717bda5a512c09b9dd2/candidates/9230dcd2-11cd-4f32-a980-8592047e6222/readback.json"
+    },
+    "8ae619a6-5f56-4ac9-b6ff-491fee1f1be5": {
+      "id": "8ae619a6-5f56-4ac9-b6ff-491fee1f1be5",
+      "logicalId": "stream",
+      "definition": {
+        "id": "stream",
+        "source": "sukka",
+        "stablePath": "stable/stream",
+        "artifact": "domains"
+      },
+      "sourceInput": {
+        "repository": "SukkaLab/ruleset.skk.moe",
+        "version": "git-branch",
+        "branch": "master",
+        "input": {
+          "format": "sing-box-source-json",
+          "path": "sing-box/non_ip/stream.json"
+        }
+      },
+      "inputBindingRevision": "ab01dc7ea58931f244b9e4564293a62a37211bb569ff959947d6a0acdfd38fb8",
+      "definitionGeneration": "11334a62-a290-466c-b855-674ed43f30fd",
+      "source": {
+        "kind": "github-commit",
+        "repository": "SukkaLab/ruleset.skk.moe",
+        "branch": "master",
+        "commit": "eb5922d1aaa0c997c50f79bc03f898ada2f2ba77",
+        "file": {
+          "path": "sing-box/non_ip/stream.json",
+          "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/eb5922d1aaa0c997c50f79bc03f898ada2f2ba77/sing-box/non_ip/stream.json"
+        },
+        "inputSha256": "88487bf51615620ee8fcca449fad6199db6968dc429804acb7ad3348a5df8ed5",
+        "inputBytes": 7653
+      },
+      "buildId": "3974a23264f12a4ce0f0a9290fed835866a2c9806ba69df2be21c1b626559594",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "437df287-1873-4b06-91b7-9ff6321abf72"
     }
   },
-  "writeId": "d4ff5a9f-4222-4138-86f8-614f05cadfd4"
+  "writeId": "6b3ff9e3-6e1b-4ef7-be51-73b4444183e9"
 }
