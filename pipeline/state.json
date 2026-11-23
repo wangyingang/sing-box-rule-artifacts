@@ -532,6 +532,24 @@
         "mode": "auto",
         "revision": "df3f5724-bb57-43c9-8f4e-1205e66ee182",
         "inputBindingRevision": "6e88d58842b0fcc86a1e29274de030ad239796f18d5ceb1518331f88e5abccfd"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "020fd6f184e5a3df0678ef646deafe9d8382912c416e9e1325400d83817afb65",
+        "candidateId": "86e5a509-f457-468a-835d-f70f5a729cdf",
+        "buildId": "b15c44e050db90f45dedfb88f4d6dbfed7d3e82c9fd482bfd481813111affaa3",
+        "source": {
+          "kind": "fixed-url",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+          "inputBytes": 3764294,
+          "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+        },
+        "inputBindingRevision": "6e88d58842b0fcc86a1e29274de030ad239796f18d5ceb1518331f88e5abccfd",
+        "definitionRevision": "04080d5ac401fa5fe95772a15fa19782cbbbad7c62cf901c7f229f674046e38c",
+        "definitionGeneration": "b9695de8-7292-4da7-917d-bb302b7c4881"
       }
     },
     "gfw": {
@@ -1057,102 +1075,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/065ecc69226b370de1350c98b86a0d0d27e16acc/candidates/86e5a509-f457-468a-835d-f70f5a729cdf/readback.json"
     }
   },
-  "writeId": "9285b8da-4898-43de-b463-aef3d9258ad2",
-  "pendingDelivery": {
-    "id": "b32e3bc5-3d62-419b-b94e-686236bf743b",
-    "kind": "sync",
-    "logicalId": "youtube",
-    "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-    "stableHead": "606c5171cc904fc2d969dc28f2fcc79470b66767",
-    "afterRule": {
-      "definition": {
-        "id": "youtube",
-        "source": "dlc",
-        "stablePath": "stable/youtube",
-        "artifact": "domains",
-        "list": "youtube"
-      },
-      "source": {
-        "version": "url",
-        "input": {
-          "format": "v2fly-dlc-yaml",
-          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
-        }
-      },
-      "inputBindingRevision": "6e88d58842b0fcc86a1e29274de030ad239796f18d5ceb1518331f88e5abccfd",
-      "definitionRevision": "04080d5ac401fa5fe95772a15fa19782cbbbad7c62cf901c7f229f674046e38c",
-      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-      "generation": "b9695de8-7292-4da7-917d-bb302b7c4881",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "df3f5724-bb57-43c9-8f4e-1205e66ee182",
-        "inputBindingRevision": "6e88d58842b0fcc86a1e29274de030ad239796f18d5ceb1518331f88e5abccfd"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "b32e3bc5-3d62-419b-b94e-686236bf743b",
-      "logicalId": "youtube",
-      "candidateId": "86e5a509-f457-468a-835d-f70f5a729cdf",
-      "versionId": "2026-11-23T13:49:55.804Z~86e5a509",
-      "publishedAt": "2026-11-23T13:49:55.804Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/065ecc69226b370de1350c98b86a0d0d27e16acc/candidates/86e5a509-f457-468a-835d-f70f5a729cdf/readback.json",
-      "source": {
-        "kind": "fixed-url",
-        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
-        "inputBytes": 3764294,
-        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
-      },
-      "subscription": {
-        "schemaVersion": 3,
-        "systemRuleSetId": "youtube",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "formats": {
-          "source": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/youtube/domains.json"
-          },
-          "binary": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/youtube/domains.srs"
-          }
-        }
-      },
-      "files": {
-        "stable/youtube/domains.json": {
-          "sha256": "38295c61f484ccbf4ba6375b649553298c841766e1ad6f2ea9a181af5d42bcc5",
-          "byteLength": 4467
-        },
-        "stable/youtube/domains.srs": {
-          "sha256": "a0b1e05d6df5862ee6405ab7b9d18f13e8f559175b4539aa5e96006121ef75a3",
-          "byteLength": 1168
-        }
-      }
-    },
-    "changes": {
-      "stable/youtube/domains.json": {
-        "sha256": "38295c61f484ccbf4ba6375b649553298c841766e1ad6f2ea9a181af5d42bcc5",
-        "byteLength": 4467
-      },
-      "stable/youtube/domains.srs": {
-        "sha256": "a0b1e05d6df5862ee6405ab7b9d18f13e8f559175b4539aa5e96006121ef75a3",
-        "byteLength": 1168
-      },
-      "stable/youtube/_delivery/domains.json": {
-        "sha256": "250c2acf07b94a2f8ff67fe0d042f6f0225868ff6888cf3cb2a0d2c0c4bc5155",
-        "byteLength": 1587
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "020fd6f184e5a3df0678ef646deafe9d8382912c416e9e1325400d83817afb65",
-      "candidateId": "86e5a509-f457-468a-835d-f70f5a729cdf",
-      "buildId": "b15c44e050db90f45dedfb88f4d6dbfed7d3e82c9fd482bfd481813111affaa3"
-    }
-  }
+  "writeId": "a08d1b36-b81a-4a26-b594-511ce17e57f8"
 }
