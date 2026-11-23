@@ -560,7 +560,39 @@
       "versionId": "2026-11-23T13:37:50.407Z~d6a326b2",
       "evidenceCommit": "9e3734beae6ed85c35f537f53810cecfaa465ac0",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/9e3734beae6ed85c35f537f53810cecfaa465ac0/candidates/d6a326b2-76c2-448e-b05a-8da7284b6d4c/readback.json"
+    },
+    "5d4f9f0e-51ea-4df7-9327-95f3b278ae0b": {
+      "id": "5d4f9f0e-51ea-4df7-9327-95f3b278ae0b",
+      "logicalId": "google-deepmind",
+      "definition": {
+        "id": "google-deepmind",
+        "source": "dlc",
+        "stablePath": "stable/google-deepmind",
+        "artifact": "domains",
+        "list": "google-deepmind"
+      },
+      "sourceInput": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "d265d5b1629be65f844d47f969b4595ef0a55f6a40f86a127ce7dfb6971dd00b",
+      "definitionGeneration": "2c515c2c-35c9-4522-84e6-1d2b1e535d4c",
+      "source": {
+        "kind": "fixed-url",
+        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+        "inputBytes": 3764294,
+        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+      },
+      "buildId": "e44f1cbe1861644e6844d8b9de0659b0d1b48243c99fe38b6cbb7475b63afb06",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "043c4b11-1aba-462b-9ec1-bebc1a68b4ff"
     }
   },
-  "writeId": "81d26eff-76c9-42b5-b70b-263222ec9713"
+  "writeId": "0219fcc4-7fec-4b0c-8ba8-e61f15a65773"
 }
