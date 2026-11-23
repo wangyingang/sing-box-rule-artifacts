@@ -1107,10 +1107,10 @@
         "inputBytes": 154749
       },
       "buildId": "7f21fca61052f1f1eabc9455eb5e0830551b6743d21a1c6893b842c5da6b6a13",
-      "status": "building",
+      "status": "publishing",
       "operation": "sync",
       "controlRevision": "6973060a-eb46-4b97-94cb-54f030df9d88"
     }
   },
-  "writeId": "264e16d2-d76b-4479-a104-408369ca5c05"
+  "writeId": "f5b6691a-518c-45df-af9b-9d3f4a1719ff"
 }
