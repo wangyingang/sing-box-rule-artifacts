@@ -165,6 +165,29 @@
         "mode": "auto",
         "revision": "6973060a-eb46-4b97-94cb-54f030df9d88",
         "inputBindingRevision": "37b3ef7b3020b81377160b05266bf27952846b831bc83c150a856ccceacde921"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "de94b52e0134862bda6f021e103444eb601768188caa829447bb44996f6600c3",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "c9d0962981a108a823bebf3bd305e2082e0a73c69d946bf5849e9733d12893a3",
+        "candidateId": "e63f1430-f845-4f6b-89a2-74ce573fdf55",
+        "buildId": "7f21fca61052f1f1eabc9455eb5e0830551b6743d21a1c6893b842c5da6b6a13",
+        "source": {
+          "kind": "github-commit",
+          "repository": "gaoyifan/china-operator-ip",
+          "branch": "ip-lists",
+          "commit": "a1214434b6211eca49508ef42989daaa83fa5436",
+          "file": {
+            "path": "china46.txt",
+            "url": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/a1214434b6211eca49508ef42989daaa83fa5436/china46.txt"
+          },
+          "inputSha256": "056a9a7d26c1434c4cabf5248535d8999f0564e7f16f75553fddcecdad9942c5",
+          "inputBytes": 154749
+        },
+        "inputBindingRevision": "37b3ef7b3020b81377160b05266bf27952846b831bc83c150a856ccceacde921",
+        "definitionRevision": "076da3c6b8a9f00387e871cb8c6351b3797f22e5ebb7ff0f4ae34fe0e9025bfb",
+        "definitionGeneration": "44cd0168-52ac-4af6-871c-461fb8c01993"
       }
     },
     "chatgpt-voice": {
@@ -1119,107 +1142,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5896807f28fdb0c6fbc4135342ee8b9bf2cfc9fc/candidates/e63f1430-f845-4f6b-89a2-74ce573fdf55/readback.json"
     }
   },
-  "writeId": "c2652105-8ebf-4a51-923f-5a21bad5af4e",
-  "pendingDelivery": {
-    "id": "3fe6c010-d737-4369-b3fd-b424215553d7",
-    "kind": "sync",
-    "logicalId": "china-ip",
-    "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-    "stableHead": "1ffdf90cfd3b8ac4ef7a858bfb89bce8ce243a94",
-    "afterRule": {
-      "definition": {
-        "id": "china-ip",
-        "source": "china-operator-ip",
-        "stablePath": "stable/china-ip",
-        "artifact": "ips"
-      },
-      "source": {
-        "repository": "gaoyifan/china-operator-ip",
-        "version": "git-branch",
-        "branch": "ip-lists",
-        "input": {
-          "format": "cidr-text",
-          "path": "china46.txt"
-        }
-      },
-      "inputBindingRevision": "37b3ef7b3020b81377160b05266bf27952846b831bc83c150a856ccceacde921",
-      "definitionRevision": "076da3c6b8a9f00387e871cb8c6351b3797f22e5ebb7ff0f4ae34fe0e9025bfb",
-      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-      "generation": "44cd0168-52ac-4af6-871c-461fb8c01993",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "6973060a-eb46-4b97-94cb-54f030df9d88",
-        "inputBindingRevision": "37b3ef7b3020b81377160b05266bf27952846b831bc83c150a856ccceacde921"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "3fe6c010-d737-4369-b3fd-b424215553d7",
-      "logicalId": "china-ip",
-      "candidateId": "e63f1430-f845-4f6b-89a2-74ce573fdf55",
-      "versionId": "2026-11-23T13:50:59.673Z~e63f1430",
-      "publishedAt": "2026-11-23T13:50:59.673Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/5896807f28fdb0c6fbc4135342ee8b9bf2cfc9fc/candidates/e63f1430-f845-4f6b-89a2-74ce573fdf55/readback.json",
-      "source": {
-        "kind": "github-commit",
-        "repository": "gaoyifan/china-operator-ip",
-        "branch": "ip-lists",
-        "commit": "a1214434b6211eca49508ef42989daaa83fa5436",
-        "file": {
-          "path": "china46.txt",
-          "url": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/a1214434b6211eca49508ef42989daaa83fa5436/china46.txt"
-        },
-        "inputSha256": "056a9a7d26c1434c4cabf5248535d8999f0564e7f16f75553fddcecdad9942c5",
-        "inputBytes": 154749
-      },
-      "subscription": {
-        "schemaVersion": 3,
-        "systemRuleSetId": "china-ip",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "formats": {
-          "source": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-ip/ips.json"
-          },
-          "binary": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/china-ip/ips.srs"
-          }
-        }
-      },
-      "files": {
-        "stable/china-ip/ips.json": {
-          "sha256": "57432cff26492e0954f4a0afaf888c639ac82f023d6ff6957e2259c7832358c8",
-          "byteLength": 261557
-        },
-        "stable/china-ip/ips.srs": {
-          "sha256": "3c33fb9aec2574a8d07d2b2431084c31d890639bd1b9bba1051c76e81f2bad93",
-          "byteLength": 36539
-        }
-      }
-    },
-    "changes": {
-      "stable/china-ip/ips.json": {
-        "sha256": "57432cff26492e0954f4a0afaf888c639ac82f023d6ff6957e2259c7832358c8",
-        "byteLength": 261557
-      },
-      "stable/china-ip/ips.srs": {
-        "sha256": "3c33fb9aec2574a8d07d2b2431084c31d890639bd1b9bba1051c76e81f2bad93",
-        "byteLength": 36539
-      },
-      "stable/china-ip/_delivery/ips.json": {
-        "sha256": "428d6c8fbd7fd1eca812b86d9b3ec70ee52cb7cdce70125d20def2e56ac5b49a",
-        "byteLength": 1700
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "de94b52e0134862bda6f021e103444eb601768188caa829447bb44996f6600c3",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "c9d0962981a108a823bebf3bd305e2082e0a73c69d946bf5849e9733d12893a3",
-      "candidateId": "e63f1430-f845-4f6b-89a2-74ce573fdf55",
-      "buildId": "7f21fca61052f1f1eabc9455eb5e0830551b6743d21a1c6893b842c5da6b6a13"
-    }
-  }
+  "writeId": "a724575f-1280-4d03-ac10-a08da443e2f0"
 }
