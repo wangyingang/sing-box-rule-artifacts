@@ -30,6 +30,24 @@
         "mode": "auto",
         "revision": "abf3c6bd-0ace-4c8e-8630-57240f0edafa",
         "inputBindingRevision": "7295acebe111a218b19ac499a6af4d2261167b6ef831ba05a2e5ac17d4899437"
+      },
+      "successfulInput": {
+        "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+        "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "b22450c957a62592e28d875f0d4465694373cce5aa7dad19ad48752261c2550f",
+        "candidateId": "b92b79b4-1870-405f-8fe7-5c1334331858",
+        "buildId": "ec7d9b621ffa1741450f868dfc82a2897386fbaf5b2736fa8a52ec65e7486596",
+        "source": {
+          "kind": "fixed-url",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
+          "inputBytes": 3764294,
+          "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+        },
+        "inputBindingRevision": "7295acebe111a218b19ac499a6af4d2261167b6ef831ba05a2e5ac17d4899437",
+        "definitionRevision": "b83233b627547e94abc1594e1906668112585084c490a9a76ba9fac11fd35e7f",
+        "definitionGeneration": "40c7e9d8-9a50-4732-bc58-c1f76422b12f"
       }
     },
     "anthropic": {
@@ -487,102 +505,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/6bf86e070b65ba73f09c93394c0a01c98f008b80/candidates/b92b79b4-1870-405f-8fe7-5c1334331858/readback.json"
     }
   },
-  "writeId": "1e038d97-7c04-4a72-9812-109544216cd8",
-  "pendingDelivery": {
-    "id": "621478a9-74c7-4341-b055-68ac90c4de30",
-    "kind": "sync",
-    "logicalId": "openai",
-    "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-    "stableHead": "b3c3f5324a7fd023cff4583fb3b3e522591a0aa9",
-    "afterRule": {
-      "definition": {
-        "id": "openai",
-        "source": "dlc",
-        "stablePath": "stable/openai",
-        "artifact": "domains",
-        "list": "openai"
-      },
-      "source": {
-        "version": "url",
-        "input": {
-          "format": "v2fly-dlc-yaml",
-          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
-        }
-      },
-      "inputBindingRevision": "7295acebe111a218b19ac499a6af4d2261167b6ef831ba05a2e5ac17d4899437",
-      "definitionRevision": "b83233b627547e94abc1594e1906668112585084c490a9a76ba9fac11fd35e7f",
-      "configurationRevision": "d0afd8461767904c7d2e9a981774869830d3142b",
-      "generation": "40c7e9d8-9a50-4732-bc58-c1f76422b12f",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "abf3c6bd-0ace-4c8e-8630-57240f0edafa",
-        "inputBindingRevision": "7295acebe111a218b19ac499a6af4d2261167b6ef831ba05a2e5ac17d4899437"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "621478a9-74c7-4341-b055-68ac90c4de30",
-      "logicalId": "openai",
-      "candidateId": "b92b79b4-1870-405f-8fe7-5c1334331858",
-      "versionId": "2026-11-23T13:36:44.463Z~b92b79b4",
-      "publishedAt": "2026-11-23T13:36:44.463Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/6bf86e070b65ba73f09c93394c0a01c98f008b80/candidates/b92b79b4-1870-405f-8fe7-5c1334331858/readback.json",
-      "source": {
-        "kind": "fixed-url",
-        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-        "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
-        "inputBytes": 3764294,
-        "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
-      },
-      "subscription": {
-        "schemaVersion": 3,
-        "systemRuleSetId": "openai",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "formats": {
-          "source": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/openai/domains.json"
-          },
-          "binary": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/main/stable/openai/domains.srs"
-          }
-        }
-      },
-      "files": {
-        "stable/openai/domains.json": {
-          "sha256": "a70096077d78af43df6f56dbad775c27e8b0be7c92a81e36baaf8229b04de5d5",
-          "byteLength": 1036
-        },
-        "stable/openai/domains.srs": {
-          "sha256": "481b2b2c45202ef9b4b2ac0ef3e4e371296d0aa4cb1f245c450ecd1edde9b5d7",
-          "byteLength": 485
-        }
-      }
-    },
-    "changes": {
-      "stable/openai/domains.json": {
-        "sha256": "a70096077d78af43df6f56dbad775c27e8b0be7c92a81e36baaf8229b04de5d5",
-        "byteLength": 1036
-      },
-      "stable/openai/domains.srs": {
-        "sha256": "481b2b2c45202ef9b4b2ac0ef3e4e371296d0aa4cb1f245c450ecd1edde9b5d7",
-        "byteLength": 485
-      },
-      "stable/openai/_delivery/domains.json": {
-        "sha256": "d096cff1c95585e24d14f546fb2487a76d76d1ec5e8ebfa9265ba1d6458cab7e",
-        "byteLength": 1580
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
-      "buildToolsSha256": "9bf47cc3e89d30dd157637b4783232e7688778a42b7ce797440a16ae9e91c322",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "b22450c957a62592e28d875f0d4465694373cce5aa7dad19ad48752261c2550f",
-      "candidateId": "b92b79b4-1870-405f-8fe7-5c1334331858",
-      "buildId": "ec7d9b621ffa1741450f868dfc82a2897386fbaf5b2736fa8a52ec65e7486596"
-    }
-  }
+  "writeId": "e2fb66ca-ea00-4384-a822-94e69b299d75"
 }
