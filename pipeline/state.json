@@ -73,7 +73,44 @@
       "versionId": "2026-11-27T19:09:54.458Z~7645c064",
       "evidenceCommit": "c99eeb4fabd36b7129ad42ae045f5cc35c713bf6",
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c99eeb4fabd36b7129ad42ae045f5cc35c713bf6/candidates/7645c064-f6f6-4699-b61c-50b130362b10/readback.json"
+    },
+    "084281a8-1345-4936-ac3f-ae39ef6af059": {
+      "id": "084281a8-1345-4936-ac3f-ae39ef6af059",
+      "logicalId": "china-domains",
+      "definition": {
+        "id": "china-domains",
+        "source": "sing-geosite",
+        "stablePath": "stable/china-domains",
+        "artifact": "domains"
+      },
+      "sourceInput": {
+        "repository": "SagerNet/sing-geosite",
+        "version": "git-branch",
+        "branch": "rule-set",
+        "input": {
+          "format": "sing-box-srs",
+          "path": "geosite-geolocation-cn.srs"
+        }
+      },
+      "inputBindingRevision": "8edbf5a01dda1c0756a67cb470869441719c8b4bee32150fa5a619c043f52b6c",
+      "definitionGeneration": "bff8e8a6-169f-42b9-8537-01a906c33c74",
+      "source": {
+        "kind": "github-commit",
+        "repository": "SagerNet/sing-geosite",
+        "branch": "rule-set",
+        "commit": "e15c5cbcfa72c589fada8dd3de60af9996119f95",
+        "file": {
+          "path": "geosite-geolocation-cn.srs",
+          "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/e15c5cbcfa72c589fada8dd3de60af9996119f95/geosite-geolocation-cn.srs"
+        },
+        "inputSha256": "3819cf5e2dab748dc1a216a2ed371c54d3dd4db261bb99934f97ca0284a230ab",
+        "inputBytes": 60369
+      },
+      "buildId": "6fabbc4b0730beda46681d8eb92ee6b573cad38753959ae9ed190fef99ccba38",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "3db2face-85a9-4d5a-8db1-cc7cb37c282b"
     }
   },
-  "writeId": "d0abbbc4-baa3-41f4-9294-f570f1ed8a92"
+  "writeId": "024c67b9-a6b5-46fd-a59e-1a60c49821e1"
 }
