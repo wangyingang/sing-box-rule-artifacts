@@ -30,6 +30,24 @@
         "mode": "auto",
         "revision": "23422375-47e2-4342-8c3e-ec95a2aa5e80",
         "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e"
+      },
+      "successfulInput": {
+        "toolSha256": "6546126c1759683fe85798da92409215d53c50e0f2b346b4f74a61babc8dbec2",
+        "buildToolsSha256": "c3afb167129bde1678e5ceab425874fc607e651f778915620386407f65ffba58",
+        "validationPolicy": "native-compile-load-v1",
+        "nativeBuildId": "ec62aafd9f76d25f7a51b166a249271f44f73b67c170aa03bcdc675e83267123",
+        "candidateId": "7645c064-f6f6-4699-b61c-50b130362b10",
+        "buildId": "781ec531e84fc7f58c4b4dffbc939109487abf1f02f340150485aa66f66d160c",
+        "source": {
+          "kind": "fixed-url",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "inputSha256": "f98508035eb4a8e86153f27c9ef6b032eeb5d1c6a0d3fd162fd08e6458dd8e60",
+          "inputBytes": 3774965,
+          "checksumSha256": "4485e8463831267d10a2d6d213a5c966a17ed29a7c26c1a44f53edf3bbe4795a"
+        },
+        "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e",
+        "definitionRevision": "410bc7007229fc1af60195f79b3743bc4cab0931d9691470ceba875ff6b32615",
+        "definitionGeneration": "bff8e8a6-169f-42b9-8537-01a906c33c74"
       }
     }
   },
@@ -74,102 +92,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c99eeb4fabd36b7129ad42ae045f5cc35c713bf6/candidates/7645c064-f6f6-4699-b61c-50b130362b10/readback.json"
     }
   },
-  "writeId": "4315b014-00a4-4013-b2a1-9b30681e053b",
-  "pendingDelivery": {
-    "id": "0102412a-f21f-491c-986c-dcf03b0ee00a",
-    "kind": "sync",
-    "logicalId": "china-domains",
-    "configurationRevision": "b924cd7090a56c71376e5fbca9b629526ffb2e6b",
-    "stableHead": "c99eeb4fabd36b7129ad42ae045f5cc35c713bf6",
-    "afterRule": {
-      "definition": {
-        "id": "china-domains",
-        "source": "dlc",
-        "stablePath": "stable/china-domains",
-        "artifact": "domains",
-        "list": "geolocation-cn"
-      },
-      "source": {
-        "version": "url",
-        "input": {
-          "format": "v2fly-dlc-yaml",
-          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
-        }
-      },
-      "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e",
-      "definitionRevision": "410bc7007229fc1af60195f79b3743bc4cab0931d9691470ceba875ff6b32615",
-      "configurationRevision": "b924cd7090a56c71376e5fbca9b629526ffb2e6b",
-      "generation": "bff8e8a6-169f-42b9-8537-01a906c33c74",
-      "lifecycle": "present",
-      "control": {
-        "mode": "auto",
-        "revision": "23422375-47e2-4342-8c3e-ec95a2aa5e80",
-        "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e"
-      }
-    },
-    "record": {
-      "schemaVersion": 2,
-      "id": "0102412a-f21f-491c-986c-dcf03b0ee00a",
-      "logicalId": "china-domains",
-      "candidateId": "7645c064-f6f6-4699-b61c-50b130362b10",
-      "versionId": "2026-11-27T19:09:54.458Z~7645c064",
-      "publishedAt": "2026-11-27T19:09:54.458Z",
-      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c99eeb4fabd36b7129ad42ae045f5cc35c713bf6/candidates/7645c064-f6f6-4699-b61c-50b130362b10/readback.json",
-      "source": {
-        "kind": "fixed-url",
-        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-        "inputSha256": "f98508035eb4a8e86153f27c9ef6b032eeb5d1c6a0d3fd162fd08e6458dd8e60",
-        "inputBytes": 3774965,
-        "checksumSha256": "4485e8463831267d10a2d6d213a5c966a17ed29a7c26c1a44f53edf3bbe4795a"
-      },
-      "subscription": {
-        "schemaVersion": 3,
-        "systemRuleSetId": "china-domains",
-        "targetVersion": "1.14.4",
-        "sourceFormatVersion": 4,
-        "formats": {
-          "source": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/acceptance-china-domains-c8b49f87-380/stable/china-domains/domains.json"
-          },
-          "binary": {
-            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/acceptance-china-domains-c8b49f87-380/stable/china-domains/domains.srs"
-          }
-        }
-      },
-      "files": {
-        "stable/china-domains/domains.json": {
-          "sha256": "345755934424b87d383f9d8df6ddb35592661db32f25976adf880233c63affd9",
-          "byteLength": 204240
-        },
-        "stable/china-domains/domains.srs": {
-          "sha256": "5b219f04c49ddaf44a4ea74bcefb09cbe84fa64548112c3761696803cfdb92fe",
-          "byteLength": 44019
-        }
-      }
-    },
-    "changes": {
-      "stable/china-domains/domains.json": {
-        "sha256": "345755934424b87d383f9d8df6ddb35592661db32f25976adf880233c63affd9",
-        "byteLength": 204240
-      },
-      "stable/china-domains/domains.srs": {
-        "sha256": "5b219f04c49ddaf44a4ea74bcefb09cbe84fa64548112c3761696803cfdb92fe",
-        "byteLength": 44019
-      },
-      "stable/china-domains/_delivery/domains.json": {
-        "sha256": "84076189a910a15952a202936d85e40cb7220a85fb0d203193443077681c32a5",
-        "byteLength": 1692
-      }
-    },
-    "removeCandidates": [],
-    "qualifiedCandidate": {
-      "toolSha256": "6546126c1759683fe85798da92409215d53c50e0f2b346b4f74a61babc8dbec2",
-      "buildToolsSha256": "c3afb167129bde1678e5ceab425874fc607e651f778915620386407f65ffba58",
-      "validationPolicy": "native-compile-load-v1",
-      "nativeBuildId": "ec62aafd9f76d25f7a51b166a249271f44f73b67c170aa03bcdc675e83267123",
-      "candidateId": "7645c064-f6f6-4699-b61c-50b130362b10",
-      "buildId": "781ec531e84fc7f58c4b4dffbc939109487abf1f02f340150485aa66f66d160c"
-    }
-  }
+  "writeId": "74f0c87e-fbbb-44a0-9321-48726b497455"
 }
