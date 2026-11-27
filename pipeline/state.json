@@ -30,7 +30,8 @@
         "mode": "auto",
         "revision": "14f8aac4-a8b2-4176-b8c5-5eff03911729",
         "inputBindingRevision": "42f9eca29a6471c255b2c2c336b6eb1c896aaa84bc4f96338d22b7fece187693"
-      }
+      },
+      "lastFailure": "HTTP 503: https://raw.githubusercontent.com/SagerNet/sing-geosite/e15c5cbcfa72c589fada8dd3de60af9996119f95/geosite-geolocation-cn.srs"
     }
   },
   "candidates": {
@@ -74,5 +75,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/7a497cdf9350b3adcd1cf7e4fd499b4c07c30a7f/candidates/42327d61-685c-49ba-9a02-08310efe2669/readback.json"
     }
   },
-  "writeId": "5db23167-46cd-4dda-8022-049b7b535762"
+  "writeId": "ec254626-ff35-4db6-bbdd-225862353870"
 }
