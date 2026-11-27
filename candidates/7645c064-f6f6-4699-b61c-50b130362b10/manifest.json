@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 3,
+  "id": "china-domains",
+  "revision": "7645c064-f6f6-4699-b61c-50b130362b10",
+  "targetVersion": "1.14.4",
+  "sourceFormatVersion": 4,
+  "artifacts": [
+    {
+      "id": "china-domains@7645c064-f6f6-4699-b61c-50b130362b10:domains.json",
+      "format": "source",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/d5c2204038ddb3e2128a378814751ab5370ca4e5/candidates/7645c064-f6f6-4699-b61c-50b130362b10/domains.json",
+      "sha256": "345755934424b87d383f9d8df6ddb35592661db32f25976adf880233c63affd9",
+      "byteLength": 204240,
+      "termCount": 8472,
+      "requiredCapabilities": []
+    },
+    {
+      "id": "china-domains@7645c064-f6f6-4699-b61c-50b130362b10:domains.srs",
+      "format": "binary",
+      "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/d5c2204038ddb3e2128a378814751ab5370ca4e5/candidates/7645c064-f6f6-4699-b61c-50b130362b10/domains.srs",
+      "sha256": "5b219f04c49ddaf44a4ea74bcefb09cbe84fa64548112c3761696803cfdb92fe",
+      "byteLength": 44019,
+      "requiredCapabilities": []
+    }
+  ]
+}
