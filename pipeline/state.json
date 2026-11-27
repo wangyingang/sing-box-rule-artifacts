@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "id": "2195e323-045c-4e5d-8da7-17b32ad5ee37",
+  "generation": 1,
+  "maintenance": "open",
+  "targetBranch": "acceptance-china-domains-fa59701f-f9c",
+  "rules": {
+    "china-domains": {
+      "definition": {
+        "id": "china-domains",
+        "source": "dlc",
+        "stablePath": "stable/china-domains",
+        "artifact": "domains",
+        "list": "geolocation-cn"
+      },
+      "source": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e",
+      "definitionRevision": "410bc7007229fc1af60195f79b3743bc4cab0931d9691470ceba875ff6b32615",
+      "configurationRevision": "b924cd7090a56c71376e5fbca9b629526ffb2e6b",
+      "generation": "7bf5f553-c524-4cdc-a03b-c38dcc7001cb",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "28d76eb7-9bdc-481f-830e-7c9e89f2ac25",
+        "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e"
+      }
+    }
+  },
+  "candidates": {},
+  "writeId": "c394720b-4b46-4764-b1d7-93d63ecdbf92"
+}
