@@ -33,6 +33,39 @@
       }
     }
   },
-  "candidates": {},
-  "writeId": "e4d4ccd8-4c8f-4291-912f-c48fc3801b21"
+  "candidates": {
+    "7645c064-f6f6-4699-b61c-50b130362b10": {
+      "id": "7645c064-f6f6-4699-b61c-50b130362b10",
+      "logicalId": "china-domains",
+      "definition": {
+        "id": "china-domains",
+        "source": "dlc",
+        "stablePath": "stable/china-domains",
+        "artifact": "domains",
+        "list": "geolocation-cn"
+      },
+      "sourceInput": {
+        "version": "url",
+        "input": {
+          "format": "v2fly-dlc-yaml",
+          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+        }
+      },
+      "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e",
+      "definitionGeneration": "bff8e8a6-169f-42b9-8537-01a906c33c74",
+      "source": {
+        "kind": "fixed-url",
+        "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
+        "inputSha256": "f98508035eb4a8e86153f27c9ef6b032eeb5d1c6a0d3fd162fd08e6458dd8e60",
+        "inputBytes": 3774965,
+        "checksumSha256": "4485e8463831267d10a2d6d213a5c966a17ed29a7c26c1a44f53edf3bbe4795a"
+      },
+      "buildId": "781ec531e84fc7f58c4b4dffbc939109487abf1f02f340150485aa66f66d160c",
+      "status": "building",
+      "operation": "sync",
+      "controlRevision": "23422375-47e2-4342-8c3e-ec95a2aa5e80"
+    }
+  },
+  "writeId": "54206ea6-ad0c-4784-85cc-c3d477d3cf3a"
 }
