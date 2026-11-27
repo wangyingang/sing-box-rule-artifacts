@@ -1,17 +1,22 @@
 {
   "schemaVersion": 2,
-  "id": "19383c7f-3914-499e-8e29-a97fe691442f",
+  "id": "f27575de-91cf-4281-ba01-36555184f8fb",
   "logicalId": "china-domains",
-  "candidateId": "7e03ac03-2b33-476c-9fb8-624986d90e69",
-  "versionId": "2026-11-23T13:40:04.939Z~7e03ac03",
-  "publishedAt": "2026-11-23T13:40:04.939Z",
-  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c35bfb022c807f5e3154f82c7c163e8273ea6da7/candidates/7e03ac03-2b33-476c-9fb8-624986d90e69/readback.json",
+  "candidateId": "3a75a32d-84c2-42d7-8b32-a95dc7cba1af",
+  "versionId": "2026-11-27T19:40:16.497Z~3a75a32d",
+  "publishedAt": "2026-11-27T19:40:16.497Z",
+  "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/1e2996461008488320b2400172b6b1d9182ed1b0/candidates/3a75a32d-84c2-42d7-8b32-a95dc7cba1af/readback.json",
   "source": {
-    "kind": "fixed-url",
-    "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-    "inputSha256": "46ba690e610e3998641df6e499bec8da0a47476d2034de9d4c62e0ea75aaee92",
-    "inputBytes": 3764294,
-    "checksumSha256": "248dc2deab72cfd5c59de34b52e9cb2951043f7ca1c323a5952406f0f68cef67"
+    "kind": "github-commit",
+    "repository": "SagerNet/sing-geosite",
+    "branch": "rule-set",
+    "commit": "e15c5cbcfa72c589fada8dd3de60af9996119f95",
+    "file": {
+      "path": "geosite-geolocation-cn.srs",
+      "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/e15c5cbcfa72c589fada8dd3de60af9996119f95/geosite-geolocation-cn.srs"
+    },
+    "inputSha256": "3819cf5e2dab748dc1a216a2ed371c54d3dd4db261bb99934f97ca0284a230ab",
+    "inputBytes": 60369
   },
   "subscription": {
     "schemaVersion": 3,
@@ -29,12 +34,12 @@
   },
   "files": {
     "stable/china-domains/domains.json": {
-      "sha256": "345755934424b87d383f9d8df6ddb35592661db32f25976adf880233c63affd9",
-      "byteLength": 204240
+      "sha256": "e885421c291fa08f4a2591f483958fdb3ca761f8a264ad4071b3e3e8ae5b5cf7",
+      "byteLength": 238751
     },
     "stable/china-domains/domains.srs": {
-      "sha256": "5b219f04c49ddaf44a4ea74bcefb09cbe84fa64548112c3761696803cfdb92fe",
-      "byteLength": 44019
+      "sha256": "b8ae69e04c7a68a2f53c4f8b8d5847f56364caa9abe227cdf08ccc5cdb9d8415",
+      "byteLength": 50582
     }
   }
 }
