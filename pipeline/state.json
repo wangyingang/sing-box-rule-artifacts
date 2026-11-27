@@ -8,46 +8,28 @@
     "china-domains": {
       "definition": {
         "id": "china-domains",
-        "source": "dlc",
+        "source": "sing-geosite",
         "stablePath": "stable/china-domains",
-        "artifact": "domains",
-        "list": "geolocation-cn"
+        "artifact": "domains"
       },
       "source": {
-        "version": "url",
+        "repository": "SagerNet/sing-geosite",
+        "version": "git-branch",
+        "branch": "rule-set",
         "input": {
-          "format": "v2fly-dlc-yaml",
-          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-          "sha256Url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum"
+          "format": "sing-box-srs",
+          "path": "geosite-geolocation-cn.srs"
         }
       },
-      "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e",
-      "definitionRevision": "410bc7007229fc1af60195f79b3743bc4cab0931d9691470ceba875ff6b32615",
-      "configurationRevision": "b924cd7090a56c71376e5fbca9b629526ffb2e6b",
+      "inputBindingRevision": "8edbf5a01dda1c0756a67cb470869441719c8b4bee32150fa5a619c043f52b6c",
+      "definitionRevision": "5a9318b473be05a1970eca7090821a2b053b42d64adcb2583df0b99727d3822a",
+      "configurationRevision": "9a34398b596ca42f4e336ef0b5e264a08179f9bd",
       "generation": "bff8e8a6-169f-42b9-8537-01a906c33c74",
       "lifecycle": "present",
       "control": {
         "mode": "auto",
-        "revision": "23422375-47e2-4342-8c3e-ec95a2aa5e80",
-        "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e"
-      },
-      "successfulInput": {
-        "toolSha256": "6546126c1759683fe85798da92409215d53c50e0f2b346b4f74a61babc8dbec2",
-        "buildToolsSha256": "c3afb167129bde1678e5ceab425874fc607e651f778915620386407f65ffba58",
-        "validationPolicy": "native-compile-load-v1",
-        "nativeBuildId": "ec62aafd9f76d25f7a51b166a249271f44f73b67c170aa03bcdc675e83267123",
-        "candidateId": "7645c064-f6f6-4699-b61c-50b130362b10",
-        "buildId": "781ec531e84fc7f58c4b4dffbc939109487abf1f02f340150485aa66f66d160c",
-        "source": {
-          "kind": "fixed-url",
-          "url": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml",
-          "inputSha256": "f98508035eb4a8e86153f27c9ef6b032eeb5d1c6a0d3fd162fd08e6458dd8e60",
-          "inputBytes": 3774965,
-          "checksumSha256": "4485e8463831267d10a2d6d213a5c966a17ed29a7c26c1a44f53edf3bbe4795a"
-        },
-        "inputBindingRevision": "0ada7d10609c27ee8f1b6cb26f0581303af8775fff03637b30af7ef1af70235e",
-        "definitionRevision": "410bc7007229fc1af60195f79b3743bc4cab0931d9691470ceba875ff6b32615",
-        "definitionGeneration": "bff8e8a6-169f-42b9-8537-01a906c33c74"
+        "revision": "3db2face-85a9-4d5a-8db1-cc7cb37c282b",
+        "inputBindingRevision": "8edbf5a01dda1c0756a67cb470869441719c8b4bee32150fa5a619c043f52b6c"
       }
     }
   },
@@ -92,5 +74,5 @@
       "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/c99eeb4fabd36b7129ad42ae045f5cc35c713bf6/candidates/7645c064-f6f6-4699-b61c-50b130362b10/readback.json"
     }
   },
-  "writeId": "74f0c87e-fbbb-44a0-9321-48726b497455"
+  "writeId": "bf4ab6a7-123e-4f38-b388-f251a687c5d6"
 }
