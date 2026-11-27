@@ -107,15 +107,119 @@
         "inputBytes": 60369
       },
       "buildId": "6fabbc4b0730beda46681d8eb92ee6b573cad38753959ae9ed190fef99ccba38",
-      "status": "publishing",
+      "status": "verified",
       "operation": "sync",
       "controlRevision": "3db2face-85a9-4d5a-8db1-cc7cb37c282b",
       "filesCommit": "c8521e0b2b41d26e533161b738c2a2187afa8d34",
       "metadataCommit": "671d2db4c2c2d53898dfb8808131704edfc1df14",
       "manifestUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/671d2db4c2c2d53898dfb8808131704edfc1df14/candidates/084281a8-1345-4936-ac3f-ae39ef6af059/manifest.json",
       "publishedAt": "2026-11-27T19:11:24.901Z",
-      "versionId": "2026-11-27T19:11:24.901Z~084281a8"
+      "versionId": "2026-11-27T19:11:24.901Z~084281a8",
+      "evidenceCommit": "378f21d8e1901b2cf6257ad74ba2cdd3f560bd60",
+      "evidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/378f21d8e1901b2cf6257ad74ba2cdd3f560bd60/candidates/084281a8-1345-4936-ac3f-ae39ef6af059/readback.json"
     }
   },
-  "writeId": "7ced1124-0b46-4f5a-926f-c0c7cd124e27"
+  "writeId": "a20d9ddd-67a9-4aaf-b935-5f1164a32b41",
+  "pendingDelivery": {
+    "id": "1b519929-274f-4266-ab41-f88641417a1f",
+    "kind": "sync",
+    "logicalId": "china-domains",
+    "configurationRevision": "9a34398b596ca42f4e336ef0b5e264a08179f9bd",
+    "stableHead": "378f21d8e1901b2cf6257ad74ba2cdd3f560bd60",
+    "afterRule": {
+      "definition": {
+        "id": "china-domains",
+        "source": "sing-geosite",
+        "stablePath": "stable/china-domains",
+        "artifact": "domains"
+      },
+      "source": {
+        "repository": "SagerNet/sing-geosite",
+        "version": "git-branch",
+        "branch": "rule-set",
+        "input": {
+          "format": "sing-box-srs",
+          "path": "geosite-geolocation-cn.srs"
+        }
+      },
+      "inputBindingRevision": "8edbf5a01dda1c0756a67cb470869441719c8b4bee32150fa5a619c043f52b6c",
+      "definitionRevision": "5a9318b473be05a1970eca7090821a2b053b42d64adcb2583df0b99727d3822a",
+      "configurationRevision": "9a34398b596ca42f4e336ef0b5e264a08179f9bd",
+      "generation": "bff8e8a6-169f-42b9-8537-01a906c33c74",
+      "lifecycle": "present",
+      "control": {
+        "mode": "auto",
+        "revision": "3db2face-85a9-4d5a-8db1-cc7cb37c282b",
+        "inputBindingRevision": "8edbf5a01dda1c0756a67cb470869441719c8b4bee32150fa5a619c043f52b6c"
+      }
+    },
+    "record": {
+      "schemaVersion": 2,
+      "id": "1b519929-274f-4266-ab41-f88641417a1f",
+      "logicalId": "china-domains",
+      "candidateId": "084281a8-1345-4936-ac3f-ae39ef6af059",
+      "versionId": "2026-11-27T19:11:24.901Z~084281a8",
+      "publishedAt": "2026-11-27T19:11:24.901Z",
+      "candidateEvidenceUrl": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/378f21d8e1901b2cf6257ad74ba2cdd3f560bd60/candidates/084281a8-1345-4936-ac3f-ae39ef6af059/readback.json",
+      "source": {
+        "kind": "github-commit",
+        "repository": "SagerNet/sing-geosite",
+        "branch": "rule-set",
+        "commit": "e15c5cbcfa72c589fada8dd3de60af9996119f95",
+        "file": {
+          "path": "geosite-geolocation-cn.srs",
+          "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/e15c5cbcfa72c589fada8dd3de60af9996119f95/geosite-geolocation-cn.srs"
+        },
+        "inputSha256": "3819cf5e2dab748dc1a216a2ed371c54d3dd4db261bb99934f97ca0284a230ab",
+        "inputBytes": 60369
+      },
+      "subscription": {
+        "schemaVersion": 3,
+        "systemRuleSetId": "china-domains",
+        "targetVersion": "1.14.4",
+        "sourceFormatVersion": 4,
+        "formats": {
+          "source": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/acceptance-china-domains-c8b49f87-380/stable/china-domains/domains.json"
+          },
+          "binary": {
+            "url": "https://raw.githubusercontent.com/wangyingang/sing-box-rule-artifacts/acceptance-china-domains-c8b49f87-380/stable/china-domains/domains.srs"
+          }
+        }
+      },
+      "files": {
+        "stable/china-domains/domains.json": {
+          "sha256": "e885421c291fa08f4a2591f483958fdb3ca761f8a264ad4071b3e3e8ae5b5cf7",
+          "byteLength": 238751
+        },
+        "stable/china-domains/domains.srs": {
+          "sha256": "b8ae69e04c7a68a2f53c4f8b8d5847f56364caa9abe227cdf08ccc5cdb9d8415",
+          "byteLength": 50582
+        }
+      }
+    },
+    "changes": {
+      "stable/china-domains/domains.json": {
+        "sha256": "e885421c291fa08f4a2591f483958fdb3ca761f8a264ad4071b3e3e8ae5b5cf7",
+        "byteLength": 238751
+      },
+      "stable/china-domains/domains.srs": {
+        "sha256": "b8ae69e04c7a68a2f53c4f8b8d5847f56364caa9abe227cdf08ccc5cdb9d8415",
+        "byteLength": 50582
+      },
+      "stable/china-domains/_delivery/domains.json": {
+        "sha256": "a384013b8a27cc0f01dacce45b95d16d7ebacbfd53197102a95cecdd479862bf",
+        "byteLength": 1831
+      }
+    },
+    "removeCandidates": [],
+    "qualifiedCandidate": {
+      "toolSha256": "6546126c1759683fe85798da92409215d53c50e0f2b346b4f74a61babc8dbec2",
+      "buildToolsSha256": "b583c95e926cffee513e4da5ce33ce88857475d214c669a35f972bca5fde45fd",
+      "validationPolicy": "native-compile-load-v1",
+      "nativeBuildId": "58b267a7cc7729d1d4c852087de900135d74d143a5f0b51b5d46c6c5b47c1632",
+      "candidateId": "084281a8-1345-4936-ac3f-ae39ef6af059",
+      "buildId": "6fabbc4b0730beda46681d8eb92ee6b573cad38753959ae9ed190fef99ccba38"
+    }
+  }
 }
